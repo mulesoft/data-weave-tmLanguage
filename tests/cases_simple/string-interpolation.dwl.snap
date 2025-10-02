@@ -1,0 +1,465 @@
+>using (a = "something", b = 1, c = true, x = 'a') {
+#^^^^^ source.data-weave keyword.control.dw
+#     ^^ source.data-weave
+#       ^ source.data-weave entity.name.variable.dw
+#        ^ source.data-weave
+#         ^ source.data-weave keyword.operator.assignment.dw
+#          ^ source.data-weave
+#           ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#            ^^^^^^^^^ source.data-weave string.quoted.double.dw
+#                     ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                      ^^ source.data-weave
+#                        ^ source.data-weave entity.name.variable.dw
+#                         ^ source.data-weave
+#                          ^ source.data-weave keyword.operator.assignment.dw
+#                           ^ source.data-weave
+#                            ^ source.data-weave constant.numeric.dw
+#                             ^^ source.data-weave
+#                               ^ source.data-weave entity.name.variable.dw
+#                                ^ source.data-weave
+#                                 ^ source.data-weave keyword.operator.assignment.dw
+#                                  ^ source.data-weave
+#                                   ^^^^ source.data-weave constant.language.dw
+#                                       ^^ source.data-weave
+#                                         ^ source.data-weave entity.name.variable.dw
+#                                          ^ source.data-weave
+#                                           ^ source.data-weave keyword.operator.assignment.dw
+#                                            ^ source.data-weave
+#                                             ^ source.data-weave string.quoted.single.dw punctuation.definition.string.begin.dw
+#                                              ^ source.data-weave string.quoted.single.dw
+#                                               ^ source.data-weave string.quoted.single.dw punctuation.definition.string.end.dw
+#                                                ^^^^ source.data-weave
+>  a: "Shoki-a",
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#      ^^^^^^^ source.data-weave string.quoted.double.dw
+#             ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#              ^^ source.data-weave
+>  b: "Shoki-b",
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#      ^^^^^^^ source.data-weave string.quoted.double.dw
+#             ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#              ^^ source.data-weave
+>  c: "Shoki-c",
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#      ^^^^^^^ source.data-weave string.quoted.double.dw
+#             ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#              ^^ source.data-weave
+>  d: "start-a-end",
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#      ^^^^^^^^^^^ source.data-weave string.quoted.double.dw
+#                 ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                  ^^ source.data-weave
+>  e: "start-$(a)-end",
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#      ^^^^^^ source.data-weave string.quoted.double.dw
+#            ^^ source.data-weave string.quoted.double.dw keyword.other.dw
+#              ^ source.data-weave string.quoted.double.dw entity.name.variable.dw
+#               ^ source.data-weave string.quoted.double.dw keyword.other.dw
+#                ^^^^ source.data-weave string.quoted.double.dw
+#                    ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                     ^^ source.data-weave
+>  f: "start-$(in0.b)-end",
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#      ^^^^^^ source.data-weave string.quoted.double.dw
+#            ^^ source.data-weave string.quoted.double.dw keyword.other.dw
+#              ^^^ source.data-weave string.quoted.double.dw entity.name.variable.dw
+#                 ^ source.data-weave string.quoted.double.dw storage.type.dw
+#                  ^ source.data-weave string.quoted.double.dw entity.name.variable.dw
+#                   ^ source.data-weave string.quoted.double.dw keyword.other.dw
+#                    ^^^^ source.data-weave string.quoted.double.dw
+#                        ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                         ^^ source.data-weave
+>  g: "start-$(in0.c)-end",
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#      ^^^^^^ source.data-weave string.quoted.double.dw
+#            ^^ source.data-weave string.quoted.double.dw keyword.other.dw
+#              ^^^ source.data-weave string.quoted.double.dw entity.name.variable.dw
+#                 ^ source.data-weave string.quoted.double.dw storage.type.dw
+#                  ^ source.data-weave string.quoted.double.dw entity.name.variable.dw
+#                   ^ source.data-weave string.quoted.double.dw keyword.other.dw
+#                    ^^^^ source.data-weave string.quoted.double.dw
+#                        ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                         ^^ source.data-weave
+>  h: "Shoki-\$a",
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#      ^^^^^^^ source.data-weave string.quoted.double.dw
+#             ^ source.data-weave string.quoted.double.dw keyword.other.dw
+#              ^ source.data-weave string.quoted.double.dw entity.name.variable.dw
+#               ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                ^^ source.data-weave
+>  i: "Shoki-\"a\"",
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#      ^^^^^^^ source.data-weave string.quoted.double.dw
+#             ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#              ^ source.data-weave entity.name.variable.dw
+#               ^ source.data-weave
+#                ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                 ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                  ^^ source.data-weave
+>  j: ["Mariano","Shoki"]  reduce "$$, $",
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave storage.type.dw
+#      ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#       ^^^^^^^ source.data-weave storage.type.dw string.quoted.double.dw
+#              ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#               ^ source.data-weave storage.type.dw
+#                ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#                 ^^^^^ source.data-weave storage.type.dw string.quoted.double.dw
+#                      ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                       ^ source.data-weave storage.type.dw
+#                        ^^ source.data-weave
+#                          ^^^^^^ source.data-weave entity.name.variable.dw
+#                                ^ source.data-weave
+#                                 ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                                  ^^^^^ source.data-weave string.quoted.double.dw
+#                                       ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                                        ^^ source.data-weave
+>  h: ['$x', "$x", `$x`],
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave storage.type.dw
+#      ^ source.data-weave storage.type.dw string.quoted.single.dw punctuation.definition.string.begin.dw
+#       ^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#        ^ source.data-weave storage.type.dw string.quoted.single.dw entity.name.variable.dw
+#         ^ source.data-weave storage.type.dw string.quoted.single.dw punctuation.definition.string.end.dw
+#          ^^ source.data-weave storage.type.dw
+#            ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#             ^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#              ^ source.data-weave storage.type.dw string.quoted.double.dw entity.name.variable.dw
+#               ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                ^^ source.data-weave storage.type.dw
+#                  ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.begin.dw
+#                   ^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                    ^ source.data-weave storage.type.dw string.quoted.backtick.dw entity.name.variable.dw
+#                     ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.end.dw
+#                      ^ source.data-weave storage.type.dw
+#                       ^^ source.data-weave
+>  i: ['$(x)', "$(x)", `$(x)`],
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave storage.type.dw
+#      ^ source.data-weave storage.type.dw string.quoted.single.dw punctuation.definition.string.begin.dw
+#       ^^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#         ^ source.data-weave storage.type.dw string.quoted.single.dw entity.name.variable.dw
+#          ^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#           ^ source.data-weave storage.type.dw string.quoted.single.dw punctuation.definition.string.end.dw
+#            ^^ source.data-weave storage.type.dw
+#              ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#               ^^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                 ^ source.data-weave storage.type.dw string.quoted.double.dw entity.name.variable.dw
+#                  ^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                   ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                    ^^ source.data-weave storage.type.dw
+#                      ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.begin.dw
+#                       ^^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                         ^ source.data-weave storage.type.dw string.quoted.backtick.dw entity.name.variable.dw
+#                          ^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                           ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.end.dw
+#                            ^ source.data-weave storage.type.dw
+#                             ^^ source.data-weave
+>  j: ['j$(x)', "j$(x)", `j$(x)`],
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave storage.type.dw
+#      ^ source.data-weave storage.type.dw string.quoted.single.dw punctuation.definition.string.begin.dw
+#       ^ source.data-weave storage.type.dw string.quoted.single.dw
+#        ^^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#          ^ source.data-weave storage.type.dw string.quoted.single.dw entity.name.variable.dw
+#           ^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#            ^ source.data-weave storage.type.dw string.quoted.single.dw punctuation.definition.string.end.dw
+#             ^^ source.data-weave storage.type.dw
+#               ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#                ^ source.data-weave storage.type.dw string.quoted.double.dw
+#                 ^^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                   ^ source.data-weave storage.type.dw string.quoted.double.dw entity.name.variable.dw
+#                    ^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                     ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                      ^^ source.data-weave storage.type.dw
+#                        ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.begin.dw
+#                         ^ source.data-weave storage.type.dw string.quoted.backtick.dw
+#                          ^^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                            ^ source.data-weave storage.type.dw string.quoted.backtick.dw entity.name.variable.dw
+#                             ^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                              ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.end.dw
+#                               ^ source.data-weave storage.type.dw
+#                                ^^ source.data-weave
+>  k: ['j$(x)k', "j$(x)k", `j$(x)k`],
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave storage.type.dw
+#      ^ source.data-weave storage.type.dw string.quoted.single.dw punctuation.definition.string.begin.dw
+#       ^ source.data-weave storage.type.dw string.quoted.single.dw
+#        ^^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#          ^ source.data-weave storage.type.dw string.quoted.single.dw entity.name.variable.dw
+#           ^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#            ^ source.data-weave storage.type.dw string.quoted.single.dw
+#             ^ source.data-weave storage.type.dw string.quoted.single.dw punctuation.definition.string.end.dw
+#              ^^ source.data-weave storage.type.dw
+#                ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#                 ^ source.data-weave storage.type.dw string.quoted.double.dw
+#                  ^^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                    ^ source.data-weave storage.type.dw string.quoted.double.dw entity.name.variable.dw
+#                     ^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                      ^ source.data-weave storage.type.dw string.quoted.double.dw
+#                       ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                        ^^ source.data-weave storage.type.dw
+#                          ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.begin.dw
+#                           ^ source.data-weave storage.type.dw string.quoted.backtick.dw
+#                            ^^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                              ^ source.data-weave storage.type.dw string.quoted.backtick.dw entity.name.variable.dw
+#                               ^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                                ^ source.data-weave storage.type.dw string.quoted.backtick.dw
+#                                 ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.end.dw
+#                                  ^ source.data-weave storage.type.dw
+#                                   ^^ source.data-weave
+>  k: ['$(x)k', "$(x)k", `$(x)k`],
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave storage.type.dw
+#      ^ source.data-weave storage.type.dw string.quoted.single.dw punctuation.definition.string.begin.dw
+#       ^^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#         ^ source.data-weave storage.type.dw string.quoted.single.dw entity.name.variable.dw
+#          ^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#           ^ source.data-weave storage.type.dw string.quoted.single.dw
+#            ^ source.data-weave storage.type.dw string.quoted.single.dw punctuation.definition.string.end.dw
+#             ^^ source.data-weave storage.type.dw
+#               ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#                ^^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                  ^ source.data-weave storage.type.dw string.quoted.double.dw entity.name.variable.dw
+#                   ^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                    ^ source.data-weave storage.type.dw string.quoted.double.dw
+#                     ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                      ^^ source.data-weave storage.type.dw
+#                        ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.begin.dw
+#                         ^^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                           ^ source.data-weave storage.type.dw string.quoted.backtick.dw entity.name.variable.dw
+#                            ^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                             ^ source.data-weave storage.type.dw string.quoted.backtick.dw
+#                              ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.end.dw
+#                               ^ source.data-weave storage.type.dw
+#                                ^^ source.data-weave
+>  l: ['$x$(x)k', "$x$(x)k", `$x$(x)k`],
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave storage.type.dw
+#      ^ source.data-weave storage.type.dw string.quoted.single.dw punctuation.definition.string.begin.dw
+#       ^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#        ^ source.data-weave storage.type.dw string.quoted.single.dw entity.name.variable.dw
+#         ^^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#           ^ source.data-weave storage.type.dw string.quoted.single.dw entity.name.variable.dw
+#            ^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#             ^ source.data-weave storage.type.dw string.quoted.single.dw
+#              ^ source.data-weave storage.type.dw string.quoted.single.dw punctuation.definition.string.end.dw
+#               ^^ source.data-weave storage.type.dw
+#                 ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#                  ^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                   ^ source.data-weave storage.type.dw string.quoted.double.dw entity.name.variable.dw
+#                    ^^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                      ^ source.data-weave storage.type.dw string.quoted.double.dw entity.name.variable.dw
+#                       ^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                        ^ source.data-weave storage.type.dw string.quoted.double.dw
+#                         ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                          ^^ source.data-weave storage.type.dw
+#                            ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.begin.dw
+#                             ^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                              ^ source.data-weave storage.type.dw string.quoted.backtick.dw entity.name.variable.dw
+#                               ^^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                                 ^ source.data-weave storage.type.dw string.quoted.backtick.dw entity.name.variable.dw
+#                                  ^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                                   ^ source.data-weave storage.type.dw string.quoted.backtick.dw
+#                                    ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.end.dw
+#                                     ^ source.data-weave storage.type.dw
+#                                      ^^ source.data-weave
+>  m: ['$x$(x)$$k', "$x$(x)$$k", `$x$(x)$$k`],
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave storage.type.dw
+#      ^ source.data-weave storage.type.dw string.quoted.single.dw punctuation.definition.string.begin.dw
+#       ^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#        ^ source.data-weave storage.type.dw string.quoted.single.dw entity.name.variable.dw
+#         ^^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#           ^ source.data-weave storage.type.dw string.quoted.single.dw entity.name.variable.dw
+#            ^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#             ^ source.data-weave storage.type.dw string.quoted.single.dw
+#              ^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#               ^ source.data-weave storage.type.dw string.quoted.single.dw entity.name.variable.dw
+#                ^ source.data-weave storage.type.dw string.quoted.single.dw punctuation.definition.string.end.dw
+#                 ^^ source.data-weave storage.type.dw
+#                   ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#                    ^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                     ^ source.data-weave storage.type.dw string.quoted.double.dw entity.name.variable.dw
+#                      ^^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                        ^ source.data-weave storage.type.dw string.quoted.double.dw entity.name.variable.dw
+#                         ^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                          ^ source.data-weave storage.type.dw string.quoted.double.dw
+#                           ^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                            ^ source.data-weave storage.type.dw string.quoted.double.dw entity.name.variable.dw
+#                             ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                              ^^ source.data-weave storage.type.dw
+#                                ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.begin.dw
+#                                 ^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                                  ^ source.data-weave storage.type.dw string.quoted.backtick.dw entity.name.variable.dw
+#                                   ^^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                                     ^ source.data-weave storage.type.dw string.quoted.backtick.dw entity.name.variable.dw
+#                                      ^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                                       ^ source.data-weave storage.type.dw string.quoted.backtick.dw
+#                                        ^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                                         ^ source.data-weave storage.type.dw string.quoted.backtick.dw entity.name.variable.dw
+#                                          ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.end.dw
+#                                           ^ source.data-weave storage.type.dw
+#                                            ^^ source.data-weave
+>  n: ['$x$(x)$$k', "$x$(x)$$k", `$x$(x)$$k`],
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave storage.type.dw
+#      ^ source.data-weave storage.type.dw string.quoted.single.dw punctuation.definition.string.begin.dw
+#       ^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#        ^ source.data-weave storage.type.dw string.quoted.single.dw entity.name.variable.dw
+#         ^^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#           ^ source.data-weave storage.type.dw string.quoted.single.dw entity.name.variable.dw
+#            ^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#             ^ source.data-weave storage.type.dw string.quoted.single.dw
+#              ^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#               ^ source.data-weave storage.type.dw string.quoted.single.dw entity.name.variable.dw
+#                ^ source.data-weave storage.type.dw string.quoted.single.dw punctuation.definition.string.end.dw
+#                 ^^ source.data-weave storage.type.dw
+#                   ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#                    ^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                     ^ source.data-weave storage.type.dw string.quoted.double.dw entity.name.variable.dw
+#                      ^^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                        ^ source.data-weave storage.type.dw string.quoted.double.dw entity.name.variable.dw
+#                         ^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                          ^ source.data-weave storage.type.dw string.quoted.double.dw
+#                           ^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                            ^ source.data-weave storage.type.dw string.quoted.double.dw entity.name.variable.dw
+#                             ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                              ^^ source.data-weave storage.type.dw
+#                                ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.begin.dw
+#                                 ^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                                  ^ source.data-weave storage.type.dw string.quoted.backtick.dw entity.name.variable.dw
+#                                   ^^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                                     ^ source.data-weave storage.type.dw string.quoted.backtick.dw entity.name.variable.dw
+#                                      ^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                                       ^ source.data-weave storage.type.dw string.quoted.backtick.dw
+#                                        ^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                                         ^ source.data-weave storage.type.dw string.quoted.backtick.dw entity.name.variable.dw
+#                                          ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.end.dw
+#                                           ^ source.data-weave storage.type.dw
+#                                            ^^ source.data-weave
+>  n: ['$x$(x)$(x)$k', "$x$(x)$(x)$k", `$x$(x)$(x)$k`],
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave storage.type.dw
+#      ^ source.data-weave storage.type.dw string.quoted.single.dw punctuation.definition.string.begin.dw
+#       ^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#        ^ source.data-weave storage.type.dw string.quoted.single.dw entity.name.variable.dw
+#         ^^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#           ^ source.data-weave storage.type.dw string.quoted.single.dw entity.name.variable.dw
+#            ^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#             ^^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#               ^ source.data-weave storage.type.dw string.quoted.single.dw entity.name.variable.dw
+#                ^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#                 ^ source.data-weave storage.type.dw string.quoted.single.dw keyword.other.dw
+#                  ^ source.data-weave storage.type.dw string.quoted.single.dw entity.name.variable.dw
+#                   ^ source.data-weave storage.type.dw string.quoted.single.dw punctuation.definition.string.end.dw
+#                    ^^ source.data-weave storage.type.dw
+#                      ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#                       ^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                        ^ source.data-weave storage.type.dw string.quoted.double.dw entity.name.variable.dw
+#                         ^^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                           ^ source.data-weave storage.type.dw string.quoted.double.dw entity.name.variable.dw
+#                            ^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                             ^^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                               ^ source.data-weave storage.type.dw string.quoted.double.dw entity.name.variable.dw
+#                                ^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                                 ^ source.data-weave storage.type.dw string.quoted.double.dw keyword.other.dw
+#                                  ^ source.data-weave storage.type.dw string.quoted.double.dw entity.name.variable.dw
+#                                   ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                                    ^^ source.data-weave storage.type.dw
+#                                      ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.begin.dw
+#                                       ^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                                        ^ source.data-weave storage.type.dw string.quoted.backtick.dw entity.name.variable.dw
+#                                         ^^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                                           ^ source.data-weave storage.type.dw string.quoted.backtick.dw entity.name.variable.dw
+#                                            ^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                                             ^^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                                               ^ source.data-weave storage.type.dw string.quoted.backtick.dw entity.name.variable.dw
+#                                                ^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                                                 ^ source.data-weave storage.type.dw string.quoted.backtick.dw keyword.other.dw
+#                                                  ^ source.data-weave storage.type.dw string.quoted.backtick.dw entity.name.variable.dw
+#                                                   ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.end.dw
+#                                                    ^ source.data-weave storage.type.dw
+#                                                     ^^ source.data-weave
+>  o: "$( 'asd' )"
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#      ^^ source.data-weave string.quoted.double.dw keyword.other.dw
+#        ^ source.data-weave string.quoted.double.dw
+#         ^ source.data-weave string.quoted.double.dw string.quoted.single.dw punctuation.definition.string.begin.dw
+#          ^^^ source.data-weave string.quoted.double.dw string.quoted.single.dw
+#             ^ source.data-weave string.quoted.double.dw string.quoted.single.dw punctuation.definition.string.end.dw
+#              ^ source.data-weave string.quoted.double.dw
+#               ^ source.data-weave string.quoted.double.dw keyword.other.dw
+#                ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+>}
+#^^ source.data-weave

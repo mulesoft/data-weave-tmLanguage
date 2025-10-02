@@ -1,0 +1,28 @@
+>%dw 2.0
+#^^^ source.data-weave meta.directive.version.dw keyword.directive.version.dw
+#   ^ source.data-weave meta.directive.version.dw
+#    ^^^ source.data-weave meta.directive.version.dw constant.numeric.version.dw
+>ns mule_mule http://www.mulesoft.org/schema/mule/core
+#^^ source.data-weave storage.type.dw
+#  ^ source.data-weave
+#   ^^^^^^^^^ source.data-weave entity.name.variable.dw
+#            ^ source.data-weave
+#             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave markup.underline.link
+>ns http http://www.mulesoft.org/schema/mule/http
+#^^ source.data-weave storage.type.dw
+#  ^ source.data-weave
+#   ^^^^ source.data-weave entity.name.variable.dw
+#       ^ source.data-weave
+#        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave markup.underline.link
+>ns doc http://www.mulesoft.org/schema/mule/documentation
+#^^ source.data-weave storage.type.dw
+#  ^ source.data-weave
+#   ^^^ source.data-weave entity.name.variable.dw
+#      ^ source.data-weave
+#       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave markup.underline.link
+>ns urn urn:oid:2.16.840
+#^^ source.data-weave storage.type.dw
+#  ^ source.data-weave
+#   ^^^ source.data-weave entity.name.variable.dw
+#      ^ source.data-weave
+#       ^^^^^^^^^^^^^^^^ source.data-weave markup.underline.link

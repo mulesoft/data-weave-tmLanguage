@@ -1,0 +1,493 @@
+>{
+#^^ source.data-weave
+>  // Regex Pattern Matching (Can be named or unnamed)
+#^^ source.data-weave
+#  ^^ source.data-weave comment.line.double-slash.dw punctuation.definition.comment.dw
+#    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave comment.line.double-slash.dw
+>  a: in0.phones map $ match {
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^^^ source.data-weave entity.name.variable.dw
+#        ^ source.data-weave storage.type.dw
+#         ^^^^^^ source.data-weave entity.name.variable.dw
+#               ^ source.data-weave
+#                ^^^ source.data-weave entity.name.variable.dw
+#                   ^^^ source.data-weave
+#                      ^^^^^ source.data-weave keyword.control.dw
+#                           ^^^ source.data-weave
+>    case matches /\+(\d+)\s\((\d+)\)\s(\d+\-\d+)/ -> { country: $[0], area: $[1], number: $[2] }
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^^^^^^^ source.data-weave entity.name.variable.dw
+#                ^ source.data-weave
+#                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave string.regexp.dw
+#                                                 ^ source.data-weave
+#                                                  ^^ source.data-weave keyword.operator.case.dw
+#                                                    ^^^ source.data-weave
+#                                                       ^^^^^^^ source.data-weave entity.name.variable.dw
+#                                                              ^ source.data-weave keyword.operator.declaration.dw
+#                                                               ^^ source.data-weave
+#                                                                 ^ source.data-weave storage.type.dw
+#                                                                  ^ source.data-weave storage.type.dw constant.numeric.dw
+#                                                                   ^ source.data-weave storage.type.dw
+#                                                                    ^^ source.data-weave
+#                                                                      ^^^^ source.data-weave entity.name.variable.dw
+#                                                                          ^ source.data-weave keyword.operator.declaration.dw
+#                                                                           ^^ source.data-weave
+#                                                                             ^ source.data-weave storage.type.dw
+#                                                                              ^ source.data-weave storage.type.dw constant.numeric.dw
+#                                                                               ^ source.data-weave storage.type.dw
+#                                                                                ^^ source.data-weave
+#                                                                                  ^^^^^^ source.data-weave entity.name.variable.dw
+#                                                                                        ^ source.data-weave keyword.operator.declaration.dw
+#                                                                                         ^^ source.data-weave
+#                                                                                           ^ source.data-weave storage.type.dw
+#                                                                                            ^ source.data-weave storage.type.dw constant.numeric.dw
+#                                                                                             ^ source.data-weave storage.type.dw
+#                                                                                              ^^^ source.data-weave
+>    case matches /\((\d+)\)\s(\d+\-\d+)/ -> { area: $[1], number: $[2] }
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^^^^^^^ source.data-weave entity.name.variable.dw
+#                ^ source.data-weave
+#                 ^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave string.regexp.dw
+#                                        ^ source.data-weave
+#                                         ^^ source.data-weave keyword.operator.case.dw
+#                                           ^^^ source.data-weave
+#                                              ^^^^ source.data-weave entity.name.variable.dw
+#                                                  ^ source.data-weave keyword.operator.declaration.dw
+#                                                   ^^ source.data-weave
+#                                                     ^ source.data-weave storage.type.dw
+#                                                      ^ source.data-weave storage.type.dw constant.numeric.dw
+#                                                       ^ source.data-weave storage.type.dw
+#                                                        ^^ source.data-weave
+#                                                          ^^^^^^ source.data-weave entity.name.variable.dw
+#                                                                ^ source.data-weave keyword.operator.declaration.dw
+#                                                                 ^^ source.data-weave
+#                                                                   ^ source.data-weave storage.type.dw
+#                                                                    ^ source.data-weave storage.type.dw constant.numeric.dw
+#                                                                     ^ source.data-weave storage.type.dw
+#                                                                      ^^^ source.data-weave
+>    case matches/\((\d+)\)\s(\d+\-\d+)/ -> { area: $[1], number: $[2] }
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^^^^^^^ source.data-weave entity.name.variable.dw
+#                ^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave string.regexp.dw
+#                                       ^ source.data-weave
+#                                        ^^ source.data-weave keyword.operator.case.dw
+#                                          ^^^ source.data-weave
+#                                             ^^^^ source.data-weave entity.name.variable.dw
+#                                                 ^ source.data-weave keyword.operator.declaration.dw
+#                                                  ^^ source.data-weave
+#                                                    ^ source.data-weave storage.type.dw
+#                                                     ^ source.data-weave storage.type.dw constant.numeric.dw
+#                                                      ^ source.data-weave storage.type.dw
+#                                                       ^^ source.data-weave
+#                                                         ^^^^^^ source.data-weave entity.name.variable.dw
+#                                                               ^ source.data-weave keyword.operator.declaration.dw
+#                                                                ^^ source.data-weave
+#                                                                  ^ source.data-weave storage.type.dw
+#                                                                   ^ source.data-weave storage.type.dw constant.numeric.dw
+#                                                                    ^ source.data-weave storage.type.dw
+#                                                                     ^^^ source.data-weave
+>    case phone matches /\((\d+)\)\s(\d+\-\d+)/ -> { area: phone[1], number: phone[2] }
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^^^^^ source.data-weave entity.name.variable.dw
+#              ^ source.data-weave
+#               ^^^^^^^ source.data-weave entity.name.variable.dw
+#                      ^ source.data-weave
+#                       ^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave string.regexp.dw
+#                                              ^ source.data-weave
+#                                               ^^ source.data-weave keyword.operator.case.dw
+#                                                 ^^^ source.data-weave
+#                                                    ^^^^ source.data-weave entity.name.variable.dw
+#                                                        ^ source.data-weave keyword.operator.declaration.dw
+#                                                         ^ source.data-weave
+#                                                          ^^^^^ source.data-weave entity.name.variable.dw
+#                                                               ^ source.data-weave storage.type.dw
+#                                                                ^ source.data-weave storage.type.dw constant.numeric.dw
+#                                                                 ^ source.data-weave storage.type.dw
+#                                                                  ^^ source.data-weave
+#                                                                    ^^^^^^ source.data-weave entity.name.variable.dw
+#                                                                          ^ source.data-weave keyword.operator.declaration.dw
+#                                                                           ^ source.data-weave
+#                                                                            ^^^^^ source.data-weave entity.name.variable.dw
+#                                                                                 ^ source.data-weave storage.type.dw
+#                                                                                  ^ source.data-weave storage.type.dw constant.numeric.dw
+#                                                                                   ^ source.data-weave storage.type.dw
+#                                                                                    ^^^ source.data-weave
+>  },
+#^^^^^ source.data-weave
+>  // Type Pattern Matching (Can be named or unnamed)
+#^^ source.data-weave
+#  ^^ source.data-weave comment.line.double-slash.dw punctuation.definition.comment.dw
+#    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave comment.line.double-slash.dw
+>  b: in0.object match {
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^^^ source.data-weave entity.name.variable.dw
+#        ^ source.data-weave storage.type.dw
+#         ^^^^^^ source.data-weave entity.name.variable.dw
+#               ^ source.data-weave
+#                ^^^^^ source.data-weave keyword.control.dw
+#                     ^^^ source.data-weave
+>    case is Object -> { object: $ }
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^^ source.data-weave keyword.operator.dw
+#           ^ source.data-weave
+#            ^^^^^^ source.data-weave entity.name.variable.dw
+#                  ^ source.data-weave
+#                   ^^ source.data-weave keyword.operator.case.dw
+#                     ^^^ source.data-weave
+#                        ^^^^^^ source.data-weave entity.name.variable.dw
+#                              ^ source.data-weave keyword.operator.declaration.dw
+#                               ^^^^^ source.data-weave
+>    case is Number -> { number: $ }
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^^ source.data-weave keyword.operator.dw
+#           ^ source.data-weave
+#            ^^^^^^ source.data-weave entity.name.variable.dw
+#                  ^ source.data-weave
+#                   ^^ source.data-weave keyword.operator.case.dw
+#                     ^^^ source.data-weave
+#                        ^^^^^^ source.data-weave entity.name.variable.dw
+#                              ^ source.data-weave keyword.operator.declaration.dw
+#                               ^^^^^ source.data-weave
+>    // This is how you name variables if needed
+#^^^^ source.data-weave
+#    ^^ source.data-weave comment.line.double-slash.dw punctuation.definition.comment.dw
+#      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave comment.line.double-slash.dw
+>    case y is Boolean -> { boolean: y }
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^ source.data-weave entity.name.variable.dw
+#          ^ source.data-weave
+#           ^^ source.data-weave keyword.operator.dw
+#             ^ source.data-weave
+#              ^^^^^^^ source.data-weave entity.name.variable.dw
+#                     ^ source.data-weave
+#                      ^^ source.data-weave keyword.operator.case.dw
+#                        ^^^ source.data-weave
+#                           ^^^^^^^ source.data-weave entity.name.variable.dw
+#                                  ^ source.data-weave keyword.operator.declaration.dw
+#                                   ^ source.data-weave
+#                                    ^ source.data-weave entity.name.variable.dw
+#                                     ^^^ source.data-weave
+>  },
+#^^^^^ source.data-weave
+>  // Literal Pattern Matching (Can be named or unnamed)
+#^^ source.data-weave
+#  ^^ source.data-weave comment.line.double-slash.dw punctuation.definition.comment.dw
+#    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave comment.line.double-slash.dw
+>  c: in0.value match {
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^^^ source.data-weave entity.name.variable.dw
+#        ^ source.data-weave storage.type.dw
+#         ^^^^^ source.data-weave entity.name.variable.dw
+#              ^ source.data-weave
+#               ^^^^^ source.data-weave keyword.control.dw
+#                    ^^^ source.data-weave
+>    case "Emiliano" -> { string: $ }
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#          ^^^^^^^^ source.data-weave string.quoted.double.dw
+#                  ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                   ^ source.data-weave
+#                    ^^ source.data-weave keyword.operator.case.dw
+#                      ^^^ source.data-weave
+#                         ^^^^^^ source.data-weave entity.name.variable.dw
+#                               ^ source.data-weave keyword.operator.declaration.dw
+#                                ^^^^^ source.data-weave
+>    case 123 -> { number: $ }
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^^^ source.data-weave constant.numeric.dw
+#            ^ source.data-weave
+#             ^^ source.data-weave keyword.operator.case.dw
+#               ^^^ source.data-weave
+#                  ^^^^^^ source.data-weave entity.name.variable.dw
+#                        ^ source.data-weave keyword.operator.declaration.dw
+#                         ^^^^^ source.data-weave
+>    // This is how you name variables if needed
+#^^^^ source.data-weave
+#    ^^ source.data-weave comment.line.double-slash.dw punctuation.definition.comment.dw
+#      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave comment.line.double-slash.dw
+>    case value: "Mariano" -> { name: value }
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^^^^^ source.data-weave entity.name.variable.dw
+#              ^ source.data-weave keyword.operator.declaration.dw
+#               ^ source.data-weave
+#                ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                 ^^^^^^^ source.data-weave string.quoted.double.dw
+#                        ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                         ^ source.data-weave
+#                          ^^ source.data-weave keyword.operator.case.dw
+#                            ^^^ source.data-weave
+#                               ^^^^ source.data-weave entity.name.variable.dw
+#                                   ^ source.data-weave keyword.operator.declaration.dw
+#                                    ^ source.data-weave
+#                                     ^^^^^ source.data-weave entity.name.variable.dw
+#                                          ^^^ source.data-weave
+>  },
+#^^^^^ source.data-weave
+>  // Boolean Expression Pattern Matching (Always named)
+#^^ source.data-weave
+#  ^^ source.data-weave comment.line.double-slash.dw punctuation.definition.comment.dw
+#    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave comment.line.double-slash.dw
+>  d: in0.value match {
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^^^ source.data-weave entity.name.variable.dw
+#        ^ source.data-weave storage.type.dw
+#         ^^^^^ source.data-weave entity.name.variable.dw
+#              ^ source.data-weave
+#               ^^^^^ source.data-weave keyword.control.dw
+#                    ^^^ source.data-weave
+>    case x if x > 30 -> { biggerThan30: x }
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^ source.data-weave entity.name.variable.dw
+#          ^ source.data-weave
+#           ^^ source.data-weave keyword.control.dw
+#             ^ source.data-weave
+#              ^ source.data-weave entity.name.variable.dw
+#               ^ source.data-weave
+#                ^ source.data-weave keyword.operator.comparison.dw
+#                 ^ source.data-weave
+#                  ^^ source.data-weave constant.numeric.dw
+#                    ^ source.data-weave
+#                     ^^ source.data-weave keyword.operator.case.dw
+#                       ^^^ source.data-weave
+#                          ^^^^^^^^^^^^ source.data-weave entity.name.variable.dw
+#                                      ^ source.data-weave keyword.operator.declaration.dw
+#                                       ^ source.data-weave
+#                                        ^ source.data-weave entity.name.variable.dw
+#                                         ^^^ source.data-weave
+>    case x if x == 9 -> { nine: x }
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^ source.data-weave entity.name.variable.dw
+#          ^ source.data-weave
+#           ^^ source.data-weave keyword.control.dw
+#             ^ source.data-weave
+#              ^ source.data-weave entity.name.variable.dw
+#               ^ source.data-weave
+#                ^^ source.data-weave keyword.operator.comparison.dw
+#                  ^ source.data-weave
+#                   ^ source.data-weave constant.numeric.dw
+#                    ^ source.data-weave
+#                     ^^ source.data-weave keyword.operator.case.dw
+#                       ^^^ source.data-weave
+#                          ^^^^ source.data-weave entity.name.variable.dw
+#                              ^ source.data-weave keyword.operator.declaration.dw
+#                               ^ source.data-weave
+#                                ^ source.data-weave entity.name.variable.dw
+#                                 ^^^ source.data-weave
+>  },
+#^^^^^ source.data-weave
+>  // Default matches
+#^^ source.data-weave
+#  ^^ source.data-weave comment.line.double-slash.dw punctuation.definition.comment.dw
+#    ^^^^^^^^^^^^^^^^^ source.data-weave comment.line.double-slash.dw
+>  e: in0.value match {
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^^^ source.data-weave entity.name.variable.dw
+#        ^ source.data-weave storage.type.dw
+#         ^^^^^ source.data-weave entity.name.variable.dw
+#              ^ source.data-weave
+#               ^^^^^ source.data-weave keyword.control.dw
+#                    ^^^ source.data-weave
+>    case "Emiliano" -> "string"
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#          ^^^^^^^^ source.data-weave string.quoted.double.dw
+#                  ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                   ^ source.data-weave
+#                    ^^ source.data-weave keyword.operator.case.dw
+#                      ^ source.data-weave
+#                       ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                        ^^^^^^ source.data-weave string.quoted.double.dw
+#                              ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+>    case 3.14 -> number
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^^^^ source.data-weave constant.numeric.dw
+#             ^ source.data-weave
+#              ^^ source.data-weave keyword.operator.case.dw
+#                ^ source.data-weave
+#                 ^^^^^^ source.data-weave entity.name.variable.dw
+>    else -> "1234"
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^^ source.data-weave keyword.operator.case.dw
+#           ^ source.data-weave
+#            ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#             ^^^^ source.data-weave string.quoted.double.dw
+#                 ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+>  },
+#^^^^^ source.data-weave
+>  // Array/object deconstrunction
+#^^ source.data-weave
+#  ^^ source.data-weave comment.line.double-slash.dw punctuation.definition.comment.dw
+#    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave comment.line.double-slash.dw
+>  f: in0.value match {
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^^^ source.data-weave entity.name.variable.dw
+#        ^ source.data-weave storage.type.dw
+#         ^^^^^ source.data-weave entity.name.variable.dw
+#              ^ source.data-weave
+#               ^^^^^ source.data-weave keyword.control.dw
+#                    ^^^ source.data-weave
+>    case [] -> "empty case"
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^ source.data-weave storage.type.dw
+#          ^ source.data-weave storage.type.dw
+#           ^ source.data-weave
+#            ^^ source.data-weave keyword.operator.case.dw
+#              ^ source.data-weave
+#               ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                ^^^^^^^^^^ source.data-weave string.quoted.double.dw
+#                          ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+>    case [head ~ tail] -> [head ~ tail]
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^ source.data-weave storage.type.dw
+#          ^^^^ source.data-weave storage.type.dw entity.name.variable.dw
+#              ^^^ source.data-weave storage.type.dw
+#                 ^^^^ source.data-weave storage.type.dw entity.name.variable.dw
+#                     ^ source.data-weave storage.type.dw
+#                      ^ source.data-weave
+#                       ^^ source.data-weave keyword.operator.case.dw
+#                         ^ source.data-weave
+#                          ^ source.data-weave storage.type.dw
+#                           ^^^^ source.data-weave storage.type.dw entity.name.variable.dw
+#                               ^^^ source.data-weave storage.type.dw
+#                                  ^^^^ source.data-weave storage.type.dw entity.name.variable.dw
+#                                      ^ source.data-weave storage.type.dw
+>    case {key : value ~ tail} -> {key: value}
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^^ source.data-weave
+#          ^^^ source.data-weave entity.name.variable.dw
+#             ^ source.data-weave
+#              ^ source.data-weave keyword.operator.declaration.dw
+#               ^ source.data-weave
+#                ^^^^^ source.data-weave entity.name.variable.dw
+#                     ^^^ source.data-weave
+#                        ^^^^ source.data-weave entity.name.variable.dw
+#                            ^^ source.data-weave
+#                              ^^ source.data-weave keyword.operator.case.dw
+#                                ^^ source.data-weave
+#                                  ^^^ source.data-weave entity.name.variable.dw
+#                                     ^ source.data-weave keyword.operator.declaration.dw
+#                                      ^ source.data-weave
+#                                       ^^^^^ source.data-weave entity.name.variable.dw
+#                                            ^^ source.data-weave
+>  },
+#^^^^^ source.data-weave
+>  // Without space between lhs and rhs
+#^^ source.data-weave
+#  ^^ source.data-weave comment.line.double-slash.dw punctuation.definition.comment.dw
+#    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave comment.line.double-slash.dw
+>  f: (in0.value)match{
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^^ source.data-weave
+#      ^^^ source.data-weave entity.name.variable.dw
+#         ^ source.data-weave storage.type.dw
+#          ^^^^^ source.data-weave entity.name.variable.dw
+#               ^ source.data-weave
+#                ^^^^^ source.data-weave keyword.control.dw
+#                     ^^ source.data-weave
+>    case [] -> "empty case"
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^ source.data-weave storage.type.dw
+#          ^ source.data-weave storage.type.dw
+#           ^ source.data-weave
+#            ^^ source.data-weave keyword.operator.case.dw
+#              ^ source.data-weave
+#               ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                ^^^^^^^^^^ source.data-weave string.quoted.double.dw
+#                          ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+>    case [head ~ tail] -> [head ~ tail]
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^ source.data-weave
+#         ^ source.data-weave storage.type.dw
+#          ^^^^ source.data-weave storage.type.dw entity.name.variable.dw
+#              ^^^ source.data-weave storage.type.dw
+#                 ^^^^ source.data-weave storage.type.dw entity.name.variable.dw
+#                     ^ source.data-weave storage.type.dw
+#                      ^ source.data-weave
+#                       ^^ source.data-weave keyword.operator.case.dw
+#                         ^ source.data-weave
+#                          ^ source.data-weave storage.type.dw
+#                           ^^^^ source.data-weave storage.type.dw entity.name.variable.dw
+#                               ^^^ source.data-weave storage.type.dw
+#                                  ^^^^ source.data-weave storage.type.dw entity.name.variable.dw
+#                                      ^ source.data-weave storage.type.dw
+>    case {key : value ~ tail} -> {key: value}
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave keyword.control.dw
+#        ^^ source.data-weave
+#          ^^^ source.data-weave entity.name.variable.dw
+#             ^ source.data-weave
+#              ^ source.data-weave keyword.operator.declaration.dw
+#               ^ source.data-weave
+#                ^^^^^ source.data-weave entity.name.variable.dw
+#                     ^^^ source.data-weave
+#                        ^^^^ source.data-weave entity.name.variable.dw
+#                            ^^ source.data-weave
+#                              ^^ source.data-weave keyword.operator.case.dw
+#                                ^^ source.data-weave
+#                                  ^^^ source.data-weave entity.name.variable.dw
+#                                     ^ source.data-weave keyword.operator.declaration.dw
+#                                      ^ source.data-weave
+#                                       ^^^^^ source.data-weave entity.name.variable.dw
+#                                            ^^ source.data-weave
+>  }
+#^^^^ source.data-weave
+>}
+#^^ source.data-weave

@@ -1,0 +1,92 @@
+>import * from dw::core::Object
+#^^^^^^ source.data-weave storage.type.dw
+#      ^ source.data-weave
+#       ^ source.data-weave keyword.operator.arithmetic.dw
+#        ^ source.data-weave
+#         ^^^^ source.data-weave storage.type.dw
+#             ^ source.data-weave
+#              ^^ source.data-weave entity.name.variable.dw
+#                ^ source.data-weave keyword.operator.declaration.dw
+#                 ^ source.data-weave keyword.operator.declaration.dw
+#                  ^^^^ source.data-weave entity.name.variable.dw
+#                      ^ source.data-weave keyword.operator.declaration.dw
+#                       ^ source.data-weave keyword.operator.declaration.dw
+#                        ^^^^^^ source.data-weave entity.name.variable.dw
+>import spread from dw::core::Object
+#^^^^^^ source.data-weave storage.type.dw
+#      ^ source.data-weave
+#       ^^^^^^ source.data-weave entity.name.variable.dw
+#             ^ source.data-weave
+#              ^^^^ source.data-weave storage.type.dw
+#                  ^ source.data-weave
+#                   ^^ source.data-weave entity.name.variable.dw
+#                     ^ source.data-weave keyword.operator.declaration.dw
+#                      ^ source.data-weave keyword.operator.declaration.dw
+#                       ^^^^ source.data-weave entity.name.variable.dw
+#                           ^ source.data-weave keyword.operator.declaration.dw
+#                            ^ source.data-weave keyword.operator.declaration.dw
+#                             ^^^^^^ source.data-weave entity.name.variable.dw
+>import spread as SPREAD from dw::core::Object
+#^^^^^^ source.data-weave storage.type.dw
+#      ^ source.data-weave
+#       ^^^^^^ source.data-weave entity.name.variable.dw
+#             ^ source.data-weave
+#              ^^ source.data-weave keyword.operator.dw
+#                ^ source.data-weave
+#                 ^^^^^^ source.data-weave entity.name.variable.dw
+#                       ^ source.data-weave
+#                        ^^^^ source.data-weave storage.type.dw
+#                            ^ source.data-weave
+#                             ^^ source.data-weave entity.name.variable.dw
+#                               ^ source.data-weave keyword.operator.declaration.dw
+#                                ^ source.data-weave keyword.operator.declaration.dw
+#                                 ^^^^ source.data-weave entity.name.variable.dw
+#                                     ^ source.data-weave keyword.operator.declaration.dw
+#                                      ^ source.data-weave keyword.operator.declaration.dw
+#                                       ^^^^^^ source.data-weave entity.name.variable.dw
+>import spread as SPREAD1, b, C, a as D from dw::core::Object
+#^^^^^^ source.data-weave storage.type.dw
+#      ^ source.data-weave
+#       ^^^^^^ source.data-weave entity.name.variable.dw
+#             ^ source.data-weave
+#              ^^ source.data-weave keyword.operator.dw
+#                ^ source.data-weave
+#                 ^^^^^^^ source.data-weave entity.name.variable.dw
+#                        ^^ source.data-weave
+#                          ^ source.data-weave entity.name.variable.dw
+#                           ^^ source.data-weave
+#                             ^ source.data-weave entity.name.variable.dw
+#                              ^^ source.data-weave
+#                                ^ source.data-weave entity.name.variable.dw
+#                                 ^ source.data-weave
+#                                  ^^ source.data-weave keyword.operator.dw
+#                                    ^ source.data-weave
+#                                     ^ source.data-weave entity.name.variable.dw
+#                                      ^ source.data-weave
+#                                       ^^^^ source.data-weave storage.type.dw
+#                                           ^ source.data-weave
+#                                            ^^ source.data-weave entity.name.variable.dw
+#                                              ^ source.data-weave keyword.operator.declaration.dw
+#                                               ^ source.data-weave keyword.operator.declaration.dw
+#                                                ^^^^ source.data-weave entity.name.variable.dw
+#                                                    ^ source.data-weave keyword.operator.declaration.dw
+#                                                     ^ source.data-weave keyword.operator.declaration.dw
+#                                                      ^^^^^^ source.data-weave entity.name.variable.dw
+>import dw::core::Object as OBJEKT
+#^^^^^^ source.data-weave storage.type.dw
+#      ^ source.data-weave
+#       ^^ source.data-weave entity.name.variable.dw
+#         ^ source.data-weave keyword.operator.declaration.dw
+#          ^ source.data-weave keyword.operator.declaration.dw
+#           ^^^^ source.data-weave entity.name.variable.dw
+#               ^ source.data-weave keyword.operator.declaration.dw
+#                ^ source.data-weave keyword.operator.declaration.dw
+#                 ^^^^^^ source.data-weave entity.name.variable.dw
+#                       ^ source.data-weave
+#                        ^^ source.data-weave keyword.operator.dw
+#                          ^ source.data-weave
+#                           ^^^^^^ source.data-weave entity.name.variable.dw
+>---
+#^^^ source.data-weave keyword.operator.body-marker.dw
+>1
+#^ source.data-weave constant.numeric.dw

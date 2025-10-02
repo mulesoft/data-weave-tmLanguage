@@ -1,0 +1,5 @@
+>array[a]
+#^^^^^ source.data-weave entity.name.variable.dw
+#     ^ source.data-weave storage.type.dw
+#      ^ source.data-weave storage.type.dw entity.name.variable.dw
+#       ^ source.data-weave storage.type.dw

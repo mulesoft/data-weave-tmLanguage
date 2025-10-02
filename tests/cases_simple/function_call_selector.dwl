@@ -1,0 +1,1 @@
+var DEBUG = envVars().PWD? and (envVars().PWD contains "bat-docker-worker") 

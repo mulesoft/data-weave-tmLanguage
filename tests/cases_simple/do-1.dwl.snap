@@ -1,0 +1,249 @@
+>fun testParam(a) = do {
+#^^^ source.data-weave storage.type.dw
+#   ^ source.data-weave
+#    ^^^^^^^^^ source.data-weave entity.name.variable.dw
+#             ^ source.data-weave
+#              ^ source.data-weave entity.name.variable.dw
+#               ^^ source.data-weave
+#                 ^ source.data-weave keyword.operator.assignment.dw
+#                  ^ source.data-weave
+#                   ^^ source.data-weave keyword.control.dw
+#                     ^^^ source.data-weave
+>  var originalA = a
+#^^ source.data-weave
+#  ^^^ source.data-weave storage.type.dw
+#     ^ source.data-weave
+#      ^^^^^^^^^ source.data-weave entity.name.variable.dw
+#               ^ source.data-weave
+#                ^ source.data-weave keyword.operator.assignment.dw
+#                 ^ source.data-weave
+#                  ^ source.data-weave entity.name.variable.dw
+>  ---
+#^^ source.data-weave
+#  ^^^ source.data-weave keyword.operator.body-marker.dw
+>  a map $
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave
+#    ^^^ source.data-weave entity.name.variable.dw
+#       ^^^ source.data-weave
+>}
+#^^ source.data-weave
+>---
+#^^^ source.data-weave keyword.operator.body-marker.dw
+>{
+#^^ source.data-weave
+>  result: do {
+#^^ source.data-weave
+#  ^^^^^^ source.data-weave entity.name.variable.dw
+#        ^ source.data-weave keyword.operator.declaration.dw
+#         ^ source.data-weave
+#          ^^ source.data-weave keyword.control.dw
+#            ^^^ source.data-weave
+>    var a = 1
+#^^^^ source.data-weave
+#    ^^^ source.data-weave storage.type.dw
+#       ^ source.data-weave
+#        ^ source.data-weave entity.name.variable.dw
+#         ^ source.data-weave
+#          ^ source.data-weave keyword.operator.assignment.dw
+#           ^ source.data-weave
+#            ^ source.data-weave constant.numeric.dw
+>    var b = do {
+#^^^^ source.data-weave
+#    ^^^ source.data-weave storage.type.dw
+#       ^ source.data-weave
+#        ^ source.data-weave entity.name.variable.dw
+#         ^ source.data-weave
+#          ^ source.data-weave keyword.operator.assignment.dw
+#           ^ source.data-weave
+#            ^^ source.data-weave keyword.control.dw
+#              ^^^ source.data-weave
+>      var a = {x: "2", y: false}
+#^^^^^^ source.data-weave
+#      ^^^ source.data-weave storage.type.dw
+#         ^ source.data-weave
+#          ^ source.data-weave entity.name.variable.dw
+#           ^ source.data-weave
+#            ^ source.data-weave keyword.operator.assignment.dw
+#             ^^ source.data-weave
+#               ^ source.data-weave entity.name.variable.dw
+#                ^ source.data-weave keyword.operator.declaration.dw
+#                 ^ source.data-weave
+#                  ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                   ^ source.data-weave string.quoted.double.dw
+#                    ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                     ^^ source.data-weave
+#                       ^ source.data-weave entity.name.variable.dw
+#                        ^ source.data-weave keyword.operator.declaration.dw
+#                         ^ source.data-weave
+#                          ^^^^^ source.data-weave constant.language.dw
+#                               ^^ source.data-weave
+>      var b = log('Must log')
+#^^^^^^ source.data-weave
+#      ^^^ source.data-weave storage.type.dw
+#         ^ source.data-weave
+#          ^ source.data-weave entity.name.variable.dw
+#           ^ source.data-weave
+#            ^ source.data-weave keyword.operator.assignment.dw
+#             ^ source.data-weave
+#              ^^^ source.data-weave entity.name.variable.dw
+#                 ^ source.data-weave
+#                  ^ source.data-weave string.quoted.single.dw punctuation.definition.string.begin.dw
+#                   ^^^^^^^^ source.data-weave string.quoted.single.dw
+#                           ^ source.data-weave string.quoted.single.dw punctuation.definition.string.end.dw
+#                            ^^ source.data-weave
+>      ---
+#^^^^^^ source.data-weave
+#      ^^^ source.data-weave keyword.operator.body-marker.dw
+>      a.x as Number
+#^^^^^^ source.data-weave
+#      ^ source.data-weave entity.name.variable.dw
+#       ^ source.data-weave storage.type.dw
+#        ^ source.data-weave entity.name.variable.dw
+#         ^ source.data-weave
+#          ^^ source.data-weave keyword.operator.dw
+#            ^ source.data-weave
+#             ^^^^^^ source.data-weave entity.name.variable.dw
+>    }
+#^^^^^^ source.data-weave
+>    var b = do {
+#^^^^ source.data-weave
+#    ^^^ source.data-weave storage.type.dw
+#       ^ source.data-weave
+#        ^ source.data-weave entity.name.variable.dw
+#         ^ source.data-weave
+#          ^ source.data-weave keyword.operator.assignment.dw
+#           ^ source.data-weave
+#            ^^ source.data-weave keyword.control.dw
+#              ^^^ source.data-weave
+>      var a = "outer"
+#^^^^^^ source.data-weave
+#      ^^^ source.data-weave storage.type.dw
+#         ^ source.data-weave
+#          ^ source.data-weave entity.name.variable.dw
+#           ^ source.data-weave
+#            ^ source.data-weave keyword.operator.assignment.dw
+#             ^ source.data-weave
+#              ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#               ^^^^^ source.data-weave string.quoted.double.dw
+#                    ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+>      ---
+#^^^^^^ source.data-weave
+#      ^^^ source.data-weave keyword.operator.body-marker.dw
+>      do {
+#^^^^^^ source.data-weave
+#      ^^ source.data-weave keyword.control.dw
+#        ^^^ source.data-weave
+>        var a = "inner"
+#^^^^^^^^ source.data-weave
+#        ^^^ source.data-weave storage.type.dw
+#           ^ source.data-weave
+#            ^ source.data-weave entity.name.variable.dw
+#             ^ source.data-weave
+#              ^ source.data-weave keyword.operator.assignment.dw
+#               ^ source.data-weave
+#                ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                 ^^^^^ source.data-weave string.quoted.double.dw
+#                      ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+>        ---
+#^^^^^^^^ source.data-weave
+#        ^^^ source.data-weave keyword.operator.body-marker.dw
+>        a
+#^^^^^^^^ source.data-weave
+#        ^ source.data-weave entity.name.variable.dw
+>      } ++ "|" ++ a
+#^^^^^^^^ source.data-weave
+#        ^ source.data-weave keyword.operator.arithmetic.dw
+#         ^ source.data-weave keyword.operator.arithmetic.dw
+#          ^ source.data-weave
+#           ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#            ^ source.data-weave string.quoted.double.dw
+#             ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#              ^ source.data-weave
+#               ^ source.data-weave keyword.operator.arithmetic.dw
+#                ^ source.data-weave keyword.operator.arithmetic.dw
+#                 ^ source.data-weave
+#                  ^ source.data-weave entity.name.variable.dw
+>    }
+#^^^^^^ source.data-weave
+>    var c = do { var a = 1 fun f(n) = "Shoki_" ++ n --- f map (a) }
+#^^^^ source.data-weave
+#    ^^^ source.data-weave storage.type.dw
+#       ^ source.data-weave
+#        ^ source.data-weave entity.name.variable.dw
+#         ^ source.data-weave
+#          ^ source.data-weave keyword.operator.assignment.dw
+#           ^ source.data-weave
+#            ^^ source.data-weave keyword.control.dw
+#              ^^^ source.data-weave
+#                 ^^^ source.data-weave storage.type.dw
+#                    ^ source.data-weave
+#                     ^ source.data-weave entity.name.variable.dw
+#                      ^ source.data-weave
+#                       ^ source.data-weave keyword.operator.assignment.dw
+#                        ^ source.data-weave
+#                         ^ source.data-weave constant.numeric.dw
+#                          ^ source.data-weave
+#                           ^^^ source.data-weave storage.type.dw
+#                              ^ source.data-weave
+#                               ^ source.data-weave entity.name.variable.dw
+#                                ^ source.data-weave
+#                                 ^ source.data-weave entity.name.variable.dw
+#                                  ^^ source.data-weave
+#                                    ^ source.data-weave keyword.operator.assignment.dw
+#                                     ^ source.data-weave
+#                                      ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                                       ^^^^^^ source.data-weave string.quoted.double.dw
+#                                             ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                                              ^ source.data-weave
+#                                               ^ source.data-weave keyword.operator.arithmetic.dw
+#                                                ^ source.data-weave keyword.operator.arithmetic.dw
+#                                                 ^ source.data-weave
+#                                                  ^ source.data-weave entity.name.variable.dw
+#                                                   ^ source.data-weave
+#                                                    ^^^ source.data-weave keyword.operator.body-marker.dw
+#                                                       ^ source.data-weave
+#                                                        ^ source.data-weave entity.name.variable.dw
+#                                                         ^ source.data-weave
+#                                                          ^^^ source.data-weave entity.name.variable.dw
+#                                                             ^^ source.data-weave
+#                                                               ^ source.data-weave entity.name.variable.dw
+#                                                                ^^^^ source.data-weave
+>    ---
+#^^^^ source.data-weave
+#    ^^^ source.data-weave keyword.operator.body-marker.dw
+>    { result: a + b, a: a, b: b }
+#^^^^^^ source.data-weave
+#      ^^^^^^ source.data-weave entity.name.variable.dw
+#            ^ source.data-weave keyword.operator.declaration.dw
+#             ^ source.data-weave
+#              ^ source.data-weave entity.name.variable.dw
+#               ^ source.data-weave
+#                ^ source.data-weave keyword.operator.arithmetic.dw
+#                 ^ source.data-weave
+#                  ^ source.data-weave entity.name.variable.dw
+#                   ^^ source.data-weave
+#                     ^ source.data-weave entity.name.variable.dw
+#                      ^ source.data-weave keyword.operator.declaration.dw
+#                       ^ source.data-weave
+#                        ^ source.data-weave entity.name.variable.dw
+#                         ^^ source.data-weave
+#                           ^ source.data-weave entity.name.variable.dw
+#                            ^ source.data-weave keyword.operator.declaration.dw
+#                             ^ source.data-weave
+#                              ^ source.data-weave entity.name.variable.dw
+#                               ^^^ source.data-weave
+>  },
+#^^^^^ source.data-weave
+>  x: testParam(2)
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^^^^^^^^^ source.data-weave entity.name.variable.dw
+#              ^ source.data-weave
+#               ^ source.data-weave constant.numeric.dw
+#                ^^ source.data-weave
+>}
+#^^ source.data-weave

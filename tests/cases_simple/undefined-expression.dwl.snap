@@ -1,0 +1,79 @@
+>fun func5 <T>(identifier: String): T = ???
+#^^^ source.data-weave storage.type.dw
+#   ^ source.data-weave
+#    ^^^^^ source.data-weave entity.name.variable.dw
+#         ^ source.data-weave
+#          ^ source.data-weave keyword.operator.comparison.dw
+#           ^ source.data-weave entity.name.variable.dw
+#            ^ source.data-weave keyword.operator.comparison.dw
+#             ^ source.data-weave
+#              ^^^^^^^^^^ source.data-weave entity.name.variable.dw
+#                        ^ source.data-weave keyword.operator.declaration.dw
+#                         ^ source.data-weave
+#                          ^^^^^^ source.data-weave entity.name.variable.dw
+#                                ^ source.data-weave
+#                                 ^ source.data-weave keyword.operator.declaration.dw
+#                                  ^ source.data-weave
+#                                   ^ source.data-weave entity.name.variable.dw
+#                                    ^ source.data-weave
+#                                     ^ source.data-weave keyword.operator.assignment.dw
+#                                      ^ source.data-weave
+#                                       ^^^ source.data-weave keyword.operator.implement.dw
+>var x: Boolean = ???
+#^^^ source.data-weave storage.type.dw
+#   ^ source.data-weave
+#    ^ source.data-weave entity.name.variable.dw
+#     ^ source.data-weave keyword.operator.declaration.dw
+#      ^ source.data-weave
+#       ^^^^^^^ source.data-weave entity.name.variable.dw
+#              ^ source.data-weave
+#               ^ source.data-weave keyword.operator.assignment.dw
+#                ^ source.data-weave
+#                 ^^^ source.data-weave keyword.operator.implement.dw
+>var z: true = ???
+#^^^ source.data-weave storage.type.dw
+#   ^ source.data-weave
+#    ^ source.data-weave entity.name.variable.dw
+#     ^ source.data-weave keyword.operator.declaration.dw
+#      ^ source.data-weave
+#       ^^^^ source.data-weave constant.language.dw
+#           ^ source.data-weave
+#            ^ source.data-weave keyword.operator.assignment.dw
+#             ^ source.data-weave
+#              ^^^ source.data-weave keyword.operator.implement.dw
+>var y: {x?: Null} = ???
+#^^^ source.data-weave storage.type.dw
+#   ^ source.data-weave
+#    ^ source.data-weave entity.name.variable.dw
+#     ^ source.data-weave keyword.operator.declaration.dw
+#      ^^ source.data-weave
+#        ^ source.data-weave entity.name.variable.dw
+#         ^ source.data-weave
+#          ^ source.data-weave keyword.operator.declaration.dw
+#           ^ source.data-weave
+#            ^^^^ source.data-weave entity.name.variable.dw
+#                ^^ source.data-weave
+#                  ^ source.data-weave keyword.operator.assignment.dw
+#                   ^ source.data-weave
+#                    ^^^ source.data-weave keyword.operator.implement.dw
+>type NotDefined = ???
+#^^^^ source.data-weave storage.type.dw
+#    ^ source.data-weave
+#     ^^^^^^^^^^ source.data-weave entity.name.variable.dw
+#               ^ source.data-weave
+#                ^ source.data-weave keyword.operator.assignment.dw
+#                 ^ source.data-weave
+#                  ^^^ source.data-weave keyword.operator.implement.dw
+>{
+#^^ source.data-weave
+> "lala" : ???
+#^ source.data-weave
+# ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#  ^^^^ source.data-weave string.quoted.double.dw
+#      ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#       ^ source.data-weave
+#        ^ source.data-weave keyword.operator.declaration.dw
+#         ^ source.data-weave
+#          ^^^ source.data-weave keyword.operator.implement.dw
+>}
+#^^ source.data-weave

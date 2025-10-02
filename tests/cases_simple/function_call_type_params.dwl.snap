@@ -1,0 +1,65 @@
+>%dw 2.0
+#^^^ source.data-weave meta.directive.version.dw keyword.directive.version.dw
+#   ^ source.data-weave meta.directive.version.dw
+#    ^^^ source.data-weave meta.directive.version.dw constant.numeric.version.dw
+>output application/json
+#^^^^^^ source.data-weave storage.type.dw
+#      ^ source.data-weave
+#       ^^^^^^^^^^^ source.data-weave entity.name.variable.dw
+#                  ^ source.data-weave keyword.operator.arithmetic.dw
+#                   ^^^^ source.data-weave entity.name.variable.dw
+>
+>fun f<T, U, V>(t: T, u: U, v: V) = t
+#^^^ source.data-weave storage.type.dw
+#   ^ source.data-weave
+#    ^ source.data-weave entity.name.variable.dw
+#     ^ source.data-weave keyword.operator.comparison.dw
+#      ^ source.data-weave entity.name.variable.dw
+#       ^^ source.data-weave
+#         ^ source.data-weave entity.name.variable.dw
+#          ^^ source.data-weave
+#            ^ source.data-weave entity.name.variable.dw
+#             ^ source.data-weave keyword.operator.comparison.dw
+#              ^ source.data-weave
+#               ^ source.data-weave entity.name.variable.dw
+#                ^ source.data-weave keyword.operator.declaration.dw
+#                 ^ source.data-weave
+#                  ^ source.data-weave entity.name.variable.dw
+#                   ^^ source.data-weave
+#                     ^ source.data-weave entity.name.variable.dw
+#                      ^ source.data-weave keyword.operator.declaration.dw
+#                       ^ source.data-weave
+#                        ^ source.data-weave entity.name.variable.dw
+#                         ^^ source.data-weave
+#                           ^ source.data-weave entity.name.variable.dw
+#                            ^ source.data-weave keyword.operator.declaration.dw
+#                             ^ source.data-weave
+#                              ^ source.data-weave entity.name.variable.dw
+#                               ^^ source.data-weave
+#                                 ^ source.data-weave keyword.operator.assignment.dw
+#                                  ^ source.data-weave
+#                                   ^ source.data-weave entity.name.variable.dw
+>---
+#^^^ source.data-weave keyword.operator.body-marker.dw
+>f<Name | String, {|a: String|} & {b: Number}, 3>("a", {}, 3)
+#^ source.data-weave entity.name.variable.dw
+# ^ source.data-weave keyword.operator.comparison.dw
+#  ^^^^ source.data-weave entity.name.variable.dw
+#      ^ source.data-weave
+#       ^ source.data-weave constant.numeric.dw
+#        ^ source.data-weave
+#         ^ source.data-weave constant.character.escape.dw
+#          ^^^^^^^^ source.data-weave
+#                  ^ source.data-weave constant.numeric.dw
+#                   ^ source.data-weave entity.name.variable.dw
+#                    ^ source.data-weave keyword.operator.declaration.dw
+#                     ^ source.data-weave
+#                      ^^^^^^ source.data-weave entity.name.variable.dw
+#                            ^ source.data-weave constant.numeric.dw
+#                             ^^^^^^ source.data-weave
+#                                   ^ source.data-weave constant.character.escape.dw
+#                                    ^^^^^^^^^^ source.data-weave
+#                                              ^ source.data-weave constant.numeric.dw
+#                                               ^^^^^^^^^^^ source.data-weave
+#                                                          ^ source.data-weave constant.numeric.dw
+#                                                           ^^ source.data-weave

@@ -1,0 +1,78 @@
+>type X = () -> HashMapSetOperation<T>
+#^^^^ source.data-weave storage.type.dw
+#    ^ source.data-weave
+#     ^ source.data-weave entity.name.variable.dw
+#      ^ source.data-weave
+#       ^ source.data-weave keyword.operator.assignment.dw
+#        ^^^^ source.data-weave
+#            ^^ source.data-weave keyword.operator.case.dw
+#              ^ source.data-weave
+#               ^^^^^^^^^^^^^^^^^^^ source.data-weave entity.name.variable.dw
+#                                  ^ source.data-weave keyword.operator.comparison.dw
+#                                   ^ source.data-weave entity.name.variable.dw
+#                                    ^ source.data-weave keyword.operator.comparison.dw
+>type X = <T>(key: String, value: T) -> HashMapSetOperation<T>
+#^^^^ source.data-weave storage.type.dw
+#    ^ source.data-weave
+#     ^ source.data-weave entity.name.variable.dw
+#      ^ source.data-weave
+#       ^ source.data-weave keyword.operator.assignment.dw
+#        ^ source.data-weave
+#         ^ source.data-weave keyword.operator.comparison.dw
+#          ^ source.data-weave entity.name.variable.dw
+#           ^ source.data-weave keyword.operator.comparison.dw
+#            ^ source.data-weave
+#             ^^^ source.data-weave entity.name.variable.dw
+#                ^ source.data-weave keyword.operator.declaration.dw
+#                 ^ source.data-weave
+#                  ^^^^^^ source.data-weave entity.name.variable.dw
+#                        ^^ source.data-weave
+#                          ^^^^^ source.data-weave entity.name.variable.dw
+#                               ^ source.data-weave keyword.operator.declaration.dw
+#                                ^ source.data-weave
+#                                 ^ source.data-weave entity.name.variable.dw
+#                                  ^^ source.data-weave
+#                                    ^^ source.data-weave keyword.operator.case.dw
+#                                      ^ source.data-weave
+#                                       ^^^^^^^^^^^^^^^^^^^ source.data-weave entity.name.variable.dw
+#                                                          ^ source.data-weave keyword.operator.comparison.dw
+#                                                           ^ source.data-weave entity.name.variable.dw
+#                                                            ^ source.data-weave keyword.operator.comparison.dw
+>type HttpServer = {
+#^^^^ source.data-weave storage.type.dw
+#    ^ source.data-weave
+#     ^^^^^^^^^^ source.data-weave entity.name.variable.dw
+#               ^ source.data-weave
+#                ^ source.data-weave keyword.operator.assignment.dw
+#                 ^^^ source.data-weave
+>  running: Boolean,
+#^^ source.data-weave
+#  ^^^^^^^ source.data-weave entity.name.variable.dw
+#         ^ source.data-weave keyword.operator.declaration.dw
+#          ^ source.data-weave
+#           ^^^^^^^ source.data-weave entity.name.variable.dw
+#                  ^^ source.data-weave
+>  port: Number,
+#^^ source.data-weave
+#  ^^^^ source.data-weave entity.name.variable.dw
+#      ^ source.data-weave keyword.operator.declaration.dw
+#       ^ source.data-weave
+#        ^^^^^^ source.data-weave entity.name.variable.dw
+#              ^^ source.data-weave
+>  host: String,
+#^^ source.data-weave
+#  ^^^^ source.data-weave entity.name.variable.dw
+#      ^ source.data-weave keyword.operator.declaration.dw
+#       ^ source.data-weave
+#        ^^^^^^ source.data-weave entity.name.variable.dw
+#              ^^ source.data-weave
+>  stop: () -> Boolean
+#^^ source.data-weave
+#  ^^^^ source.data-weave entity.name.variable.dw
+#      ^ source.data-weave keyword.operator.declaration.dw
+#       ^^^^ source.data-weave
+#           ^^ source.data-weave keyword.operator.case.dw
+#             ^ source.data-weave
+#              ^^^^^^^ source.data-weave entity.name.variable.dw
+>}
+#^^ source.data-weave

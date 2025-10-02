@@ -1,0 +1,44 @@
+>%dw 2.0
+#^^^ source.data-weave meta.directive.version.dw keyword.directive.version.dw
+#   ^ source.data-weave meta.directive.version.dw
+#    ^^^ source.data-weave meta.directive.version.dw constant.numeric.version.dw
+>var a = []
+#^^^ source.data-weave storage.type.dw
+#   ^ source.data-weave
+#    ^ source.data-weave entity.name.variable.dw
+#     ^ source.data-weave
+#      ^ source.data-weave keyword.operator.assignment.dw
+#       ^ source.data-weave
+#        ^ source.data-weave storage.type.dw
+#         ^ source.data-weave storage.type.dw
+>var b = [1,2,3]
+#^^^ source.data-weave storage.type.dw
+#   ^ source.data-weave
+#    ^ source.data-weave entity.name.variable.dw
+#     ^ source.data-weave
+#      ^ source.data-weave keyword.operator.assignment.dw
+#       ^ source.data-weave
+#        ^ source.data-weave storage.type.dw
+#         ^ source.data-weave storage.type.dw constant.numeric.dw
+#          ^ source.data-weave storage.type.dw
+#           ^ source.data-weave storage.type.dw constant.numeric.dw
+#            ^ source.data-weave storage.type.dw
+#             ^ source.data-weave storage.type.dw constant.numeric.dw
+#              ^ source.data-weave storage.type.dw
+>var c = [[null], false, []]
+#^^^ source.data-weave storage.type.dw
+#   ^ source.data-weave
+#    ^ source.data-weave entity.name.variable.dw
+#     ^ source.data-weave
+#      ^ source.data-weave keyword.operator.assignment.dw
+#       ^ source.data-weave
+#        ^ source.data-weave storage.type.dw
+#         ^ source.data-weave storage.type.dw storage.type.dw
+#          ^^^^ source.data-weave storage.type.dw storage.type.dw constant.language.dw
+#              ^ source.data-weave storage.type.dw storage.type.dw
+#               ^^ source.data-weave storage.type.dw
+#                 ^^^^^ source.data-weave storage.type.dw constant.language.dw
+#                      ^^ source.data-weave storage.type.dw
+#                        ^ source.data-weave storage.type.dw storage.type.dw
+#                         ^ source.data-weave storage.type.dw storage.type.dw
+#                          ^ source.data-weave storage.type.dw

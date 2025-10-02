@@ -1,0 +1,16 @@
+>person @((root.@), country: "Arg") : $
+#^^^^^^ source.data-weave entity.name.variable.dw
+#      ^^^^ source.data-weave
+#          ^^^^ source.data-weave entity.name.variable.dw
+#              ^^ source.data-weave storage.type.dw
+#                ^^^ source.data-weave
+#                   ^^^^^^^ source.data-weave entity.name.variable.dw
+#                          ^ source.data-weave keyword.operator.declaration.dw
+#                           ^ source.data-weave
+#                            ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                             ^^^ source.data-weave string.quoted.double.dw
+#                                ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                                 ^^ source.data-weave
+#                                   ^ source.data-weave keyword.operator.declaration.dw
+#                                    ^^^ source.data-weave
+>

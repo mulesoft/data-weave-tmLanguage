@@ -1,0 +1,10 @@
+>{
+#^^ source.data-weave
+>  a: /http[s]?:\/\/*/
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^^^^^^^^^^^^^^^^ source.data-weave string.regexp.dw
+>}
+#^^ source.data-weave

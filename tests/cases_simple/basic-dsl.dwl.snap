@@ -1,0 +1,183 @@
+>describe("Asset provider") in [
+#^^^^^^^^ source.data-weave entity.name.variable.dw
+#        ^ source.data-weave
+#         ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#          ^^^^^^^^^^^^^^ source.data-weave string.quoted.double.dw
+#                        ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                         ^^ source.data-weave
+#                           ^^ source.data-weave entity.name.variable.dw
+#                             ^ source.data-weave
+#                              ^ source.data-weave storage.type.dw
+>	it must "pass the basic test" in [
+#^ source.data-weave storage.type.dw
+# ^^ source.data-weave storage.type.dw entity.name.variable.dw
+#   ^ source.data-weave storage.type.dw
+#    ^^^^ source.data-weave storage.type.dw entity.name.variable.dw
+#        ^ source.data-weave storage.type.dw
+#         ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#          ^^^^^^^^^^^^^^^^^^^ source.data-weave storage.type.dw string.quoted.double.dw
+#                             ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                              ^ source.data-weave storage.type.dw
+#                               ^^ source.data-weave storage.type.dw entity.name.variable.dw
+#                                 ^ source.data-weave storage.type.dw
+#                                  ^ source.data-weave storage.type.dw storage.type.dw
+>		OPERATION `get the result` with { parameter: 1 } 
+#^^ source.data-weave storage.type.dw storage.type.dw
+#  ^^^^^^^^^ source.data-weave storage.type.dw storage.type.dw entity.name.variable.dw
+#           ^ source.data-weave storage.type.dw storage.type.dw
+#            ^ source.data-weave storage.type.dw storage.type.dw string.quoted.backtick.dw punctuation.definition.string.begin.dw
+#             ^^^^^^^^^^^^^^ source.data-weave storage.type.dw storage.type.dw string.quoted.backtick.dw
+#                           ^ source.data-weave storage.type.dw storage.type.dw string.quoted.backtick.dw punctuation.definition.string.end.dw
+#                            ^ source.data-weave storage.type.dw storage.type.dw
+#                             ^^^^ source.data-weave storage.type.dw storage.type.dw entity.name.variable.dw
+#                                 ^^^ source.data-weave storage.type.dw storage.type.dw
+#                                    ^^^^^^^^^ source.data-weave storage.type.dw storage.type.dw entity.name.variable.dw
+#                                             ^ source.data-weave storage.type.dw storage.type.dw keyword.operator.declaration.dw
+#                                              ^ source.data-weave storage.type.dw storage.type.dw
+#                                               ^ source.data-weave storage.type.dw storage.type.dw constant.numeric.dw
+#                                                ^^^^ source.data-weave storage.type.dw storage.type.dw
+>	],
+#^ source.data-weave storage.type.dw storage.type.dw
+# ^ source.data-weave storage.type.dw storage.type.dw
+#  ^^ source.data-weave storage.type.dw
+>	it should "do other thing" withTags ['a','b'] in [
+#^ source.data-weave storage.type.dw
+# ^^ source.data-weave storage.type.dw entity.name.variable.dw
+#   ^ source.data-weave storage.type.dw
+#    ^^^^^^ source.data-weave storage.type.dw entity.name.variable.dw
+#          ^ source.data-weave storage.type.dw
+#           ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#            ^^^^^^^^^^^^^^ source.data-weave storage.type.dw string.quoted.double.dw
+#                          ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                           ^ source.data-weave storage.type.dw
+#                            ^^^^^^^^ source.data-weave storage.type.dw entity.name.variable.dw
+#                                    ^ source.data-weave storage.type.dw
+#                                     ^ source.data-weave storage.type.dw storage.type.dw
+#                                      ^ source.data-weave storage.type.dw storage.type.dw string.quoted.single.dw punctuation.definition.string.begin.dw
+#                                       ^ source.data-weave storage.type.dw storage.type.dw string.quoted.single.dw
+#                                        ^ source.data-weave storage.type.dw storage.type.dw string.quoted.single.dw punctuation.definition.string.end.dw
+#                                         ^ source.data-weave storage.type.dw storage.type.dw
+#                                          ^ source.data-weave storage.type.dw storage.type.dw string.quoted.single.dw punctuation.definition.string.begin.dw
+#                                           ^ source.data-weave storage.type.dw storage.type.dw string.quoted.single.dw
+#                                            ^ source.data-weave storage.type.dw storage.type.dw string.quoted.single.dw punctuation.definition.string.end.dw
+#                                             ^ source.data-weave storage.type.dw storage.type.dw
+#                                              ^ source.data-weave storage.type.dw
+#                                               ^^ source.data-weave storage.type.dw entity.name.variable.dw
+#                                                 ^ source.data-weave storage.type.dw
+#                                                  ^ source.data-weave storage.type.dw storage.type.dw
+>		OPERATION `test` with variable assert [
+#^^ source.data-weave storage.type.dw storage.type.dw
+#  ^^^^^^^^^ source.data-weave storage.type.dw storage.type.dw entity.name.variable.dw
+#           ^ source.data-weave storage.type.dw storage.type.dw
+#            ^ source.data-weave storage.type.dw storage.type.dw string.quoted.backtick.dw punctuation.definition.string.begin.dw
+#             ^^^^ source.data-weave storage.type.dw storage.type.dw string.quoted.backtick.dw
+#                 ^ source.data-weave storage.type.dw storage.type.dw string.quoted.backtick.dw punctuation.definition.string.end.dw
+#                  ^ source.data-weave storage.type.dw storage.type.dw
+#                   ^^^^ source.data-weave storage.type.dw storage.type.dw entity.name.variable.dw
+#                       ^ source.data-weave storage.type.dw storage.type.dw
+#                        ^^^^^^^^ source.data-weave storage.type.dw storage.type.dw entity.name.variable.dw
+#                                ^ source.data-weave storage.type.dw storage.type.dw
+#                                 ^^^^^^ source.data-weave storage.type.dw storage.type.dw entity.name.variable.dw
+#                                       ^ source.data-weave storage.type.dw storage.type.dw
+#                                        ^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+>			$ mustEqual $ * 1,
+#^^^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+#     ^^^^^^^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw entity.name.variable.dw
+#              ^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+#                 ^ source.data-weave storage.type.dw storage.type.dw storage.type.dw keyword.operator.arithmetic.dw
+#                  ^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+#                   ^ source.data-weave storage.type.dw storage.type.dw storage.type.dw constant.numeric.dw
+#                    ^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+>			$ mustContainKey 'test',
+#^^^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+#     ^^^^^^^^^^^^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw entity.name.variable.dw
+#                   ^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+#                    ^ source.data-weave storage.type.dw storage.type.dw storage.type.dw string.quoted.single.dw punctuation.definition.string.begin.dw
+#                     ^^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw string.quoted.single.dw
+#                         ^ source.data-weave storage.type.dw storage.type.dw storage.type.dw string.quoted.single.dw punctuation.definition.string.end.dw
+#                          ^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+>			$ mustContain true,
+#^^^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+#     ^^^^^^^^^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw entity.name.variable.dw
+#                ^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+#                 ^^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw constant.language.dw
+#                     ^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+>			null mustNotBeLike false,
+#^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+#   ^^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw constant.language.dw
+#       ^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+#        ^^^^^^^^^^^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw entity.name.variable.dw
+#                     ^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+#                      ^^^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw constant.language.dw
+#                           ^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+>			{} as Object is Object,
+#^^^^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+#      ^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw keyword.operator.dw
+#        ^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+#         ^^^^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw entity.name.variable.dw
+#               ^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+#                ^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw keyword.operator.dw
+#                  ^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+#                   ^^^^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw entity.name.variable.dw
+#                         ^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+>			true is Boolean
+#^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+#   ^^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw constant.language.dw
+#       ^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+#        ^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw keyword.operator.dw
+#          ^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+#           ^^^^^^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw entity.name.variable.dw
+>		]
+#^^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+#  ^ source.data-weave storage.type.dw storage.type.dw storage.type.dw
+>	],
+#^ source.data-weave storage.type.dw storage.type.dw
+# ^ source.data-weave storage.type.dw storage.type.dw
+#  ^^ source.data-weave storage.type.dw
+>	"it" should "fail" in [
+#^ source.data-weave storage.type.dw
+# ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#  ^^ source.data-weave storage.type.dw string.quoted.double.dw
+#    ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#     ^ source.data-weave storage.type.dw
+#      ^^^^^^ source.data-weave storage.type.dw entity.name.variable.dw
+#            ^ source.data-weave storage.type.dw
+#             ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#              ^^^^ source.data-weave storage.type.dw string.quoted.double.dw
+#                  ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                   ^ source.data-weave storage.type.dw
+#                    ^^ source.data-weave storage.type.dw entity.name.variable.dw
+#                      ^ source.data-weave storage.type.dw
+#                       ^ source.data-weave storage.type.dw storage.type.dw
+>		assert(true == false and 0 > 1 or x mustEqual 3)
+#^^ source.data-weave storage.type.dw storage.type.dw
+#  ^^^^^^ source.data-weave storage.type.dw storage.type.dw entity.name.variable.dw
+#        ^ source.data-weave storage.type.dw storage.type.dw
+#         ^^^^ source.data-weave storage.type.dw storage.type.dw constant.language.dw
+#             ^ source.data-weave storage.type.dw storage.type.dw
+#              ^^ source.data-weave storage.type.dw storage.type.dw keyword.operator.comparison.dw
+#                ^ source.data-weave storage.type.dw storage.type.dw
+#                 ^^^^^ source.data-weave storage.type.dw storage.type.dw constant.language.dw
+#                      ^ source.data-weave storage.type.dw storage.type.dw
+#                       ^^^ source.data-weave storage.type.dw storage.type.dw keyword.operator.dw
+#                          ^ source.data-weave storage.type.dw storage.type.dw
+#                           ^ source.data-weave storage.type.dw storage.type.dw constant.numeric.dw
+#                            ^ source.data-weave storage.type.dw storage.type.dw
+#                             ^ source.data-weave storage.type.dw storage.type.dw keyword.operator.comparison.dw
+#                              ^ source.data-weave storage.type.dw storage.type.dw
+#                               ^ source.data-weave storage.type.dw storage.type.dw constant.numeric.dw
+#                                ^ source.data-weave storage.type.dw storage.type.dw
+#                                 ^^ source.data-weave storage.type.dw storage.type.dw keyword.operator.dw
+#                                   ^ source.data-weave storage.type.dw storage.type.dw
+#                                    ^ source.data-weave storage.type.dw storage.type.dw entity.name.variable.dw
+#                                     ^ source.data-weave storage.type.dw storage.type.dw
+#                                      ^^^^^^^^^ source.data-weave storage.type.dw storage.type.dw entity.name.variable.dw
+#                                               ^ source.data-weave storage.type.dw storage.type.dw
+#                                                ^ source.data-weave storage.type.dw storage.type.dw constant.numeric.dw
+#                                                 ^^ source.data-weave storage.type.dw storage.type.dw
+>	] 
+#^ source.data-weave storage.type.dw storage.type.dw
+# ^ source.data-weave storage.type.dw storage.type.dw
+#  ^^ source.data-weave storage.type.dw
+>]
+#^ source.data-weave storage.type.dw
