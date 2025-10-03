@@ -15,11 +15,11 @@ function readYaml(fileName: string) {
 
 function buildGrammar() {
   const tsGrammar = readYaml("../DataWeave.YAML-tmLanguage");
-  const simpleTsGrammar = readYaml("../dw-textmate.YAML-tmLanguage");
+  const simpleTsGrammar = readYaml("../DataWeave-simple.YAML-tmLanguage");
 
   // Write TypeScript.tmLanguage
   writePlistFile(tsGrammar, "../DataWeave.tmLanguage");
-  writePlistFile(simpleTsGrammar, "../dw-textmate.tmLanguage");
+  writePlistFile(simpleTsGrammar, "../DataWeave-simple.tmLanguage");
 }
 
 // function buildTheme() {
