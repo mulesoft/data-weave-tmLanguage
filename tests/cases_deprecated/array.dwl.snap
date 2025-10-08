@@ -1,0 +1,46 @@
+>%dw 2.0
+#^^^ source.data-weave meta.directive.version.dw comment.dw
+#   ^ source.data-weave meta.directive.version.dw
+#    ^^^ source.data-weave meta.directive.version.dw comment.dw
+>var a = []
+#^^^ source.data-weave meta.directive.var.dw storage.type.dw
+#   ^ source.data-weave meta.directive.var.dw
+#    ^ source.data-weave meta.directive.var.dw entity.name.variable.dw
+#     ^ source.data-weave meta.directive.var.dw
+#      ^ source.data-weave meta.directive.var.dw keyword.operator.assignment.dw
+#       ^ source.data-weave
+#        ^ source.data-weave meta.array.literal.dw meta.brace.square.dw
+#         ^ source.data-weave meta.array.literal.dw meta.brace.square.dw
+>var b = [1,2,3]
+#^^^ source.data-weave meta.directive.var.dw storage.type.dw
+#   ^ source.data-weave meta.directive.var.dw
+#    ^ source.data-weave meta.directive.var.dw entity.name.variable.dw
+#     ^ source.data-weave meta.directive.var.dw
+#      ^ source.data-weave meta.directive.var.dw keyword.operator.assignment.dw
+#       ^ source.data-weave
+#        ^ source.data-weave meta.array.literal.dw meta.brace.square.dw
+#         ^ source.data-weave meta.array.literal.dw constant.numeric.dw
+#          ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+#           ^ source.data-weave meta.array.literal.dw constant.numeric.dw
+#            ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+#             ^ source.data-weave meta.array.literal.dw constant.numeric.dw
+#              ^ source.data-weave meta.array.literal.dw meta.brace.square.dw
+>var c = [[null], false, []]
+#^^^ source.data-weave meta.directive.var.dw storage.type.dw
+#   ^ source.data-weave meta.directive.var.dw
+#    ^ source.data-weave meta.directive.var.dw entity.name.variable.dw
+#     ^ source.data-weave meta.directive.var.dw
+#      ^ source.data-weave meta.directive.var.dw keyword.operator.assignment.dw
+#       ^ source.data-weave
+#        ^ source.data-weave meta.array.literal.dw meta.brace.square.dw
+#         ^ source.data-weave meta.array.literal.dw meta.array.literal.dw meta.brace.square.dw
+#          ^^^^ source.data-weave meta.array.literal.dw meta.array.literal.dw constant.language.dw
+#              ^ source.data-weave meta.array.literal.dw meta.array.literal.dw meta.brace.square.dw
+#               ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+#                ^ source.data-weave meta.array.literal.dw
+#                 ^^^^^ source.data-weave meta.array.literal.dw constant.language.dw
+#                      ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+#                       ^ source.data-weave meta.array.literal.dw
+#                        ^ source.data-weave meta.array.literal.dw meta.array.literal.dw meta.brace.square.dw
+#                         ^ source.data-weave meta.array.literal.dw meta.array.literal.dw meta.brace.square.dw
+#                          ^ source.data-weave meta.array.literal.dw meta.brace.square.dw

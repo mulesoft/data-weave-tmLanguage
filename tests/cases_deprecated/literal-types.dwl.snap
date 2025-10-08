@@ -1,0 +1,132 @@
+>type CardinalDirection = "North" | "East" | "South" | "West"
+#^^^^ source.data-weave meta.directive.type.dw storage.type.dw
+#    ^ source.data-weave meta.directive.type.dw
+#     ^^^^^^^^^^^^^^^^^ source.data-weave meta.directive.type.dw entity.name.type.dw
+#                      ^ source.data-weave meta.directive.type.dw
+#                       ^ source.data-weave meta.directive.type.dw keyword.other.dw
+#                        ^ source.data-weave meta.directive.type.dw
+#                         ^ source.data-weave meta.directive.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#                          ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                           ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                            ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                             ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                              ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                               ^ source.data-weave meta.directive.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                                ^ source.data-weave meta.directive.type.dw
+#                                 ^ source.data-weave meta.directive.type.dw keyword.operator.declaration.dw
+#                                  ^ source.data-weave meta.directive.type.dw
+#                                   ^ source.data-weave meta.directive.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#                                    ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                     ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                      ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                       ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                        ^ source.data-weave meta.directive.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                                         ^ source.data-weave meta.directive.type.dw
+#                                          ^ source.data-weave meta.directive.type.dw keyword.operator.declaration.dw
+#                                           ^ source.data-weave meta.directive.type.dw
+#                                            ^ source.data-weave meta.directive.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#                                             ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                              ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                               ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                                ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                                 ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                                  ^ source.data-weave meta.directive.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                                                   ^ source.data-weave meta.directive.type.dw
+#                                                    ^ source.data-weave meta.directive.type.dw keyword.operator.declaration.dw
+#                                                     ^ source.data-weave meta.directive.type.dw
+#                                                      ^ source.data-weave meta.directive.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#                                                       ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                                        ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                                         ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                                          ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                                           ^ source.data-weave meta.directive.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+>
+>type OneToThree = 1 | 2 | 3
+#^^^^ source.data-weave meta.directive.type.dw storage.type.dw
+#    ^ source.data-weave meta.directive.type.dw
+#     ^^^^^^^^^^ source.data-weave meta.directive.type.dw entity.name.type.dw
+#               ^ source.data-weave meta.directive.type.dw
+#                ^ source.data-weave meta.directive.type.dw keyword.other.dw
+#                 ^ source.data-weave meta.directive.type.dw
+#                  ^ source.data-weave meta.directive.type.dw constant.numeric.dw
+#                   ^ source.data-weave meta.directive.type.dw
+#                    ^ source.data-weave meta.directive.type.dw keyword.operator.declaration.dw
+#                     ^ source.data-weave meta.directive.type.dw
+#                      ^ source.data-weave meta.directive.type.dw constant.numeric.dw
+#                       ^ source.data-weave meta.directive.type.dw
+#                        ^ source.data-weave meta.directive.type.dw keyword.operator.declaration.dw
+#                         ^ source.data-weave meta.directive.type.dw
+#                          ^ source.data-weave meta.directive.type.dw constant.numeric.dw
+>
+>type QubitBool = true | false | "Superposition"
+#^^^^ source.data-weave meta.directive.type.dw storage.type.dw
+#    ^ source.data-weave meta.directive.type.dw
+#     ^^^^^^^^^ source.data-weave meta.directive.type.dw entity.name.type.dw
+#              ^ source.data-weave meta.directive.type.dw
+#               ^ source.data-weave meta.directive.type.dw keyword.other.dw
+#                ^ source.data-weave meta.directive.type.dw
+#                 ^^^^ source.data-weave meta.directive.type.dw constant.language.dw
+#                     ^ source.data-weave meta.directive.type.dw
+#                      ^ source.data-weave meta.directive.type.dw keyword.operator.declaration.dw
+#                       ^ source.data-weave meta.directive.type.dw
+#                        ^^^^^ source.data-weave meta.directive.type.dw constant.language.dw
+#                             ^ source.data-weave meta.directive.type.dw
+#                              ^ source.data-weave meta.directive.type.dw keyword.operator.declaration.dw
+#                               ^ source.data-weave meta.directive.type.dw
+#                                ^ source.data-weave meta.directive.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#                                 ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                  ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                   ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                    ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                     ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                      ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                       ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                        ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                         ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                          ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                           ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                            ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                             ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#                                              ^ source.data-weave meta.directive.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+>
+>fun foo(a: 123, b: "Hola" | "Chau"): true = true
+#^^^ source.data-weave meta.directive.fun.dw storage.type.dw
+#   ^ source.data-weave meta.directive.fun.dw
+#    ^^^ source.data-weave meta.directive.fun.dw entity.name.function.dw
+#       ^ source.data-weave meta.directive.fun.dw
+#        ^ source.data-weave meta.directive.fun.dw variable.parameter.dw
+#         ^ source.data-weave meta.directive.fun.dw keyword.operator.declaration.dw
+#          ^ source.data-weave meta.directive.fun.dw
+#           ^^^ source.data-weave meta.directive.fun.dw constant.numeric.dw
+#              ^^ source.data-weave meta.directive.fun.dw
+#                ^ source.data-weave meta.directive.fun.dw variable.parameter.dw
+#                 ^ source.data-weave meta.directive.fun.dw keyword.operator.declaration.dw
+#                  ^ source.data-weave meta.directive.fun.dw
+#                   ^ source.data-weave meta.directive.fun.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#                    ^ source.data-weave meta.directive.fun.dw string.quoted.double.dw
+#                     ^ source.data-weave meta.directive.fun.dw string.quoted.double.dw
+#                      ^ source.data-weave meta.directive.fun.dw string.quoted.double.dw
+#                       ^ source.data-weave meta.directive.fun.dw string.quoted.double.dw
+#                        ^ source.data-weave meta.directive.fun.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                         ^ source.data-weave meta.directive.fun.dw
+#                          ^ source.data-weave meta.directive.fun.dw keyword.operator.declaration.dw
+#                           ^ source.data-weave meta.directive.fun.dw
+#                            ^ source.data-weave meta.directive.fun.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#                             ^ source.data-weave meta.directive.fun.dw string.quoted.double.dw
+#                              ^ source.data-weave meta.directive.fun.dw string.quoted.double.dw
+#                               ^ source.data-weave meta.directive.fun.dw string.quoted.double.dw
+#                                ^ source.data-weave meta.directive.fun.dw string.quoted.double.dw
+#                                 ^ source.data-weave meta.directive.fun.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                                  ^ source.data-weave meta.directive.fun.dw
+#                                   ^ source.data-weave meta.directive.fun.dw keyword.operator.declaration.dw
+#                                    ^ source.data-weave meta.directive.fun.dw
+#                                     ^^^^ source.data-weave meta.directive.fun.dw constant.language.dw
+#                                         ^ source.data-weave meta.directive.fun.dw
+#                                          ^ source.data-weave meta.directive.fun.dw keyword.operator.assignment.dw
+#                                           ^ source.data-weave
+#                                            ^^^^ source.data-weave constant.language.dw
+>---
+#^^^ source.data-weave keyword.operator.body-marker.dw
+>{}
+#^ source.data-weave meta.objectliteral.dw punctuation.definition.block.dw
+# ^ source.data-weave meta.objectliteral.dw punctuation.definition.block.dw

@@ -1,0 +1,82 @@
+>
+>if (2>3) "" else ""
+#^^^ source.data-weave meta.if.dw keyword.control.if.dw
+#   ^ source.data-weave meta.if.dw
+#    ^ source.data-weave meta.if.dw constant.numeric.dw
+#     ^ source.data-weave meta.if.dw keyword.operator.comparison.dw
+#      ^ source.data-weave meta.if.dw constant.numeric.dw
+#       ^ source.data-weave meta.if.dw
+#        ^ source.data-weave
+#         ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#          ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#           ^ source.data-weave
+#            ^^^^ source.data-weave keyword.control.dw
+#                ^ source.data-weave
+#                 ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                  ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+>
+>fun repeat(text: String, times: Number): String = if (2>3) "" else ""
+#^^^ source.data-weave meta.directive.fun.dw storage.type.dw
+#   ^ source.data-weave meta.directive.fun.dw
+#    ^^^^^^ source.data-weave meta.directive.fun.dw entity.name.function.dw
+#          ^ source.data-weave meta.directive.fun.dw
+#           ^^^^ source.data-weave meta.directive.fun.dw variable.parameter.dw
+#               ^ source.data-weave meta.directive.fun.dw keyword.operator.declaration.dw
+#                ^ source.data-weave meta.directive.fun.dw
+#                 ^^^^^^ source.data-weave meta.directive.fun.dw support.class.dw
+#                       ^^ source.data-weave meta.directive.fun.dw
+#                         ^^^^^ source.data-weave meta.directive.fun.dw variable.parameter.dw
+#                              ^ source.data-weave meta.directive.fun.dw keyword.operator.declaration.dw
+#                               ^ source.data-weave meta.directive.fun.dw
+#                                ^^^^^^ source.data-weave meta.directive.fun.dw support.class.dw
+#                                      ^ source.data-weave meta.directive.fun.dw
+#                                       ^ source.data-weave meta.directive.fun.dw keyword.operator.declaration.dw
+#                                        ^ source.data-weave meta.directive.fun.dw
+#                                         ^^^^^^ source.data-weave meta.directive.fun.dw support.class.dw
+#                                               ^ source.data-weave meta.directive.fun.dw
+#                                                ^ source.data-weave meta.directive.fun.dw keyword.operator.assignment.dw
+#                                                 ^ source.data-weave
+#                                                  ^^^ source.data-weave meta.if.dw keyword.control.if.dw
+#                                                     ^ source.data-weave meta.if.dw
+#                                                      ^ source.data-weave meta.if.dw constant.numeric.dw
+#                                                       ^ source.data-weave meta.if.dw keyword.operator.comparison.dw
+#                                                        ^ source.data-weave meta.if.dw constant.numeric.dw
+#                                                         ^ source.data-weave meta.if.dw
+#                                                          ^ source.data-weave
+#                                                           ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                                                            ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                                                             ^ source.data-weave
+#                                                              ^^^^ source.data-weave keyword.control.dw
+#                                                                  ^ source.data-weave
+#                                                                   ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                                                                    ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+>
+>/**
+#^^ source.data-weave comment.block.dw punctuation.definition.comment.dw
+#  ^^ source.data-weave comment.block.dw
+>* Helper function that enables `repeat` to work with a `null` value.
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave comment.block.dw
+>*/
+#^^ source.data-weave comment.block.dw punctuation.definition.comment.dw
+>fun repeat(text: Null, times: Any): Null = null
+#^^^ source.data-weave meta.directive.fun.dw storage.type.dw
+#   ^ source.data-weave meta.directive.fun.dw
+#    ^^^^^^ source.data-weave meta.directive.fun.dw entity.name.function.dw
+#          ^ source.data-weave meta.directive.fun.dw
+#           ^^^^ source.data-weave meta.directive.fun.dw variable.parameter.dw
+#               ^ source.data-weave meta.directive.fun.dw keyword.operator.declaration.dw
+#                ^ source.data-weave meta.directive.fun.dw
+#                 ^^^^ source.data-weave meta.directive.fun.dw support.class.dw
+#                     ^^ source.data-weave meta.directive.fun.dw
+#                       ^^^^^ source.data-weave meta.directive.fun.dw variable.parameter.dw
+#                            ^ source.data-weave meta.directive.fun.dw keyword.operator.declaration.dw
+#                             ^ source.data-weave meta.directive.fun.dw
+#                              ^^^ source.data-weave meta.directive.fun.dw support.class.dw
+#                                 ^ source.data-weave meta.directive.fun.dw
+#                                  ^ source.data-weave meta.directive.fun.dw keyword.operator.declaration.dw
+#                                   ^ source.data-weave meta.directive.fun.dw
+#                                    ^^^^ source.data-weave meta.directive.fun.dw support.class.dw
+#                                        ^ source.data-weave meta.directive.fun.dw
+#                                         ^ source.data-weave meta.directive.fun.dw keyword.operator.assignment.dw
+#                                          ^ source.data-weave
+#                                           ^^^^ source.data-weave constant.language.dw

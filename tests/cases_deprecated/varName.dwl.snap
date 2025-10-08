@@ -1,0 +1,67 @@
+>%dw 2.0
+#^^^ source.data-weave meta.directive.version.dw comment.dw
+#   ^ source.data-weave meta.directive.version.dw
+#    ^^^ source.data-weave meta.directive.version.dw comment.dw
+>var aaaa = 1
+#^^^ source.data-weave meta.directive.var.dw storage.type.dw
+#   ^ source.data-weave meta.directive.var.dw
+#    ^^^^ source.data-weave meta.directive.var.dw entity.name.variable.dw
+#        ^ source.data-weave meta.directive.var.dw
+#         ^ source.data-weave meta.directive.var.dw keyword.operator.assignment.dw
+#          ^ source.data-weave
+#           ^ source.data-weave constant.numeric.dw
+>ns aa bb
+#^^ source.data-weave meta.directive.ns.dw storage.type.dw
+#  ^ source.data-weave meta.directive.ns.dw
+#   ^^ source.data-weave meta.directive.ns.dw entity.name.namespace.dw
+#     ^ source.data-weave meta.directive.ns.dw
+#      ^^ source.data-weave meta.directive.ns.dw meta.definition.ns.dw string.url.dw
+>var BBBB = 2
+#^^^ source.data-weave meta.directive.var.dw storage.type.dw
+#   ^ source.data-weave meta.directive.var.dw
+#    ^^^^ source.data-weave meta.directive.var.dw entity.name.variable.dw
+#        ^ source.data-weave meta.directive.var.dw
+#         ^ source.data-weave meta.directive.var.dw keyword.operator.assignment.dw
+#          ^ source.data-weave
+#           ^ source.data-weave constant.numeric.dw
+>var asd = null
+#^^^ source.data-weave meta.directive.var.dw storage.type.dw
+#   ^ source.data-weave meta.directive.var.dw
+#    ^^^ source.data-weave meta.directive.var.dw entity.name.variable.dw
+#       ^ source.data-weave meta.directive.var.dw
+#        ^ source.data-weave meta.directive.var.dw keyword.operator.assignment.dw
+#         ^ source.data-weave
+#          ^^^^ source.data-weave constant.language.dw
+>type XXXX = YYYY
+#^^^^ source.data-weave meta.directive.type.dw storage.type.dw
+#    ^ source.data-weave meta.directive.type.dw
+#     ^^^^ source.data-weave meta.directive.type.dw entity.name.type.dw
+#         ^ source.data-weave meta.directive.type.dw
+#          ^ source.data-weave meta.directive.type.dw keyword.other.dw
+#           ^ source.data-weave meta.directive.type.dw
+#            ^^^^ source.data-weave meta.directive.type.dw support.class.dw
+>fun XXXX<T>(): Number<X> = YYYY as String
+#^^^ source.data-weave meta.directive.fun.dw storage.type.dw
+#   ^ source.data-weave meta.directive.fun.dw
+#    ^^^^ source.data-weave meta.directive.fun.dw entity.name.function.dw
+#        ^ source.data-weave meta.directive.fun.dw
+#         ^ source.data-weave meta.directive.fun.dw entity.name.type.parameter.dw
+#          ^ source.data-weave meta.directive.fun.dw
+#           ^ source.data-weave meta.directive.fun.dw
+#            ^ source.data-weave meta.directive.fun.dw
+#             ^ source.data-weave meta.directive.fun.dw keyword.operator.declaration.dw
+#              ^ source.data-weave meta.directive.fun.dw
+#               ^^^^^^ source.data-weave meta.directive.fun.dw support.class.dw
+#                     ^ source.data-weave meta.directive.fun.dw
+#                      ^ source.data-weave meta.directive.fun.dw support.class.dw
+#                       ^ source.data-weave meta.directive.fun.dw
+#                        ^ source.data-weave meta.directive.fun.dw
+#                         ^ source.data-weave meta.directive.fun.dw keyword.operator.assignment.dw
+#                          ^ source.data-weave
+#                           ^^^^ source.data-weave variable.other.dw
+#                               ^ source.data-weave
+#                                ^^ source.data-weave keyword.control.as.dw
+#                                  ^ source.data-weave
+#                                   ^^^^^^ source.data-weave support.class.dw
+>---
+#^^^ source.data-weave keyword.operator.body-marker.dw

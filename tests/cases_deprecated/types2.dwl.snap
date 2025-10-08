@@ -1,0 +1,80 @@
+>type X = () -> HashMapSetOperation<T>
+#^^^^ source.data-weave meta.directive.type.dw storage.type.dw
+#    ^ source.data-weave meta.directive.type.dw
+#     ^ source.data-weave meta.directive.type.dw entity.name.type.dw
+#      ^ source.data-weave meta.directive.type.dw
+#       ^ source.data-weave meta.directive.type.dw keyword.other.dw
+#        ^ source.data-weave meta.directive.type.dw
+#         ^ source.data-weave meta.directive.type.dw keyword.operator.grouping.dw
+#          ^^^^ source.data-weave meta.directive.type.dw keyword.operator.grouping.dw
+#              ^ source.data-weave meta.directive.type.dw
+#               ^^^^^^^^^^^^^^^^^^^ source.data-weave meta.directive.type.dw support.class.dw
+#                                  ^ source.data-weave meta.directive.type.dw
+#                                   ^ source.data-weave meta.directive.type.dw entity.name.type.parameter.dw
+#                                    ^ source.data-weave meta.directive.type.dw
+>type X = <T>(key: String, value: T) -> HashMapSetOperation<T>
+#^^^^ source.data-weave meta.directive.type.dw storage.type.dw
+#    ^ source.data-weave meta.directive.type.dw
+#     ^ source.data-weave meta.directive.type.dw entity.name.type.dw
+#      ^ source.data-weave meta.directive.type.dw
+#       ^ source.data-weave meta.directive.type.dw keyword.other.dw
+#        ^ source.data-weave meta.directive.type.dw
+#         ^ source.data-weave meta.directive.type.dw
+#          ^ source.data-weave meta.directive.type.dw entity.name.type.parameter.dw
+#           ^ source.data-weave meta.directive.type.dw
+#            ^ source.data-weave meta.directive.type.dw keyword.operator.grouping.dw
+#             ^^^ source.data-weave meta.directive.type.dw variable.parameter.dw
+#                ^ source.data-weave meta.directive.type.dw keyword.operator.declaration.dw
+#                 ^ source.data-weave meta.directive.type.dw
+#                  ^^^^^^ source.data-weave meta.directive.type.dw support.class.dw
+#                        ^^ source.data-weave meta.directive.type.dw
+#                          ^^^^^ source.data-weave meta.directive.type.dw variable.parameter.dw
+#                               ^ source.data-weave meta.directive.type.dw keyword.operator.declaration.dw
+#                                ^ source.data-weave meta.directive.type.dw
+#                                 ^ source.data-weave meta.directive.type.dw support.class.dw
+#                                  ^^^^ source.data-weave meta.directive.type.dw keyword.operator.grouping.dw
+#                                      ^ source.data-weave meta.directive.type.dw
+#                                       ^^^^^^^^^^^^^^^^^^^ source.data-weave meta.directive.type.dw support.class.dw
+#                                                          ^ source.data-weave meta.directive.type.dw
+#                                                           ^ source.data-weave meta.directive.type.dw entity.name.type.parameter.dw
+#                                                            ^ source.data-weave meta.directive.type.dw
+>type HttpServer = {
+#^^^^ source.data-weave meta.directive.type.dw storage.type.dw
+#    ^ source.data-weave meta.directive.type.dw
+#     ^^^^^^^^^^ source.data-weave meta.directive.type.dw entity.name.type.dw
+#               ^ source.data-weave meta.directive.type.dw
+#                ^ source.data-weave meta.directive.type.dw keyword.other.dw
+#                 ^ source.data-weave meta.directive.type.dw
+#                  ^ source.data-weave meta.directive.type.dw
+>  running: Boolean,
+#^^ source.data-weave meta.directive.type.dw
+#  ^^^^^^^ source.data-weave meta.directive.type.dw variable.object.member.dw
+#         ^ source.data-weave meta.directive.type.dw keyword.operator.declaration.dw
+#          ^ source.data-weave meta.directive.type.dw
+#           ^^^^^^^ source.data-weave meta.directive.type.dw support.class.dw
+#                  ^ source.data-weave meta.directive.type.dw punctuation.separator.comma.dw
+>  port: Number,
+#^^ source.data-weave meta.directive.type.dw
+#  ^^^^ source.data-weave meta.directive.type.dw variable.object.member.dw
+#      ^ source.data-weave meta.directive.type.dw keyword.operator.declaration.dw
+#       ^ source.data-weave meta.directive.type.dw
+#        ^^^^^^ source.data-weave meta.directive.type.dw support.class.dw
+#              ^ source.data-weave meta.directive.type.dw punctuation.separator.comma.dw
+>  host: String,
+#^^ source.data-weave meta.directive.type.dw
+#  ^^^^ source.data-weave meta.directive.type.dw variable.object.member.dw
+#      ^ source.data-weave meta.directive.type.dw keyword.operator.declaration.dw
+#       ^ source.data-weave meta.directive.type.dw
+#        ^^^^^^ source.data-weave meta.directive.type.dw support.class.dw
+#              ^ source.data-weave meta.directive.type.dw punctuation.separator.comma.dw
+>  stop: () -> Boolean
+#^^ source.data-weave meta.directive.type.dw
+#  ^^^^ source.data-weave meta.directive.type.dw variable.object.member.dw
+#      ^ source.data-weave meta.directive.type.dw keyword.operator.declaration.dw
+#       ^ source.data-weave meta.directive.type.dw
+#        ^ source.data-weave meta.directive.type.dw keyword.operator.grouping.dw
+#         ^^^^ source.data-weave meta.directive.type.dw keyword.operator.grouping.dw
+#             ^ source.data-weave meta.directive.type.dw
+#              ^^^^^^^ source.data-weave meta.directive.type.dw support.class.dw
+>}
+#^ source.data-weave meta.directive.type.dw

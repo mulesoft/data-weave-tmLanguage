@@ -1,0 +1,84 @@
+>fun func5 <T>(identifier: String): T = ???
+#^^^ source.data-weave meta.directive.fun.dw storage.type.dw
+#   ^ source.data-weave meta.directive.fun.dw
+#    ^^^^^ source.data-weave meta.directive.fun.dw entity.name.function.dw
+#         ^ source.data-weave meta.directive.fun.dw
+#          ^ source.data-weave meta.directive.fun.dw
+#           ^ source.data-weave meta.directive.fun.dw entity.name.type.parameter.dw
+#            ^ source.data-weave meta.directive.fun.dw
+#             ^ source.data-weave meta.directive.fun.dw
+#              ^^^^^^^^^^ source.data-weave meta.directive.fun.dw variable.parameter.dw
+#                        ^ source.data-weave meta.directive.fun.dw keyword.operator.declaration.dw
+#                         ^ source.data-weave meta.directive.fun.dw
+#                          ^^^^^^ source.data-weave meta.directive.fun.dw support.class.dw
+#                                ^ source.data-weave meta.directive.fun.dw
+#                                 ^ source.data-weave meta.directive.fun.dw keyword.operator.declaration.dw
+#                                  ^ source.data-weave meta.directive.fun.dw
+#                                   ^ source.data-weave meta.directive.fun.dw support.class.dw
+#                                    ^ source.data-weave meta.directive.fun.dw
+#                                     ^ source.data-weave meta.directive.fun.dw keyword.operator.assignment.dw
+#                                      ^ source.data-weave
+#                                       ^^^ source.data-weave constant.language.undefined.dw
+>var x: Boolean = ???
+#^^^ source.data-weave meta.directive.var.dw storage.type.dw
+#   ^ source.data-weave meta.directive.var.dw
+#    ^ source.data-weave meta.directive.var.dw entity.name.variable.dw
+#     ^ source.data-weave meta.directive.var.dw keyword.operator.declaration.dw
+#      ^ source.data-weave meta.directive.var.dw
+#       ^^^^^^^ source.data-weave meta.directive.var.dw support.class.dw
+#              ^ source.data-weave meta.directive.var.dw
+#               ^ source.data-weave meta.directive.var.dw keyword.operator.assignment.dw
+#                ^ source.data-weave
+#                 ^^^ source.data-weave constant.language.undefined.dw
+>var z: true = ???
+#^^^ source.data-weave meta.directive.var.dw storage.type.dw
+#   ^ source.data-weave meta.directive.var.dw
+#    ^ source.data-weave meta.directive.var.dw entity.name.variable.dw
+#     ^ source.data-weave meta.directive.var.dw keyword.operator.declaration.dw
+#      ^ source.data-weave meta.directive.var.dw
+#       ^^^^ source.data-weave meta.directive.var.dw constant.language.dw
+#           ^ source.data-weave meta.directive.var.dw
+#            ^ source.data-weave meta.directive.var.dw keyword.operator.assignment.dw
+#             ^ source.data-weave
+#              ^^^ source.data-weave constant.language.undefined.dw
+>var y: {x?: Null} = ???
+#^^^ source.data-weave meta.directive.var.dw storage.type.dw
+#   ^ source.data-weave meta.directive.var.dw
+#    ^ source.data-weave meta.directive.var.dw entity.name.variable.dw
+#     ^ source.data-weave meta.directive.var.dw keyword.operator.declaration.dw
+#      ^ source.data-weave meta.directive.var.dw
+#       ^ source.data-weave meta.directive.var.dw
+#        ^ source.data-weave meta.directive.var.dw variable.object.member.dw
+#         ^ source.data-weave meta.directive.var.dw keyword.operator.optional.dw
+#          ^ source.data-weave meta.directive.var.dw keyword.operator.declaration.dw
+#           ^ source.data-weave meta.directive.var.dw
+#            ^^^^ source.data-weave meta.directive.var.dw support.class.dw
+#                ^ source.data-weave meta.directive.var.dw
+#                 ^ source.data-weave meta.directive.var.dw
+#                  ^ source.data-weave meta.directive.var.dw keyword.operator.assignment.dw
+#                   ^ source.data-weave
+#                    ^^^ source.data-weave constant.language.undefined.dw
+>type NotDefined = ???
+#^^^^ source.data-weave meta.directive.type.dw storage.type.dw
+#    ^ source.data-weave meta.directive.type.dw
+#     ^^^^^^^^^^ source.data-weave meta.directive.type.dw entity.name.type.dw
+#               ^ source.data-weave meta.directive.type.dw
+#                ^ source.data-weave meta.directive.type.dw keyword.other.dw
+#                 ^ source.data-weave meta.directive.type.dw
+#                  ^^^ source.data-weave meta.directive.type.dw constant.language.undefined.dw
+>{
+#^ source.data-weave meta.directive.type.dw
+> "lala" : ???
+#^ source.data-weave meta.directive.type.dw
+# ^ source.data-weave meta.directive.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#  ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#   ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#    ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#     ^ source.data-weave meta.directive.type.dw string.quoted.double.dw
+#      ^ source.data-weave meta.directive.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#       ^ source.data-weave meta.directive.type.dw
+#        ^ source.data-weave meta.directive.type.dw keyword.operator.declaration.dw
+#         ^ source.data-weave meta.directive.type.dw
+#          ^^^ source.data-weave meta.directive.type.dw constant.language.undefined.dw
+>}
+#^ source.data-weave meta.directive.type.dw

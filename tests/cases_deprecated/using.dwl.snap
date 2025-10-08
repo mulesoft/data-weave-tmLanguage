@@ -1,0 +1,50 @@
+>fun printPassCapable(item) =
+#^^^ source.data-weave meta.directive.fun.dw storage.type.dw
+#   ^ source.data-weave meta.directive.fun.dw
+#    ^^^^^^^^^^^^^^^^ source.data-weave meta.directive.fun.dw entity.name.function.dw
+#                    ^ source.data-weave meta.directive.fun.dw
+#                     ^^^^ source.data-weave meta.directive.fun.dw variable.parameter.dw
+#                         ^ source.data-weave meta.directive.fun.dw
+#                          ^ source.data-weave meta.directive.fun.dw
+#                           ^ source.data-weave meta.directive.fun.dw keyword.operator.assignment.dw
+>  using(msg = aa)
+#^^ source.data-weave
+#  ^^^^^ source.data-weave using-statement.expr.dw keyword.control.using.dw
+#       ^ source.data-weave using-statement.expr.dw punctuation.definitions.begin.dw
+#        ^^^ source.data-weave using-statement.expr.dw entity.name.variable.dw
+#           ^^ source.data-weave using-statement.expr.dw keyword.operator.dw
+#             ^ source.data-weave using-statement.expr.dw
+#              ^^ source.data-weave using-statement.expr.dw variable.other.dw
+#                ^ source.data-weave using-statement.expr.dw punctuation.definitions.end.dw
+>    item
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave variable.other.dw
+>
+>fun printPassCapable(item) =
+#^^^ source.data-weave meta.directive.fun.dw storage.type.dw
+#   ^ source.data-weave meta.directive.fun.dw
+#    ^^^^^^^^^^^^^^^^ source.data-weave meta.directive.fun.dw entity.name.function.dw
+#                    ^ source.data-weave meta.directive.fun.dw
+#                     ^^^^ source.data-weave meta.directive.fun.dw variable.parameter.dw
+#                         ^ source.data-weave meta.directive.fun.dw
+#                          ^ source.data-weave meta.directive.fun.dw
+#                           ^ source.data-weave meta.directive.fun.dw keyword.operator.assignment.dw
+>  using(msg = println(1 map 3))
+#^^ source.data-weave
+#  ^^^^^ source.data-weave using-statement.expr.dw keyword.control.using.dw
+#       ^ source.data-weave using-statement.expr.dw punctuation.definitions.begin.dw
+#        ^^^ source.data-weave using-statement.expr.dw entity.name.variable.dw
+#           ^^ source.data-weave using-statement.expr.dw keyword.operator.dw
+#             ^ source.data-weave using-statement.expr.dw
+#              ^^^^^^^ source.data-weave using-statement.expr.dw variable.other.dw
+#                     ^ source.data-weave using-statement.expr.dw punctuation.expression.begin.dw
+#                      ^ source.data-weave using-statement.expr.dw constant.numeric.dw
+#                       ^^^^^ source.data-weave using-statement.expr.dw support.function.dw
+#                            ^ source.data-weave using-statement.expr.dw constant.numeric.dw
+#                             ^ source.data-weave using-statement.expr.dw punctuation.expression.end.dw
+#                              ^ source.data-weave using-statement.expr.dw punctuation.definitions.end.dw
+>    item map 3
+#^^^^ source.data-weave
+#    ^^^^ source.data-weave variable.other.dw
+#        ^^^^^ source.data-weave support.function.dw
+#             ^ source.data-weave constant.numeric.dw

@@ -1,59 +1,45 @@
 >{
-#^ source.data-weave meta.objectliteral.dw punctuation.definition.block.dw
+#^^ source.data-weave
 >  y: "a" matches/Achaval$/,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.quoted.double.dw punctuation.definition.string.begin.dw
-#      ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.quoted.double.dw
-#       ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.quoted.double.dw punctuation.definition.string.end.dw
-#        ^^^^^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw support.function.dw
-#                ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw punctuation.definition.string.begin.dw
-#                 ^^^^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw
-#                        ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw keyword.control.anchor.regexp
-#                         ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw punctuation.definition.string.end.dw
-#                          ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#      ^ source.data-weave string.quoted.double.dw
+#       ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#        ^ source.data-weave
+#         ^^^^^^^ source.data-weave entity.name.variable.dw
+#                ^^^^^^^^^^ source.data-weave string.regexp.dw
+#                          ^^ source.data-weave
 >  z: "b"matches /Achaval$/,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.quoted.double.dw punctuation.definition.string.begin.dw
-#      ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.quoted.double.dw
-#       ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.quoted.double.dw punctuation.definition.string.end.dw
-#        ^^^^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw variable.other.dw
-#               ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw
-#                ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw punctuation.definition.string.begin.dw
-#                 ^^^^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw
-#                        ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw keyword.control.anchor.regexp
-#                         ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw punctuation.definition.string.end.dw
-#                          ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#      ^ source.data-weave string.quoted.double.dw
+#       ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#        ^^^^^^^ source.data-weave entity.name.variable.dw
+#               ^ source.data-weave
+#                ^^^^^^^^^^ source.data-weave string.regexp.dw
+#                          ^^ source.data-weave
 >  a1: "b"matches/Achaval$/,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#      ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.quoted.double.dw punctuation.definition.string.begin.dw
-#       ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.quoted.double.dw
-#        ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.quoted.double.dw punctuation.definition.string.end.dw
-#         ^^^^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw variable.other.dw
-#                ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw punctuation.definition.string.begin.dw
-#                 ^^^^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw
-#                        ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw keyword.control.anchor.regexp
-#                         ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw punctuation.definition.string.end.dw
-#                          ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^^ source.data-weave entity.name.variable.dw
+#    ^ source.data-weave keyword.operator.declaration.dw
+#     ^ source.data-weave
+#      ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#       ^ source.data-weave string.quoted.double.dw
+#        ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#         ^^^^^^^ source.data-weave entity.name.variable.dw
+#                ^^^^^^^^^^ source.data-weave string.regexp.dw
+#                          ^^ source.data-weave
 >  c: /asd/matches/asd/
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw keyword.operator.arithmetic.dw
-#      ^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw variable.other.dw
-#         ^ source.data-weave meta.objectliteral.dw variable.object.member.dw keyword.operator.arithmetic.dw
-#          ^^^^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw variable.other.dw
-#                 ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw punctuation.definition.string.begin.dw
-#                  ^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw
-#                     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw punctuation.definition.string.end.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^^^^^^^^^^^^^^^^^ source.data-weave string.regexp.dw
 >}
-#^ source.data-weave meta.objectliteral.dw punctuation.definition.block.dw
+#^^ source.data-weave

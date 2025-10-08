@@ -1,0 +1,46 @@
+>import * from x
+#^^^^^^ source.data-weave meta.directive.import.dw keyword.control.import
+#      ^ source.data-weave meta.directive.import.dw
+#       ^ source.data-weave meta.directive.import.dw entity.name.type.dw
+#        ^ source.data-weave meta.directive.import.dw
+#         ^^^^ source.data-weave meta.directive.import.dw keyword.control.from
+#             ^ source.data-weave meta.directive.import.dw
+#              ^^ source.data-weave meta.directive.import.dw entity.name.function.dw
+>// my comment
+#^^ source.data-weave comment.line.double-slash.dw punctuation.definition.comment.dw
+#  ^^^^^^^^^^^^ source.data-weave comment.line.double-slash.dw
+>// other comment
+#^^ source.data-weave comment.line.double-slash.dw punctuation.definition.comment.dw
+#  ^^^^^^^^^^^^^^^ source.data-weave comment.line.double-slash.dw
+>/* other comment */
+#^^ source.data-weave comment.block.dw punctuation.definition.comment.dw
+#  ^^^^^^^^^^^^^^^ source.data-weave comment.block.dw
+#                 ^^ source.data-weave comment.block.dw punctuation.definition.comment.dw
+>fun x(): Number = 1
+#^^^ source.data-weave meta.directive.fun.dw storage.type.dw
+#   ^ source.data-weave meta.directive.fun.dw
+#    ^ source.data-weave meta.directive.fun.dw entity.name.function.dw
+#     ^ source.data-weave meta.directive.fun.dw
+#      ^ source.data-weave meta.directive.fun.dw
+#       ^ source.data-weave meta.directive.fun.dw keyword.operator.declaration.dw
+#        ^ source.data-weave meta.directive.fun.dw
+#         ^^^^^^ source.data-weave meta.directive.fun.dw support.class.dw
+#               ^ source.data-weave meta.directive.fun.dw
+#                ^ source.data-weave meta.directive.fun.dw keyword.operator.assignment.dw
+#                 ^ source.data-weave
+#                  ^ source.data-weave constant.numeric.dw
+>// other comment
+#^^ source.data-weave comment.line.double-slash.dw punctuation.definition.comment.dw
+#  ^^^^^^^^^^^^^^^ source.data-weave comment.line.double-slash.dw
+>---
+#^^^ source.data-weave keyword.operator.body-marker.dw
+>// another comment
+#^^ source.data-weave comment.line.double-slash.dw punctuation.definition.comment.dw
+#  ^^^^^^^^^^^^^^^^^ source.data-weave comment.line.double-slash.dw
+>/* other comment */
+#^^ source.data-weave comment.block.dw punctuation.definition.comment.dw
+#  ^^^^^^^^^^^^^^^ source.data-weave comment.block.dw
+#                 ^^ source.data-weave comment.block.dw punctuation.definition.comment.dw
+>1
+#^ source.data-weave constant.numeric.dw
+>
