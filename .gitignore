@@ -7,3 +7,6 @@ tests/*-ts
 tests/typings/
 tests/*.js
 .idea/
+.vscode/
+.idea/
+.cursor/

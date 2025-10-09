@@ -1,0 +1,1 @@
+annotation AnnotationTarget(targets: Array<"Function" | "Parameter" | "Variable" | "Import">)

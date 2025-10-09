@@ -1,20 +1,10 @@
 >{
-#^ source.data-weave meta.objectliteral.dw punctuation.definition.block.dw
+#^^ source.data-weave
 >  a: /http[s]?:\/\/*/
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw punctuation.definition.string.begin.dw
-#      ^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw
-#          ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw constant.other.character-class.set.regexp punctuation.definition.character-class.regexp
-#           ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw constant.other.character-class.set.regexp
-#            ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw constant.other.character-class.set.regexp punctuation.definition.character-class.regexp
-#             ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw keyword.operator.quantifier.regexp
-#              ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw
-#               ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw constant.character.escape.backslash.regexp
-#                 ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw constant.character.escape.backslash.regexp
-#                   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw keyword.operator.quantifier.regexp
-#                    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw string.regexp.dw punctuation.definition.string.end.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^^^^^^^^^^^^^^^^ source.data-weave string.regexp.dw
 >}
-#^ source.data-weave meta.objectliteral.dw punctuation.definition.block.dw
+#^^ source.data-weave

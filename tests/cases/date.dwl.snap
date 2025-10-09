@@ -1,240 +1,240 @@
 >{
-#^ source.data-weave meta.objectliteral.dw punctuation.definition.block.dw
+#^^ source.data-weave
 >  a: |2003-10-01|,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#      ^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#          ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#           ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#             ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#              ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                 ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave constant.numeric.dw
+#      ^^^^ source.data-weave constant.numeric.dw
+#          ^ source.data-weave constant.character.escape.dw
+#           ^^ source.data-weave constant.numeric.dw
+#             ^ source.data-weave constant.character.escape.dw
+#              ^^ source.data-weave constant.numeric.dw
+#                ^ source.data-weave constant.numeric.dw
+#                 ^^ source.data-weave
 >  b: |2005-045|,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#      ^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#          ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#           ^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#              ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#               ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave constant.numeric.dw
+#      ^^^^ source.data-weave constant.numeric.dw
+#          ^ source.data-weave constant.character.escape.dw
+#           ^^^ source.data-weave constant.numeric.dw
+#              ^ source.data-weave constant.numeric.dw
+#               ^^ source.data-weave
 >  c: |2003-W14-3|,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#      ^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#          ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#           ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#            ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#              ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#               ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                 ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave constant.numeric.dw
+#      ^^^^ source.data-weave constant.numeric.dw
+#          ^ source.data-weave constant.character.escape.dw
+#           ^ source.data-weave constant.character.escape.dw
+#            ^^ source.data-weave constant.numeric.dw
+#              ^ source.data-weave constant.character.escape.dw
+#               ^ source.data-weave constant.numeric.dw
+#                ^ source.data-weave constant.numeric.dw
+#                 ^^ source.data-weave
 >  d: |23:57:59|,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#      ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#        ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#         ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#           ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#            ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#              ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#               ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave constant.numeric.dw
+#      ^^ source.data-weave constant.numeric.dw
+#        ^ source.data-weave constant.character.escape.dw
+#         ^^ source.data-weave constant.numeric.dw
+#           ^ source.data-weave constant.character.escape.dw
+#            ^^ source.data-weave constant.numeric.dw
+#              ^ source.data-weave constant.numeric.dw
+#               ^^ source.data-weave
 >  e: |23:57:30.700|,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#      ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#        ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#         ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#           ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#            ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#              ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#               ^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                   ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave constant.numeric.dw
+#      ^^ source.data-weave constant.numeric.dw
+#        ^ source.data-weave constant.character.escape.dw
+#         ^^ source.data-weave constant.numeric.dw
+#           ^ source.data-weave constant.character.escape.dw
+#            ^^ source.data-weave constant.numeric.dw
+#              ^ source.data-weave constant.character.escape.dw
+#               ^^^ source.data-weave constant.numeric.dw
+#                  ^ source.data-weave constant.numeric.dw
+#                   ^^ source.data-weave
 >  f: |23:50:30Z|,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#      ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#        ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#         ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#           ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#            ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#              ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#               ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave constant.numeric.dw
+#      ^^ source.data-weave constant.numeric.dw
+#        ^ source.data-weave constant.character.escape.dw
+#         ^^ source.data-weave constant.numeric.dw
+#           ^ source.data-weave constant.character.escape.dw
+#            ^^ source.data-weave constant.numeric.dw
+#              ^ source.data-weave constant.character.escape.dw
+#               ^ source.data-weave constant.numeric.dw
+#                ^^ source.data-weave
 >  g: |+13:00|,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#      ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#       ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#         ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#          ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#            ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#             ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave constant.numeric.dw
+#      ^ source.data-weave constant.character.escape.dw
+#       ^^ source.data-weave constant.numeric.dw
+#         ^ source.data-weave constant.character.escape.dw
+#          ^^ source.data-weave constant.numeric.dw
+#            ^ source.data-weave constant.numeric.dw
+#             ^^ source.data-weave
 >  h: |Z|,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#      ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#       ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#        ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave constant.numeric.dw
+#      ^ source.data-weave constant.character.escape.dw
+#       ^ source.data-weave constant.numeric.dw
+#        ^^ source.data-weave
 >  i: |-02:00|,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#      ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#       ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#         ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#          ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#            ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#             ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave constant.numeric.dw
+#      ^ source.data-weave constant.character.escape.dw
+#       ^^ source.data-weave constant.numeric.dw
+#         ^ source.data-weave constant.character.escape.dw
+#          ^^ source.data-weave constant.numeric.dw
+#            ^ source.data-weave constant.numeric.dw
+#             ^^ source.data-weave
 >  j: |2005-06-02T15:10:16|,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#      ^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#          ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#           ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#             ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#              ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#                 ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#                    ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                      ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#                       ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                         ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                          ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave constant.numeric.dw
+#      ^^^^ source.data-weave constant.numeric.dw
+#          ^ source.data-weave constant.character.escape.dw
+#           ^^ source.data-weave constant.numeric.dw
+#             ^ source.data-weave constant.character.escape.dw
+#              ^^ source.data-weave constant.numeric.dw
+#                ^ source.data-weave constant.character.escape.dw
+#                 ^^ source.data-weave constant.numeric.dw
+#                   ^ source.data-weave constant.character.escape.dw
+#                    ^^ source.data-weave constant.numeric.dw
+#                      ^ source.data-weave constant.character.escape.dw
+#                       ^^ source.data-weave constant.numeric.dw
+#                         ^ source.data-weave constant.numeric.dw
+#                          ^^ source.data-weave
 >  k: |2005-06-02T15:10:16Z|,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#      ^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#          ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#           ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#             ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#              ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#                 ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#                    ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                      ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#                       ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                         ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#                          ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                           ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave constant.numeric.dw
+#      ^^^^ source.data-weave constant.numeric.dw
+#          ^ source.data-weave constant.character.escape.dw
+#           ^^ source.data-weave constant.numeric.dw
+#             ^ source.data-weave constant.character.escape.dw
+#              ^^ source.data-weave constant.numeric.dw
+#                ^ source.data-weave constant.character.escape.dw
+#                 ^^ source.data-weave constant.numeric.dw
+#                   ^ source.data-weave constant.character.escape.dw
+#                    ^^ source.data-weave constant.numeric.dw
+#                      ^ source.data-weave constant.character.escape.dw
+#                       ^^ source.data-weave constant.numeric.dw
+#                         ^ source.data-weave constant.character.escape.dw
+#                          ^ source.data-weave constant.numeric.dw
+#                           ^^ source.data-weave
 >  l: |2005-06-02T15:10:16+03:00|,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#      ^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#          ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#           ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#             ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#              ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#                 ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#                    ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                      ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#                       ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                         ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#                          ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                            ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#                             ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                               ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                                ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave constant.numeric.dw
+#      ^^^^ source.data-weave constant.numeric.dw
+#          ^ source.data-weave constant.character.escape.dw
+#           ^^ source.data-weave constant.numeric.dw
+#             ^ source.data-weave constant.character.escape.dw
+#              ^^ source.data-weave constant.numeric.dw
+#                ^ source.data-weave constant.character.escape.dw
+#                 ^^ source.data-weave constant.numeric.dw
+#                   ^ source.data-weave constant.character.escape.dw
+#                    ^^ source.data-weave constant.numeric.dw
+#                      ^ source.data-weave constant.character.escape.dw
+#                       ^^ source.data-weave constant.numeric.dw
+#                         ^ source.data-weave constant.character.escape.dw
+#                          ^^ source.data-weave constant.numeric.dw
+#                            ^ source.data-weave constant.character.escape.dw
+#                             ^^ source.data-weave constant.numeric.dw
+#                               ^ source.data-weave constant.numeric.dw
+#                                ^^ source.data-weave
 >  m: |P12Y7M11D|,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#      ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#       ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#         ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#          ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#           ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#            ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#              ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#               ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave constant.numeric.dw
+#      ^ source.data-weave constant.character.escape.dw
+#       ^^ source.data-weave constant.numeric.dw
+#         ^ source.data-weave constant.character.escape.dw
+#          ^ source.data-weave constant.numeric.dw
+#           ^ source.data-weave constant.character.escape.dw
+#            ^^ source.data-weave constant.numeric.dw
+#              ^ source.data-weave constant.character.escape.dw
+#               ^ source.data-weave constant.numeric.dw
+#                ^^ source.data-weave
 >  n: |P12Y5M|,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#      ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#       ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#         ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#          ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#           ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#            ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#             ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave constant.numeric.dw
+#      ^ source.data-weave constant.character.escape.dw
+#       ^^ source.data-weave constant.numeric.dw
+#         ^ source.data-weave constant.character.escape.dw
+#          ^ source.data-weave constant.numeric.dw
+#           ^ source.data-weave constant.character.escape.dw
+#            ^ source.data-weave constant.numeric.dw
+#             ^^ source.data-weave
 >  o: |P45DT9H20M8S|,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#      ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#       ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#         ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#          ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#           ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#            ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#             ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#               ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#                ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                 ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#                  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#                   ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave constant.numeric.dw
+#      ^ source.data-weave constant.character.escape.dw
+#       ^^ source.data-weave constant.numeric.dw
+#         ^ source.data-weave constant.character.escape.dw
+#          ^ source.data-weave constant.character.escape.dw
+#           ^ source.data-weave constant.numeric.dw
+#            ^ source.data-weave constant.character.escape.dw
+#             ^^ source.data-weave constant.numeric.dw
+#               ^ source.data-weave constant.character.escape.dw
+#                ^ source.data-weave constant.numeric.dw
+#                 ^ source.data-weave constant.character.escape.dw
+#                  ^ source.data-weave constant.numeric.dw
+#                   ^^ source.data-weave
 >  p: |PT9H20M8S|
-#^^ source.data-weave meta.objectliteral.dw
-#  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#      ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#       ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#        ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#         ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#          ^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#            ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#             ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
-#              ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.character.escape.dw
-#               ^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.numeric.dw
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave constant.numeric.dw
+#      ^ source.data-weave constant.character.escape.dw
+#       ^ source.data-weave constant.character.escape.dw
+#        ^ source.data-weave constant.numeric.dw
+#         ^ source.data-weave constant.character.escape.dw
+#          ^^ source.data-weave constant.numeric.dw
+#            ^ source.data-weave constant.character.escape.dw
+#             ^ source.data-weave constant.numeric.dw
+#              ^ source.data-weave constant.character.escape.dw
+#               ^ source.data-weave constant.numeric.dw
 >}
-#^ source.data-weave meta.objectliteral.dw punctuation.definition.block.dw
+#^^ source.data-weave

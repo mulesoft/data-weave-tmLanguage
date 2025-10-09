@@ -1,0 +1,83 @@
+>%dw 2.0
+#^^^ source.data-weave meta.directive.version.dw comment.dw
+#   ^ source.data-weave meta.directive.version.dw
+#    ^^^ source.data-weave meta.directive.version.dw comment.dw
+>output application/json
+#^^^^^^ source.data-weave meta.directive.ns.dw storage.type.dw
+#      ^ source.data-weave meta.directive.ns.dw
+#       ^^^^^^^^^^^^^^^^ source.data-weave meta.directive.ns.dw string.other.dw
+>
+>fun f<T, U, V>(t: T, u: U, v: V) = t
+#^^^ source.data-weave meta.directive.fun.dw storage.type.dw
+#   ^ source.data-weave meta.directive.fun.dw
+#    ^ source.data-weave meta.directive.fun.dw entity.name.function.dw
+#     ^ source.data-weave meta.directive.fun.dw
+#      ^ source.data-weave meta.directive.fun.dw entity.name.type.parameter.dw
+#       ^^ source.data-weave meta.directive.fun.dw
+#         ^ source.data-weave meta.directive.fun.dw entity.name.type.parameter.dw
+#          ^^ source.data-weave meta.directive.fun.dw
+#            ^ source.data-weave meta.directive.fun.dw entity.name.type.parameter.dw
+#             ^ source.data-weave meta.directive.fun.dw
+#              ^ source.data-weave meta.directive.fun.dw
+#               ^ source.data-weave meta.directive.fun.dw variable.parameter.dw
+#                ^ source.data-weave meta.directive.fun.dw keyword.operator.declaration.dw
+#                 ^ source.data-weave meta.directive.fun.dw
+#                  ^ source.data-weave meta.directive.fun.dw support.class.dw
+#                   ^^ source.data-weave meta.directive.fun.dw
+#                     ^ source.data-weave meta.directive.fun.dw variable.parameter.dw
+#                      ^ source.data-weave meta.directive.fun.dw keyword.operator.declaration.dw
+#                       ^ source.data-weave meta.directive.fun.dw
+#                        ^ source.data-weave meta.directive.fun.dw support.class.dw
+#                         ^^ source.data-weave meta.directive.fun.dw
+#                           ^ source.data-weave meta.directive.fun.dw variable.parameter.dw
+#                            ^ source.data-weave meta.directive.fun.dw keyword.operator.declaration.dw
+#                             ^ source.data-weave meta.directive.fun.dw
+#                              ^ source.data-weave meta.directive.fun.dw support.class.dw
+#                               ^ source.data-weave meta.directive.fun.dw
+#                                ^ source.data-weave meta.directive.fun.dw
+#                                 ^ source.data-weave meta.directive.fun.dw keyword.operator.assignment.dw
+#                                  ^ source.data-weave
+#                                   ^ source.data-weave variable.other.dw
+>---
+#^^^ source.data-weave keyword.operator.body-marker.dw
+>f<Name | String, {|a: String|} & {b: Number}, 3>("a", {}, 3)
+#^ source.data-weave variable.other.dw
+# ^ source.data-weave
+#  ^^^^ source.data-weave support.class.dw
+#      ^ source.data-weave
+#       ^ source.data-weave keyword.operator.declaration.dw
+#        ^ source.data-weave
+#         ^^^^^^ source.data-weave support.class.dw
+#               ^ source.data-weave punctuation.separator.comma.dw
+#                ^ source.data-weave
+#                 ^^ source.data-weave
+#                   ^ source.data-weave variable.object.member.dw
+#                    ^ source.data-weave keyword.operator.declaration.dw
+#                     ^ source.data-weave
+#                      ^^^^^^ source.data-weave support.class.dw
+#                            ^^ source.data-weave
+#                              ^ source.data-weave
+#                               ^ source.data-weave keyword.operator.declaration.dw
+#                                ^ source.data-weave
+#                                 ^ source.data-weave
+#                                  ^ source.data-weave variable.object.member.dw
+#                                   ^ source.data-weave keyword.operator.declaration.dw
+#                                    ^ source.data-weave
+#                                     ^^^^^^ source.data-weave support.class.dw
+#                                           ^ source.data-weave
+#                                            ^ source.data-weave punctuation.separator.comma.dw
+#                                             ^ source.data-weave
+#                                              ^ source.data-weave constant.numeric.dw
+#                                               ^ source.data-weave
+#                                                ^ source.data-weave punctuation.expression.begin.dw
+#                                                 ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                                                  ^ source.data-weave string.quoted.double.dw
+#                                                   ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                                                    ^ source.data-weave punctuation.separator.comma.dw
+#                                                     ^ source.data-weave
+#                                                      ^ source.data-weave meta.objectliteral.dw punctuation.definition.block.dw
+#                                                       ^ source.data-weave meta.objectliteral.dw punctuation.definition.block.dw
+#                                                        ^ source.data-weave punctuation.separator.comma.dw
+#                                                         ^ source.data-weave
+#                                                          ^ source.data-weave constant.numeric.dw
+#                                                           ^ source.data-weave punctuation.expression.end.dw

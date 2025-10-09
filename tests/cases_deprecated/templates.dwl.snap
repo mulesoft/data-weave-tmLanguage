@@ -1,0 +1,16 @@
+>[
+#^ source.data-weave meta.array.literal.dw meta.brace.square.dw
+>  ASD ``,
+#^^ source.data-weave meta.array.literal.dw
+#  ^^^ source.data-weave meta.array.literal.dw support.function.dw
+#     ^ source.data-weave meta.array.literal.dw
+#      ^ source.data-weave meta.array.literal.dw string.template.dw punctuation.definition.string.template.begin.dw
+#       ^ source.data-weave meta.array.literal.dw string.template.dw punctuation.definition.string.template.end.dw
+#        ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+>  asd``
+#^^ source.data-weave meta.array.literal.dw
+#  ^^^ source.data-weave meta.array.literal.dw support.function.dw
+#     ^ source.data-weave meta.array.literal.dw string.template.dw punctuation.definition.string.template.begin.dw
+#      ^ source.data-weave meta.array.literal.dw string.template.dw punctuation.definition.string.template.end.dw
+>]
+#^ source.data-weave meta.array.literal.dw meta.brace.square.dw

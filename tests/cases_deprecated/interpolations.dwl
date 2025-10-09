@@ -1,0 +1,31 @@
+fun SQL(literals, parts) = ''
+---
+[
+  SQL `SELECT * FROM table WHERE id = $(1) AND name = $('a')`,
+  SQL `$('p')`,
+  SQL `$('a')$('b')`,
+  SQL `$('a')---$('b')`,
+  SQL `---$('a')---$('b')---`,
+  SQL `$('p')bbb`,
+  SQL `aaa$('p')`,
+  SQL `aaa$('p')bbb`,
+  SQL`SELECT * FROM table WHERE id = $(1) AND name = $('a')`,
+  SQL`$('p')`,
+  SQL`$('a')$('b')`,
+  SQL`$('a')---$('b')`,
+  SQL`---$('a')---$('b')---`,
+  SQL`$('p')bbb$tato`,
+  SQL`aaa$('p')`,
+  SQL`aaa$('p')bbb`,
+  `SELECT * FROM table WHERE id = $(1) AND name = $('a')`,
+  `$('p')`,
+  `$('a')$('b')`,
+  `$('a')---$('b')`,
+  `---$('a')---$('b')---`,
+  `$('p')bbb`,
+  `aaa$('p')`,
+  `aaa$('p')bbb`,
+  `$tato`,
+  '$+$',
+  '$$$$$asd'
+]

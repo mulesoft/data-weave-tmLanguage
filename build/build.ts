@@ -14,10 +14,12 @@ function readYaml(fileName: string) {
 }
 
 function buildGrammar() {
-  const tsGrammar = readYaml("../DataWeave.YAML-tmLanguage");
+  const tsGrammar = readYaml("../DataWeave-deprecated.YAML-tmLanguage");
+  const simpleTsGrammar = readYaml("../DataWeave.YAML-tmLanguage");
 
   // Write TypeScript.tmLanguage
-  writePlistFile(tsGrammar, "../DataWeave.tmLanguage");
+  writePlistFile(tsGrammar, "../DataWeave-deprecated.tmLanguage");
+  writePlistFile(simpleTsGrammar, "../DataWeave.tmLanguage");
 }
 
 // function buildTheme() {

@@ -1,60 +1,26 @@
 >annotation AnnotationTarget(targets: Array<"Function" | "Parameter" | "Variable" | "Import">)
-#^^^^^^^^^^ source.data-weave meta.directive.annot.dw storage.type.annotation.dw
-#          ^ source.data-weave meta.directive.annot.dw
-#           ^^^^^^^^^^^^^^^^ source.data-weave meta.directive.annot.dw entity.name.function.dw
-#                           ^ source.data-weave meta.directive.annot.dw
-#                            ^^^^^^^ source.data-weave meta.directive.annot.dw variable.parameter.dw
-#                                   ^ source.data-weave meta.directive.annot.dw keyword.operator.declaration.dw
-#                                    ^ source.data-weave meta.directive.annot.dw
-#                                     ^^^^^ source.data-weave meta.directive.annot.dw support.type.dw
-#                                          ^ source.data-weave meta.directive.annot.dw
-#                                           ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw punctuation.definition.string.begin.dw
-#                                            ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                             ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                              ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                               ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                 ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                  ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                   ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                    ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw punctuation.definition.string.end.dw
-#                                                     ^ source.data-weave meta.directive.annot.dw
-#                                                      ^ source.data-weave meta.directive.annot.dw keyword.operator.declaration.dw
-#                                                       ^ source.data-weave meta.directive.annot.dw
-#                                                        ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw punctuation.definition.string.begin.dw
-#                                                         ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                          ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                           ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                            ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                             ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                              ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                               ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                                ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                                 ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                                  ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw punctuation.definition.string.end.dw
-#                                                                   ^ source.data-weave meta.directive.annot.dw
-#                                                                    ^ source.data-weave meta.directive.annot.dw keyword.operator.declaration.dw
-#                                                                     ^ source.data-weave meta.directive.annot.dw
-#                                                                      ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw punctuation.definition.string.begin.dw
-#                                                                       ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                                        ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                                         ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                                          ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                                           ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                                            ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                                             ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                                              ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                                               ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw punctuation.definition.string.end.dw
-#                                                                                ^ source.data-weave meta.directive.annot.dw
-#                                                                                 ^ source.data-weave meta.directive.annot.dw keyword.operator.declaration.dw
-#                                                                                  ^ source.data-weave meta.directive.annot.dw
-#                                                                                   ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw punctuation.definition.string.begin.dw
-#                                                                                    ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                                                     ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                                                      ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                                                       ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                                                        ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                                                         ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw
-#                                                                                          ^ source.data-weave meta.directive.annot.dw string.quoted.double.dw punctuation.definition.string.end.dw
-#                                                                                           ^ source.data-weave meta.directive.annot.dw
-#                                                                                            ^ source.data-weave meta.directive.annot.dw
+#^^^^^^^^^^ source.data-weave storage.type.dw
+#          ^ source.data-weave
+#           ^^^^^^^^^^^^^^^^ source.data-weave entity.name.variable.dw
+#                           ^ source.data-weave
+#                            ^^^^^^^ source.data-weave entity.name.variable.dw
+#                                   ^ source.data-weave keyword.operator.declaration.dw
+#                                    ^ source.data-weave
+#                                     ^^^^^ source.data-weave entity.name.variable.dw
+#                                          ^ source.data-weave keyword.operator.comparison.dw
+#                                           ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                                            ^^^^^^^^ source.data-weave string.quoted.double.dw
+#                                                    ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                                                     ^ source.data-weave
+#                                                      ^ source.data-weave constant.numeric.dw
+#                                                       ^^ source.data-weave
+#                                                         ^ source.data-weave constant.character.escape.dw
+#                                                          ^^^^^^^^^^ source.data-weave
+#                                                                    ^ source.data-weave constant.numeric.dw
+#                                                                     ^ source.data-weave
+#                                                                      ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                                                                       ^^^^^^^^ source.data-weave string.quoted.double.dw
+#                                                                               ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                                                                                ^ source.data-weave
+#                                                                                 ^ source.data-weave constant.numeric.dw
+#                                                                                  ^^^^^^^^^^^^ source.data-weave

@@ -1,5 +1,5 @@
 >array[a]
-#^^^^^ source.data-weave variable.other.dw
-#     ^ source.data-weave meta.selector.data-weave
-#      ^ source.data-weave meta.selector.data-weave variable.other.dw
-#       ^ source.data-weave meta.selector.data-weave
+#^^^^^ source.data-weave entity.name.variable.dw
+#     ^ source.data-weave storage.type.dw
+#      ^ source.data-weave storage.type.dw entity.name.variable.dw
+#       ^ source.data-weave storage.type.dw

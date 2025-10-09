@@ -1,0 +1,6 @@
+>123 as String
+#^^^ source.data-weave constant.numeric.dw
+#   ^ source.data-weave
+#    ^^ source.data-weave keyword.operator.dw
+#      ^ source.data-weave
+#       ^^^^^^ source.data-weave entity.name.variable.dw

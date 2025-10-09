@@ -1,16 +1,16 @@
 >[
-#^ source.data-weave meta.array.literal.dw meta.brace.square.dw
+#^ source.data-weave storage.type.dw
 >  ASD ``,
-#^^ source.data-weave meta.array.literal.dw
-#  ^^^ source.data-weave meta.array.literal.dw support.function.dw
-#     ^ source.data-weave meta.array.literal.dw
-#      ^ source.data-weave meta.array.literal.dw string.template.dw punctuation.definition.string.template.begin.dw
-#       ^ source.data-weave meta.array.literal.dw string.template.dw punctuation.definition.string.template.end.dw
-#        ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+#^^ source.data-weave storage.type.dw
+#  ^^^ source.data-weave storage.type.dw entity.name.variable.dw
+#     ^ source.data-weave storage.type.dw
+#      ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.begin.dw
+#       ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.end.dw
+#        ^^ source.data-weave storage.type.dw
 >  asd``
-#^^ source.data-weave meta.array.literal.dw
-#  ^^^ source.data-weave meta.array.literal.dw support.function.dw
-#     ^ source.data-weave meta.array.literal.dw string.template.dw punctuation.definition.string.template.begin.dw
-#      ^ source.data-weave meta.array.literal.dw string.template.dw punctuation.definition.string.template.end.dw
+#^^ source.data-weave storage.type.dw
+#  ^^^ source.data-weave storage.type.dw entity.name.variable.dw
+#     ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.begin.dw
+#      ^ source.data-weave storage.type.dw string.quoted.backtick.dw punctuation.definition.string.end.dw
 >]
-#^ source.data-weave meta.array.literal.dw meta.brace.square.dw
+#^ source.data-weave storage.type.dw

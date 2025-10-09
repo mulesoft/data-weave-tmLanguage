@@ -1,43 +1,25 @@
 >var DEBUG = envVars().PWD? and (envVars().PWD contains "bat-docker-worker") 
-#^^^ source.data-weave meta.directive.var.dw storage.type.dw
-#   ^ source.data-weave meta.directive.var.dw
-#    ^^^^^ source.data-weave meta.directive.var.dw entity.name.variable.dw
-#         ^ source.data-weave meta.directive.var.dw
-#          ^ source.data-weave meta.directive.var.dw keyword.operator.assignment.dw
+#^^^ source.data-weave storage.type.dw
+#   ^ source.data-weave
+#    ^^^^^ source.data-weave entity.name.variable.dw
+#         ^ source.data-weave
+#          ^ source.data-weave keyword.operator.assignment.dw
 #           ^ source.data-weave
-#            ^^^^^^^ source.data-weave variable.other.dw
-#                   ^ source.data-weave punctuation.expression.begin.dw
-#                    ^ source.data-weave punctuation.expression.end.dw
-#                     ^ source.data-weave meta.selector.data-weave
-#                      ^^^^ source.data-weave meta.selector.data-weave variable.object.member.dw
-#                          ^ source.data-weave
-#                           ^^^ source.data-weave keyword.other.dw
-#                              ^ source.data-weave
-#                               ^ source.data-weave punctuation.expression.begin.dw
-#                                ^^^^^^^ source.data-weave variable.other.dw
-#                                       ^ source.data-weave punctuation.expression.begin.dw
-#                                        ^ source.data-weave punctuation.expression.end.dw
-#                                         ^ source.data-weave meta.selector.data-weave
-#                                          ^^^ source.data-weave meta.selector.data-weave variable.object.member.dw
-#                                             ^^^^^^^^^^ source.data-weave support.function.dw
+#            ^^^^^^^ source.data-weave entity.name.variable.dw
+#                   ^^ source.data-weave
+#                     ^ source.data-weave storage.type.dw
+#                      ^^^ source.data-weave entity.name.variable.dw
+#                         ^^ source.data-weave
+#                           ^^^ source.data-weave keyword.operator.dw
+#                              ^^ source.data-weave
+#                                ^^^^^^^ source.data-weave entity.name.variable.dw
+#                                       ^^ source.data-weave
+#                                         ^ source.data-weave storage.type.dw
+#                                          ^^^ source.data-weave entity.name.variable.dw
+#                                             ^ source.data-weave
+#                                              ^^^^^^^^ source.data-weave entity.name.variable.dw
+#                                                      ^ source.data-weave
 #                                                       ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
-#                                                        ^ source.data-weave string.quoted.double.dw
-#                                                         ^ source.data-weave string.quoted.double.dw
-#                                                          ^ source.data-weave string.quoted.double.dw
-#                                                           ^ source.data-weave string.quoted.double.dw
-#                                                            ^ source.data-weave string.quoted.double.dw
-#                                                             ^ source.data-weave string.quoted.double.dw
-#                                                              ^ source.data-weave string.quoted.double.dw
-#                                                               ^ source.data-weave string.quoted.double.dw
-#                                                                ^ source.data-weave string.quoted.double.dw
-#                                                                 ^ source.data-weave string.quoted.double.dw
-#                                                                  ^ source.data-weave string.quoted.double.dw
-#                                                                   ^ source.data-weave string.quoted.double.dw
-#                                                                    ^ source.data-weave string.quoted.double.dw
-#                                                                     ^ source.data-weave string.quoted.double.dw
-#                                                                      ^ source.data-weave string.quoted.double.dw
-#                                                                       ^ source.data-weave string.quoted.double.dw
-#                                                                        ^ source.data-weave string.quoted.double.dw
+#                                                        ^^^^^^^^^^^^^^^^^ source.data-weave string.quoted.double.dw
 #                                                                         ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
-#                                                                          ^ source.data-weave punctuation.expression.end.dw
-#                                                                           ^^ source.data-weave
+#                                                                          ^^^ source.data-weave

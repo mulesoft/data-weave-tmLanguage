@@ -1,0 +1,28 @@
+>%dw 2.0
+#^^^ source.data-weave meta.directive.version.dw comment.dw
+#   ^ source.data-weave meta.directive.version.dw
+#    ^^^ source.data-weave meta.directive.version.dw comment.dw
+>ns mule_mule http://www.mulesoft.org/schema/mule/core
+#^^ source.data-weave meta.directive.ns.dw storage.type.dw
+#  ^ source.data-weave meta.directive.ns.dw
+#   ^^^^^^^^^ source.data-weave meta.directive.ns.dw entity.name.namespace.dw
+#            ^ source.data-weave meta.directive.ns.dw
+#             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave meta.directive.ns.dw meta.definition.ns.dw string.url.dw
+>ns http http://www.mulesoft.org/schema/mule/http
+#^^ source.data-weave meta.directive.ns.dw storage.type.dw
+#  ^ source.data-weave meta.directive.ns.dw
+#   ^^^^ source.data-weave meta.directive.ns.dw entity.name.namespace.dw
+#       ^ source.data-weave meta.directive.ns.dw
+#        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave meta.directive.ns.dw meta.definition.ns.dw string.url.dw
+>ns doc http://www.mulesoft.org/schema/mule/documentation
+#^^ source.data-weave meta.directive.ns.dw storage.type.dw
+#  ^ source.data-weave meta.directive.ns.dw
+#   ^^^ source.data-weave meta.directive.ns.dw entity.name.namespace.dw
+#      ^ source.data-weave meta.directive.ns.dw
+#       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave meta.directive.ns.dw meta.definition.ns.dw string.url.dw
+>ns urn urn:oid:2.16.840
+#^^ source.data-weave meta.directive.ns.dw storage.type.dw
+#  ^ source.data-weave meta.directive.ns.dw
+#   ^^^ source.data-weave meta.directive.ns.dw entity.name.namespace.dw
+#      ^ source.data-weave meta.directive.ns.dw
+#       ^^^^^^^^^^^^^^^^ source.data-weave meta.directive.ns.dw meta.definition.ns.dw string.url.dw

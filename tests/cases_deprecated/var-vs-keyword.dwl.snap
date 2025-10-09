@@ -1,0 +1,74 @@
+>[
+#^ source.data-weave meta.array.literal.dw meta.brace.square.dw
+>  atrue,
+#^^ source.data-weave meta.array.literal.dw
+#  ^^^^^ source.data-weave meta.array.literal.dw variable.other.dw
+#       ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+>  afalse,
+#^^ source.data-weave meta.array.literal.dw
+#  ^^^^^^ source.data-weave meta.array.literal.dw variable.other.dw
+#        ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+>  anull,
+#^^ source.data-weave meta.array.literal.dw
+#  ^^^^^ source.data-weave meta.array.literal.dw variable.other.dw
+#       ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+>  true,
+#^^ source.data-weave meta.array.literal.dw
+#  ^^^^ source.data-weave meta.array.literal.dw constant.language.dw
+#      ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+>  false,
+#^^ source.data-weave meta.array.literal.dw
+#  ^^^^^ source.data-weave meta.array.literal.dw constant.language.dw
+#       ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+>  null,
+#^^ source.data-weave meta.array.literal.dw
+#  ^^^^ source.data-weave meta.array.literal.dw constant.language.dw
+#      ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+>  truea,
+#^^ source.data-weave meta.array.literal.dw
+#  ^^^^^ source.data-weave meta.array.literal.dw variable.other.dw
+#       ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+>  falsea,
+#^^ source.data-weave meta.array.literal.dw
+#  ^^^^^^ source.data-weave meta.array.literal.dw variable.other.dw
+#        ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+>  nulla,
+#^^ source.data-weave meta.array.literal.dw
+#  ^^^^^ source.data-weave meta.array.literal.dw variable.other.dw
+#       ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+>  and,
+#^^ source.data-weave meta.array.literal.dw
+#  ^^^ source.data-weave meta.array.literal.dw keyword.other.dw
+#     ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+>  or,
+#^^ source.data-weave meta.array.literal.dw
+#  ^^ source.data-weave meta.array.literal.dw keyword.other.dw
+#    ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+>  not,
+#^^ source.data-weave meta.array.literal.dw
+#  ^^^ source.data-weave meta.array.literal.dw invalid
+#     ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+>  map,
+#^^ source.data-weave meta.array.literal.dw
+#  ^^^ source.data-weave meta.array.literal.dw variable.other.dw
+#     ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+>  a and b,
+#^^ source.data-weave meta.array.literal.dw
+#  ^ source.data-weave meta.array.literal.dw variable.other.dw
+#   ^ source.data-weave meta.array.literal.dw
+#    ^^^ source.data-weave meta.array.literal.dw keyword.other.dw
+#       ^ source.data-weave meta.array.literal.dw
+#        ^ source.data-weave meta.array.literal.dw variable.other.dw
+#         ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+>  a map b,
+#^^ source.data-weave meta.array.literal.dw
+#  ^ source.data-weave meta.array.literal.dw variable.other.dw
+#   ^^^^^ source.data-weave meta.array.literal.dw support.function.dw
+#        ^ source.data-weave meta.array.literal.dw variable.other.dw
+#         ^ source.data-weave meta.array.literal.dw punctuation.separator.comma.dw
+>  not x
+#^^ source.data-weave meta.array.literal.dw
+#  ^^^^ source.data-weave meta.array.literal.dw keyword.other.dw
+#      ^ source.data-weave meta.array.literal.dw variable.other.dw
+>]
+#^ source.data-weave meta.array.literal.dw meta.brace.square.dw

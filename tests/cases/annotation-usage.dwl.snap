@@ -1,50 +1,38 @@
 >/**
-#^^ source.data-weave comment.block.dw punctuation.definition.comment.dw
+#^^ source.data-weave comment.block.dw
 #  ^^ source.data-weave comment.block.dw
 >* Annotation that marks a variable declaration for lazy initialization.
 #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ source.data-weave comment.block.dw
 >*/
-#^^ source.data-weave comment.block.dw punctuation.definition.comment.dw
+#^^ source.data-weave comment.block.dw
 >@AnnotationTarget(targets = ["Variable"])
-#^ source.data-weave meta.annot.usage.dw storage.type.annotation.dw
-# ^^^^^^^^^^^^^^^^ source.data-weave meta.annot.usage.dw entity.name.function.dw
-#                 ^ source.data-weave meta.annot.usage.dw
-#                  ^^^^^^^ source.data-weave meta.annot.usage.dw variable.parameter.dw
-#                         ^ source.data-weave meta.annot.usage.dw
-#                          ^ source.data-weave meta.annot.usage.dw keyword.operator.declaration.dw
-#                           ^ source.data-weave meta.annot.usage.dw
-#                            ^ source.data-weave meta.annot.usage.dw meta.array.literal.dw meta.brace.square.dw
-#                             ^ source.data-weave meta.annot.usage.dw meta.array.literal.dw string.quoted.double.dw punctuation.definition.string.begin.dw
-#                              ^ source.data-weave meta.annot.usage.dw meta.array.literal.dw string.quoted.double.dw
-#                               ^ source.data-weave meta.annot.usage.dw meta.array.literal.dw string.quoted.double.dw
-#                                ^ source.data-weave meta.annot.usage.dw meta.array.literal.dw string.quoted.double.dw
-#                                 ^ source.data-weave meta.annot.usage.dw meta.array.literal.dw string.quoted.double.dw
-#                                  ^ source.data-weave meta.annot.usage.dw meta.array.literal.dw string.quoted.double.dw
-#                                   ^ source.data-weave meta.annot.usage.dw meta.array.literal.dw string.quoted.double.dw
-#                                    ^ source.data-weave meta.annot.usage.dw meta.array.literal.dw string.quoted.double.dw
-#                                     ^ source.data-weave meta.annot.usage.dw meta.array.literal.dw string.quoted.double.dw
-#                                      ^ source.data-weave meta.annot.usage.dw meta.array.literal.dw string.quoted.double.dw punctuation.definition.string.end.dw
-#                                       ^ source.data-weave meta.annot.usage.dw meta.array.literal.dw meta.brace.square.dw
-#                                        ^ source.data-weave meta.annot.usage.dw
+#^ source.data-weave
+# ^^^^^^^^^^^^^^^^ source.data-weave entity.name.variable.dw
+#                 ^ source.data-weave
+#                  ^^^^^^^ source.data-weave entity.name.variable.dw
+#                         ^ source.data-weave
+#                          ^ source.data-weave keyword.operator.assignment.dw
+#                           ^ source.data-weave
+#                            ^ source.data-weave storage.type.dw
+#                             ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#                              ^^^^^^^^ source.data-weave storage.type.dw string.quoted.double.dw
+#                                      ^ source.data-weave storage.type.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                                       ^ source.data-weave storage.type.dw
+#                                        ^^ source.data-weave
 >@Since(version = "2.3.0")
-#^ source.data-weave meta.annot.usage.dw storage.type.annotation.dw
-# ^^^^^ source.data-weave meta.annot.usage.dw entity.name.function.dw
-#      ^ source.data-weave meta.annot.usage.dw
-#       ^^^^^^^ source.data-weave meta.annot.usage.dw variable.parameter.dw
-#              ^ source.data-weave meta.annot.usage.dw
-#               ^ source.data-weave meta.annot.usage.dw keyword.operator.declaration.dw
-#                ^ source.data-weave meta.annot.usage.dw
-#                 ^ source.data-weave meta.annot.usage.dw string.quoted.double.dw punctuation.definition.string.begin.dw
-#                  ^ source.data-weave meta.annot.usage.dw string.quoted.double.dw
-#                   ^ source.data-weave meta.annot.usage.dw string.quoted.double.dw
-#                    ^ source.data-weave meta.annot.usage.dw string.quoted.double.dw
-#                     ^ source.data-weave meta.annot.usage.dw string.quoted.double.dw
-#                      ^ source.data-weave meta.annot.usage.dw string.quoted.double.dw
-#                       ^ source.data-weave meta.annot.usage.dw string.quoted.double.dw punctuation.definition.string.end.dw
-#                        ^ source.data-weave meta.annot.usage.dw
+#^ source.data-weave
+# ^^^^^ source.data-weave entity.name.variable.dw
+#      ^ source.data-weave
+#       ^^^^^^^ source.data-weave entity.name.variable.dw
+#              ^ source.data-weave
+#               ^ source.data-weave keyword.operator.assignment.dw
+#                ^ source.data-weave
+#                 ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                  ^^^^^ source.data-weave string.quoted.double.dw
+#                       ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                        ^^ source.data-weave
 >annotation Lazy()
-#^^^^^^^^^^ source.data-weave meta.directive.annot.dw storage.type.annotation.dw
-#          ^ source.data-weave meta.directive.annot.dw
-#           ^^^^ source.data-weave meta.directive.annot.dw entity.name.function.dw
-#               ^ source.data-weave meta.directive.annot.dw
-#                ^ source.data-weave meta.directive.annot.dw
+#^^^^^^^^^^ source.data-weave storage.type.dw
+#          ^ source.data-weave
+#           ^^^^ source.data-weave entity.name.variable.dw
+#               ^^^ source.data-weave

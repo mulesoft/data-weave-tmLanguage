@@ -1,0 +1,23 @@
+>person @((root.@), country: "Arg") : $
+#^^^^^^^ source.data-weave variable.object.member.dw
+#       ^^ source.data-weave meta.attributes.dw keyword.operator.attributes.dw
+#         ^ source.data-weave meta.attributes.dw punctuation.expression.begin.dw
+#          ^^^^ source.data-weave meta.attributes.dw variable.other.dw
+#              ^^ source.data-weave meta.attributes.dw meta.selector.data-weave
+#                ^ source.data-weave meta.attributes.dw punctuation.expression.end.dw
+#                 ^ source.data-weave meta.attributes.dw punctuation.separator.comma.dw
+#                  ^ source.data-weave meta.attributes.dw
+#                   ^^^^^^^ source.data-weave meta.attributes.dw variable.object.member.dw
+#                          ^ source.data-weave meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
+#                           ^ source.data-weave meta.attributes.dw variable.object.member.dw
+#                            ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw punctuation.definition.string.begin.dw
+#                             ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw
+#                              ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw
+#                               ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw
+#                                ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#                                 ^ source.data-weave meta.attributes.dw keyword.operator.attributes.dw
+#                                  ^ source.data-weave
+#                                   ^ source.data-weave keyword.operator.declaration.dw
+#                                    ^ source.data-weave
+#                                     ^ source.data-weave variable.parameter.dw
+>

@@ -1,154 +1,77 @@
 >ns mule_mule asd
-#^^ source.data-weave meta.directive.ns.dw storage.type.dw
-#  ^ source.data-weave meta.directive.ns.dw
-#   ^^^^^^^^^ source.data-weave meta.directive.ns.dw entity.name.namespace.dw
-#            ^ source.data-weave meta.directive.ns.dw
-#             ^^^ source.data-weave meta.directive.ns.dw meta.definition.ns.dw string.url.dw
+#^^ source.data-weave storage.type.dw
+#  ^ source.data-weave
+#   ^^^^^^^^^ source.data-weave entity.name.variable.dw
+#            ^ source.data-weave
+#             ^^^ source.data-weave markup.underline.link
 >ns http asd
-#^^ source.data-weave meta.directive.ns.dw storage.type.dw
-#  ^ source.data-weave meta.directive.ns.dw
-#   ^^^^ source.data-weave meta.directive.ns.dw entity.name.namespace.dw
-#       ^ source.data-weave meta.directive.ns.dw
-#        ^^^ source.data-weave meta.directive.ns.dw meta.definition.ns.dw string.url.dw
+#^^ source.data-weave storage.type.dw
+#  ^ source.data-weave
+#   ^^^^ source.data-weave entity.name.variable.dw
+#       ^ source.data-weave
+#        ^^^ source.data-weave markup.underline.link
 >---
 #^^^ source.data-weave keyword.operator.body-marker.dw
 >mule_mule#flow @(
-#^^^^^^^^^^ source.data-weave variable.object.member.dw meta.object-literal.namespace.dw variable.language.dw
-#          ^^^^^ source.data-weave variable.object.member.dw
-#               ^^ source.data-weave meta.attributes.dw keyword.operator.attributes.dw
+#^^^^^^^^^ source.data-weave entity.name.variable.dw
+#         ^ source.data-weave
+#          ^^^^ source.data-weave entity.name.variable.dw
+#              ^^^^ source.data-weave
 >  name: "HelloWorldFlow1"
-#^^ source.data-weave meta.attributes.dw
-#  ^^^^ source.data-weave meta.attributes.dw variable.object.member.dw
-#      ^ source.data-weave meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#       ^ source.data-weave meta.attributes.dw variable.object.member.dw
-#        ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw punctuation.definition.string.begin.dw
-#         ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#          ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#           ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#            ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#             ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#              ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#               ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                 ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                  ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                   ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                    ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                     ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                      ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                       ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                        ^ source.data-weave meta.attributes.dw variable.object.member.dw string.quoted.double.dw punctuation.definition.string.end.dw
+#^^ source.data-weave
+#  ^^^^ source.data-weave entity.name.variable.dw
+#      ^ source.data-weave keyword.operator.declaration.dw
+#       ^ source.data-weave
+#        ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#         ^^^^^^^^^^^^^^^ source.data-weave string.quoted.double.dw
+#                        ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
 >): {
-#^ source.data-weave meta.attributes.dw keyword.operator.attributes.dw
+#^ source.data-weave
 # ^ source.data-weave keyword.operator.declaration.dw
-#  ^ source.data-weave
-#   ^ source.data-weave meta.objectliteral.dw punctuation.definition.block.dw
+#  ^^^ source.data-weave
 >  http#"inbound-endpoint" @("exchange-pattern": "request-response", host: "localhost"): null,
-#^^ source.data-weave meta.objectliteral.dw
-#  ^^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.namespace.dw variable.language.dw
-#       ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw punctuation.definition.string.begin.dw
-#        ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#         ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#          ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#           ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#            ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#             ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#              ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#               ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                 ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                    ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                     ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                      ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                       ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                        ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw punctuation.definition.string.end.dw
-#                         ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw
-#                          ^^ source.data-weave meta.objectliteral.dw meta.attributes.dw keyword.operator.attributes.dw
-#                            ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw punctuation.definition.string.begin.dw
-#                             ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                              ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                               ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                                ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                                 ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                                  ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                                   ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                                    ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                                     ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                                      ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                                       ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                                        ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                                         ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                                          ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                                           ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                                            ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw
-#                                             ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw string.quoted.double.dw punctuation.definition.string.end.dw
-#                                              ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#                                               ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw
-#                                                ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw punctuation.definition.string.begin.dw
-#                                                 ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                  ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                   ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                    ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                     ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                      ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                       ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                        ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                         ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                          ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                           ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                            ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                             ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                              ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                               ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                                ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                                 ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw punctuation.definition.string.end.dw
-#                                                                  ^ source.data-weave meta.objectliteral.dw meta.attributes.dw punctuation.separator.comma.dw
-#                                                                   ^ source.data-weave meta.objectliteral.dw meta.attributes.dw
-#                                                                    ^^^^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw
-#                                                                        ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#                                                                         ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw
-#                                                                          ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw punctuation.definition.string.begin.dw
-#                                                                           ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                                            ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                                             ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                                              ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                                               ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                                                ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                                                 ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                                                  ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                                                   ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                                                    ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw punctuation.definition.string.end.dw
-#                                                                                     ^ source.data-weave meta.objectliteral.dw meta.attributes.dw keyword.operator.attributes.dw
-#                                                                                      ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#                                                                                       ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#                                                                                        ^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.language.dw
-#                                                                                            ^ source.data-weave meta.objectliteral.dw punctuation.separator.comma.dw
+#^^ source.data-weave
+#  ^^^^ source.data-weave entity.name.variable.dw
+#      ^ source.data-weave
+#       ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#        ^^^^^^^^^^^^^^^^ source.data-weave string.quoted.double.dw
+#                        ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                         ^^^ source.data-weave
+#                            ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                             ^^^^^^^^^^^^^^^^ source.data-weave string.quoted.double.dw
+#                                             ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                                              ^ source.data-weave keyword.operator.declaration.dw
+#                                               ^ source.data-weave
+#                                                ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                                                 ^^^^^^^^^^^^^^^^ source.data-weave string.quoted.double.dw
+#                                                                 ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                                                                  ^^ source.data-weave
+#                                                                    ^^^^ source.data-weave entity.name.variable.dw
+#                                                                        ^ source.data-weave keyword.operator.declaration.dw
+#                                                                         ^ source.data-weave
+#                                                                          ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                                                                           ^^^^^^^^^ source.data-weave string.quoted.double.dw
+#                                                                                    ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                                                                                     ^ source.data-weave
+#                                                                                      ^ source.data-weave keyword.operator.declaration.dw
+#                                                                                       ^ source.data-weave
+#                                                                                        ^^^^ source.data-weave constant.language.dw
+#                                                                                            ^^ source.data-weave
 >  mule_mule#set_payload @(value123: "Hello World"): null
-#^^ source.data-weave meta.objectliteral.dw
-#  ^^^^^^^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.namespace.dw variable.language.dw
-#            ^^^^^^^^^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#                        ^^ source.data-weave meta.objectliteral.dw meta.attributes.dw keyword.operator.attributes.dw
-#                          ^^^^^^^^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw
-#                                  ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#                                   ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw
-#                                    ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw punctuation.definition.string.begin.dw
-#                                     ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                      ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                       ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                        ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                         ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                          ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                           ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                            ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                             ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                              ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                               ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw
-#                                                ^ source.data-weave meta.objectliteral.dw meta.attributes.dw variable.object.member.dw string.quoted.double.dw punctuation.definition.string.end.dw
-#                                                 ^ source.data-weave meta.objectliteral.dw meta.attributes.dw keyword.operator.attributes.dw
-#                                                  ^ source.data-weave meta.objectliteral.dw variable.object.member.dw meta.object-literal.key.dw punctuation.separator.key-value.dw
-#                                                   ^ source.data-weave meta.objectliteral.dw variable.object.member.dw
-#                                                    ^^^^ source.data-weave meta.objectliteral.dw variable.object.member.dw constant.language.dw
+#^^ source.data-weave
+#  ^^^^^^^^^ source.data-weave entity.name.variable.dw
+#           ^ source.data-weave
+#            ^^^^^^^^^^^ source.data-weave entity.name.variable.dw
+#                       ^^^ source.data-weave
+#                          ^^^^^^^^ source.data-weave entity.name.variable.dw
+#                                  ^ source.data-weave keyword.operator.declaration.dw
+#                                   ^ source.data-weave
+#                                    ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                                     ^^^^^^^^^^^ source.data-weave string.quoted.double.dw
+#                                                ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                                                 ^ source.data-weave
+#                                                  ^ source.data-weave keyword.operator.declaration.dw
+#                                                   ^ source.data-weave
+#                                                    ^^^^ source.data-weave constant.language.dw
 >}
-#^ source.data-weave meta.objectliteral.dw punctuation.definition.block.dw
+#^^ source.data-weave
