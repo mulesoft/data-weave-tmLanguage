@@ -378,49 +378,37 @@
 #           ^ source.data-weave storage.type.dw storage.type.dw
 #            ^^ source.data-weave storage.type.dw
 >    |12|asd|123|,
-#^^^^ source.data-weave storage.type.dw
-#    ^ source.data-weave storage.type.dw constant.numeric.dw
+#^^^^^ source.data-weave storage.type.dw
 #     ^^ source.data-weave storage.type.dw constant.numeric.dw
-#       ^ source.data-weave storage.type.dw constant.numeric.dw
-#        ^^^ source.data-weave storage.type.dw entity.name.variable.dw
-#           ^ source.data-weave storage.type.dw constant.numeric.dw
-#            ^^^ source.data-weave storage.type.dw constant.numeric.dw
-#               ^ source.data-weave storage.type.dw constant.numeric.dw
-#                ^^ source.data-weave storage.type.dw
->    |12| asd |123|,
-#^^^^ source.data-weave storage.type.dw
-#    ^ source.data-weave storage.type.dw constant.numeric.dw
-#     ^^ source.data-weave storage.type.dw constant.numeric.dw
-#       ^ source.data-weave storage.type.dw constant.numeric.dw
-#        ^ source.data-weave storage.type.dw
-#         ^^^ source.data-weave storage.type.dw entity.name.variable.dw
-#            ^ source.data-weave storage.type.dw
-#             ^ source.data-weave storage.type.dw constant.numeric.dw
-#              ^^^ source.data-weave storage.type.dw constant.numeric.dw
-#                 ^ source.data-weave storage.type.dw constant.numeric.dw
-#                  ^^ source.data-weave storage.type.dw
->    |12| asd|123|,
-#^^^^ source.data-weave storage.type.dw
-#    ^ source.data-weave storage.type.dw constant.numeric.dw
-#     ^^ source.data-weave storage.type.dw constant.numeric.dw
-#       ^ source.data-weave storage.type.dw constant.numeric.dw
-#        ^ source.data-weave storage.type.dw
-#         ^^^ source.data-weave storage.type.dw entity.name.variable.dw
-#            ^ source.data-weave storage.type.dw constant.numeric.dw
-#             ^^^ source.data-weave storage.type.dw constant.numeric.dw
-#                ^ source.data-weave storage.type.dw constant.numeric.dw
-#                 ^^ source.data-weave storage.type.dw
->    |12|asd |123|,
-#^^^^ source.data-weave storage.type.dw
-#    ^ source.data-weave storage.type.dw constant.numeric.dw
-#     ^^ source.data-weave storage.type.dw constant.numeric.dw
-#       ^ source.data-weave storage.type.dw constant.numeric.dw
+#       ^ source.data-weave storage.type.dw
 #        ^^^ source.data-weave storage.type.dw entity.name.variable.dw
 #           ^ source.data-weave storage.type.dw
-#            ^ source.data-weave storage.type.dw constant.numeric.dw
+#            ^^^ source.data-weave storage.type.dw constant.numeric.dw
+#               ^^^ source.data-weave storage.type.dw
+>    |12| asd |123|,
+#^^^^^ source.data-weave storage.type.dw
+#     ^^ source.data-weave storage.type.dw constant.numeric.dw
+#       ^^ source.data-weave storage.type.dw
+#         ^^^ source.data-weave storage.type.dw entity.name.variable.dw
+#            ^^ source.data-weave storage.type.dw
+#              ^^^ source.data-weave storage.type.dw constant.numeric.dw
+#                 ^^^ source.data-weave storage.type.dw
+>    |12| asd|123|,
+#^^^^^ source.data-weave storage.type.dw
+#     ^^ source.data-weave storage.type.dw constant.numeric.dw
+#       ^^ source.data-weave storage.type.dw
+#         ^^^ source.data-weave storage.type.dw entity.name.variable.dw
+#            ^ source.data-weave storage.type.dw
 #             ^^^ source.data-weave storage.type.dw constant.numeric.dw
-#                ^ source.data-weave storage.type.dw constant.numeric.dw
-#                 ^^ source.data-weave storage.type.dw
+#                ^^^ source.data-weave storage.type.dw
+>    |12|asd |123|,
+#^^^^^ source.data-weave storage.type.dw
+#     ^^ source.data-weave storage.type.dw constant.numeric.dw
+#       ^ source.data-weave storage.type.dw
+#        ^^^ source.data-weave storage.type.dw entity.name.variable.dw
+#           ^^ source.data-weave storage.type.dw
+#             ^^^ source.data-weave storage.type.dw constant.numeric.dw
+#                ^^^ source.data-weave storage.type.dw
 >    anull,
 #^^^^ source.data-weave storage.type.dw
 #    ^^^^^ source.data-weave storage.type.dw entity.name.variable.dw

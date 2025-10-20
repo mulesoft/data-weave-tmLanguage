@@ -11,16 +11,17 @@
 #                                           ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
 #                                            ^^^^^^^^ source.data-weave string.quoted.double.dw
 #                                                    ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
-#                                                     ^ source.data-weave
-#                                                      ^ source.data-weave constant.numeric.dw
-#                                                       ^^ source.data-weave
-#                                                         ^ source.data-weave constant.character.escape.dw
-#                                                          ^^^^^^^^^^ source.data-weave
-#                                                                    ^ source.data-weave constant.numeric.dw
-#                                                                     ^ source.data-weave
+#                                                     ^^^ source.data-weave
+#                                                        ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                                                         ^^^^^^^^^ source.data-weave string.quoted.double.dw
+#                                                                  ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                                                                   ^^^ source.data-weave
 #                                                                      ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
 #                                                                       ^^^^^^^^ source.data-weave string.quoted.double.dw
 #                                                                               ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
-#                                                                                ^ source.data-weave
-#                                                                                 ^ source.data-weave constant.numeric.dw
-#                                                                                  ^^^^^^^^^^^^ source.data-weave
+#                                                                                ^^^ source.data-weave
+#                                                                                   ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                                                                                    ^^^^^^ source.data-weave string.quoted.double.dw
+#                                                                                          ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#                                                                                           ^ source.data-weave keyword.operator.comparison.dw
+#                                                                                            ^^ source.data-weave

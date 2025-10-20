@@ -6,84 +6,87 @@
 #          ^ source.data-weave keyword.operator.assignment.dw
 #           ^^ source.data-weave
 #             ^^^^^^ source.data-weave entity.name.variable.dw
-#                   ^ source.data-weave
-#                    ^ source.data-weave constant.numeric.dw
-#                     ^^^^^^^^^^ source.data-weave
+#                   ^^^ source.data-weave
+#                      ^^^^^^^ source.data-weave entity.name.variable.dw
+#                             ^^ source.data-weave
 >type Test2 = String
-#^^^^^ source.data-weave
-#     ^ source.data-weave constant.character.escape.dw
-#      ^^^ source.data-weave
-#         ^ source.data-weave constant.numeric.dw
-#          ^^^ source.data-weave
-#             ^ source.data-weave constant.character.escape.dw
-#              ^^^^^^ source.data-weave
+#^^^^ source.data-weave storage.type.dw
+#    ^ source.data-weave
+#     ^^^^^ source.data-weave entity.name.variable.dw
+#          ^ source.data-weave
+#           ^ source.data-weave keyword.operator.assignment.dw
+#            ^ source.data-weave
+#             ^^^^^^ source.data-weave entity.name.variable.dw
 >type Test4 = (String | Boolean | (String, Boolean) -> Boolean)
-#^^^^^ source.data-weave
-#     ^ source.data-weave constant.character.escape.dw
-#      ^^^ source.data-weave
-#         ^ source.data-weave constant.numeric.dw
-#          ^^^^ source.data-weave
-#              ^ source.data-weave constant.character.escape.dw
-#               ^^^^^^ source.data-weave
-#                     ^ source.data-weave constant.numeric.dw
-#                      ^ source.data-weave
+#^^^^ source.data-weave storage.type.dw
+#    ^ source.data-weave
+#     ^^^^^ source.data-weave entity.name.variable.dw
+#          ^ source.data-weave
+#           ^ source.data-weave keyword.operator.assignment.dw
+#            ^^ source.data-weave
+#              ^^^^^^ source.data-weave entity.name.variable.dw
+#                    ^^^ source.data-weave
 #                       ^^^^^^^ source.data-weave entity.name.variable.dw
-#                              ^ source.data-weave
-#                               ^ source.data-weave constant.numeric.dw
-#                                ^^ source.data-weave
-#                                  ^ source.data-weave constant.character.escape.dw
-#                                   ^^^^^^^^^^^^^^^^ source.data-weave
-#                                                   ^ source.data-weave constant.character.escape.dw
-#                                                    ^^^^^^^^^^^ source.data-weave
+#                              ^^^^ source.data-weave
+#                                  ^^^^^^ source.data-weave entity.name.variable.dw
+#                                        ^^ source.data-weave
+#                                          ^^^^^^^ source.data-weave entity.name.variable.dw
+#                                                 ^^ source.data-weave
+#                                                   ^^ source.data-weave keyword.operator.case.dw
+#                                                     ^ source.data-weave
+#                                                      ^^^^^^^ source.data-weave entity.name.variable.dw
+#                                                             ^^ source.data-weave
 >type Test5 = (String | Boolean | (String, Boolean) -> (Boolean))
-#^^^^^ source.data-weave
-#     ^ source.data-weave constant.character.escape.dw
-#      ^^^ source.data-weave
-#         ^ source.data-weave constant.numeric.dw
-#          ^^^^ source.data-weave
-#              ^ source.data-weave constant.character.escape.dw
-#               ^^^^^^ source.data-weave
-#                     ^ source.data-weave constant.numeric.dw
-#                      ^ source.data-weave
+#^^^^ source.data-weave storage.type.dw
+#    ^ source.data-weave
+#     ^^^^^ source.data-weave entity.name.variable.dw
+#          ^ source.data-weave
+#           ^ source.data-weave keyword.operator.assignment.dw
+#            ^^ source.data-weave
+#              ^^^^^^ source.data-weave entity.name.variable.dw
+#                    ^^^ source.data-weave
 #                       ^^^^^^^ source.data-weave entity.name.variable.dw
-#                              ^ source.data-weave
-#                               ^ source.data-weave constant.numeric.dw
-#                                ^^ source.data-weave
-#                                  ^ source.data-weave constant.character.escape.dw
-#                                   ^^^^^^^^^^^^^^^^ source.data-weave
-#                                                   ^ source.data-weave constant.character.escape.dw
-#                                                    ^^^^^^^^^^^^^ source.data-weave
+#                              ^^^^ source.data-weave
+#                                  ^^^^^^ source.data-weave entity.name.variable.dw
+#                                        ^^ source.data-weave
+#                                          ^^^^^^^ source.data-weave entity.name.variable.dw
+#                                                 ^^ source.data-weave
+#                                                   ^^ source.data-weave keyword.operator.case.dw
+#                                                     ^^ source.data-weave
+#                                                       ^^^^^^^ source.data-weave entity.name.variable.dw
+#                                                              ^^^ source.data-weave
 >type Test6 = ((String, Boolean) -> (Boolean))
-#^^^^^ source.data-weave
-#     ^ source.data-weave constant.character.escape.dw
-#      ^^^ source.data-weave
-#         ^ source.data-weave constant.numeric.dw
-#          ^^^^^ source.data-weave
-#               ^ source.data-weave constant.character.escape.dw
-#                ^^^^^^^^^^^^^^^^ source.data-weave
-#                                ^ source.data-weave constant.character.escape.dw
-#                                 ^^^^^^^^^^^^^ source.data-weave
->type Test7 = (String | Boolean | (String | Boolean) | Boolean) -> Boolean
-#^^^^^ source.data-weave
-#     ^ source.data-weave constant.character.escape.dw
-#      ^^^ source.data-weave
-#         ^ source.data-weave constant.numeric.dw
-#          ^^^^ source.data-weave
-#              ^ source.data-weave constant.character.escape.dw
-#               ^^^^^^ source.data-weave
-#                     ^ source.data-weave constant.numeric.dw
-#                      ^ source.data-weave
+#^^^^ source.data-weave storage.type.dw
+#    ^ source.data-weave
+#     ^^^^^ source.data-weave entity.name.variable.dw
+#          ^ source.data-weave
+#           ^ source.data-weave keyword.operator.assignment.dw
+#            ^^^ source.data-weave
+#               ^^^^^^ source.data-weave entity.name.variable.dw
+#                     ^^ source.data-weave
 #                       ^^^^^^^ source.data-weave entity.name.variable.dw
-#                              ^ source.data-weave
-#                               ^ source.data-weave constant.numeric.dw
-#                                ^^ source.data-weave
-#                                  ^ source.data-weave constant.character.escape.dw
-#                                   ^^^^^^ source.data-weave
-#                                         ^ source.data-weave constant.numeric.dw
-#                                          ^ source.data-weave
+#                              ^^ source.data-weave
+#                                ^^ source.data-weave keyword.operator.case.dw
+#                                  ^^ source.data-weave
+#                                    ^^^^^^^ source.data-weave entity.name.variable.dw
+#                                           ^^^ source.data-weave
+>type Test7 = (String | Boolean | (String | Boolean) | Boolean) -> Boolean
+#^^^^ source.data-weave storage.type.dw
+#    ^ source.data-weave
+#     ^^^^^ source.data-weave entity.name.variable.dw
+#          ^ source.data-weave
+#           ^ source.data-weave keyword.operator.assignment.dw
+#            ^^ source.data-weave
+#              ^^^^^^ source.data-weave entity.name.variable.dw
+#                    ^^^ source.data-weave
+#                       ^^^^^^^ source.data-weave entity.name.variable.dw
+#                              ^^^^ source.data-weave
+#                                  ^^^^^^ source.data-weave entity.name.variable.dw
+#                                        ^^^ source.data-weave
 #                                           ^^^^^^^ source.data-weave entity.name.variable.dw
-#                                                  ^^ source.data-weave
-#                                                    ^ source.data-weave constant.numeric.dw
-#                                                     ^^^^^^^^^^ source.data-weave
-#                                                               ^ source.data-weave constant.character.escape.dw
-#                                                                ^^^^^^^^^^ source.data-weave
+#                                                  ^^^^ source.data-weave
+#                                                      ^^^^^^^ source.data-weave entity.name.variable.dw
+#                                                             ^^ source.data-weave
+#                                                               ^^ source.data-weave keyword.operator.case.dw
+#                                                                 ^ source.data-weave
+#                                                                  ^^^^^^^ source.data-weave entity.name.variable.dw
