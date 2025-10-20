@@ -41,7 +41,6 @@ repository:
   constant:
     patterns:
       - include: "#regex"
-      - include: "#date"
       - include: "#string-constants"
       - include: "#number-constants"
       - name: constant.language.dw
@@ -98,20 +97,6 @@ repository:
     patterns:
       - name: string.regexp.dw
         match: \/.*\/
-
-  date:
-    patterns:
-    - begin: \|
-      beginCaptures:
-        '0': {name: constant.numeric.dw}
-      end: \|
-      endCaptures:
-        '0': {name: constant.numeric.dw}
-      patterns:
-      - name: constant.numeric.dw
-        match: ([0-9]+)
-      - name: constant.character.escape.dw
-        match: ([+:\-WYMDTHSPZ\.])
 
   string-constants:
     patterns:

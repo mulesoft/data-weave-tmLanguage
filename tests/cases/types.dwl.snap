@@ -148,21 +148,24 @@
 #                             ^^ source.data-weave keyword.operator.case.dw
 #                               ^ source.data-weave
 #                                ^ source.data-weave entity.name.variable.dw
-#                                 ^ source.data-weave
-#                                  ^ source.data-weave constant.numeric.dw
-#                                   ^^^^^^ source.data-weave
+#                                 ^^^ source.data-weave
+#                                    ^^^^ source.data-weave entity.name.variable.dw
 >type FN = get: (String) -> T | Null
-#^^^^^^^^^^^^^ source.data-weave
-#             ^ source.data-weave constant.character.escape.dw
+#^^^^ source.data-weave storage.type.dw
+#    ^ source.data-weave
+#     ^^ source.data-weave entity.name.variable.dw
+#       ^ source.data-weave
+#        ^ source.data-weave keyword.operator.assignment.dw
+#         ^ source.data-weave
+#          ^^^ source.data-weave entity.name.variable.dw
+#             ^ source.data-weave keyword.operator.declaration.dw
 #              ^^ source.data-weave
-#                ^ source.data-weave constant.character.escape.dw
-#                 ^^^^^^^ source.data-weave
-#                        ^ source.data-weave constant.character.escape.dw
-#                         ^^ source.data-weave
-#                           ^ source.data-weave constant.character.escape.dw
-#                            ^ source.data-weave
-#                             ^ source.data-weave constant.numeric.dw
-#                              ^ source.data-weave
+#                ^^^^^^ source.data-weave entity.name.variable.dw
+#                      ^^ source.data-weave
+#                        ^^ source.data-weave keyword.operator.case.dw
+#                          ^ source.data-weave
+#                           ^ source.data-weave entity.name.variable.dw
+#                            ^^^ source.data-weave
 #                               ^^^^ source.data-weave entity.name.variable.dw
 >type XmlUser = {
 #^^^^ source.data-weave storage.type.dw
@@ -207,17 +210,17 @@
 #     ^^^^^ source.data-weave entity.name.variable.dw
 #          ^ source.data-weave
 #           ^ source.data-weave keyword.operator.assignment.dw
-#            ^^ source.data-weave
-#              ^ source.data-weave constant.numeric.dw
-#               ^^^^^ source.data-weave
-#                    ^ source.data-weave constant.character.escape.dw
+#            ^^^^ source.data-weave
+#                ^^^^ source.data-weave entity.name.variable.dw
+#                    ^ source.data-weave keyword.operator.declaration.dw
 #                     ^ source.data-weave
-#                      ^ source.data-weave constant.character.escape.dw
-#                       ^^^^^^^^^^ source.data-weave
-#                                 ^ source.data-weave constant.character.escape.dw
-#                                  ^^^^^^^^ source.data-weave
-#                                          ^ source.data-weave constant.numeric.dw
-#                                           ^^ source.data-weave
+#                      ^^^^^^ source.data-weave entity.name.variable.dw
+#                            ^^ source.data-weave
+#                              ^^^ source.data-weave entity.name.variable.dw
+#                                 ^ source.data-weave keyword.operator.declaration.dw
+#                                  ^ source.data-weave
+#                                   ^^^^^^ source.data-weave entity.name.variable.dw
+#                                         ^^^^ source.data-weave
 >type ordered = {- name: String, age: Number -}
 #^^^^ source.data-weave storage.type.dw
 #    ^ source.data-weave
@@ -247,15 +250,17 @@
 #                  ^ source.data-weave keyword.operator.assignment.dw
 #                   ^^ source.data-weave
 #                     ^ source.data-weave keyword.operator.arithmetic.dw
-#                      ^ source.data-weave constant.numeric.dw
-#                       ^^^^^ source.data-weave
-#                            ^ source.data-weave constant.character.escape.dw
+#                      ^^ source.data-weave
+#                        ^^^^ source.data-weave entity.name.variable.dw
+#                            ^ source.data-weave keyword.operator.declaration.dw
 #                             ^ source.data-weave
-#                              ^ source.data-weave constant.character.escape.dw
-#                               ^^^^^^^^^^ source.data-weave
-#                                         ^ source.data-weave constant.character.escape.dw
-#                                          ^^^^^^^^ source.data-weave
-#                                                  ^ source.data-weave constant.numeric.dw
+#                              ^^^^^^ source.data-weave entity.name.variable.dw
+#                                    ^^ source.data-weave
+#                                      ^^^ source.data-weave entity.name.variable.dw
+#                                         ^ source.data-weave keyword.operator.declaration.dw
+#                                          ^ source.data-weave
+#                                           ^^^^^^ source.data-weave entity.name.variable.dw
+#                                                 ^^ source.data-weave
 #                                                   ^ source.data-weave keyword.operator.arithmetic.dw
 #                                                    ^^ source.data-weave
 >type repeatedFields = {name: String, age: Number, friend *: String }
@@ -438,59 +443,62 @@
 #                     ^^ source.data-weave keyword.operator.case.dw
 #                       ^ source.data-weave
 #                        ^ source.data-weave entity.name.variable.dw
-#                         ^ source.data-weave
-#                          ^ source.data-weave constant.numeric.dw
-#                           ^^^^^^^ source.data-weave
->  set: (key: String, value: T) -> HashMapSetOperation<T>,
-#^^^^^ source.data-weave
-#     ^ source.data-weave constant.character.escape.dw
-#      ^^^^^ source.data-weave
-#           ^ source.data-weave constant.character.escape.dw
-#            ^ source.data-weave
-#             ^ source.data-weave constant.character.escape.dw
-#              ^^^^^^^^^^^^ source.data-weave
-#                          ^ source.data-weave constant.character.escape.dw
-#                           ^ source.data-weave
-#                            ^ source.data-weave constant.character.escape.dw
-#                             ^^ source.data-weave
-#                               ^ source.data-weave constant.character.escape.dw
+#                         ^^^ source.data-weave
+#                            ^^^^ source.data-weave entity.name.variable.dw
 #                                ^^ source.data-weave
-#                                  ^ source.data-weave constant.character.escape.dw
-#                                   ^^^ source.data-weave
-#                                      ^ source.data-weave constant.character.escape.dw
-#                                       ^^ source.data-weave
-#                                         ^ source.data-weave constant.character.escape.dw
-#                                          ^^^^^^^^^^^^ source.data-weave
-#                                                      ^ source.data-weave constant.character.escape.dw
-#                                                       ^^^ source.data-weave
+>  set: (key: String, value: T) -> HashMapSetOperation<T>,
+#^^ source.data-weave
+#  ^^^ source.data-weave entity.name.variable.dw
+#     ^ source.data-weave keyword.operator.declaration.dw
+#      ^^ source.data-weave
+#        ^^^ source.data-weave entity.name.variable.dw
+#           ^ source.data-weave keyword.operator.declaration.dw
+#            ^ source.data-weave
+#             ^^^^^^ source.data-weave entity.name.variable.dw
+#                   ^^ source.data-weave
+#                     ^^^^^ source.data-weave entity.name.variable.dw
+#                          ^ source.data-weave keyword.operator.declaration.dw
+#                           ^ source.data-weave
+#                            ^ source.data-weave entity.name.variable.dw
+#                             ^^ source.data-weave
+#                               ^^ source.data-weave keyword.operator.case.dw
+#                                 ^ source.data-weave
+#                                  ^^^^^^^^^^^^^^^^^^^ source.data-weave entity.name.variable.dw
+#                                                     ^ source.data-weave keyword.operator.comparison.dw
+#                                                      ^ source.data-weave entity.name.variable.dw
+#                                                       ^ source.data-weave keyword.operator.comparison.dw
+#                                                        ^^ source.data-weave
 >  instance: Any,
-#^^^^^^^^^^ source.data-weave
-#          ^ source.data-weave constant.character.escape.dw
-#           ^^^^^^ source.data-weave
+#^^ source.data-weave
+#  ^^^^^^^^ source.data-weave entity.name.variable.dw
+#          ^ source.data-weave keyword.operator.declaration.dw
+#           ^ source.data-weave
+#            ^^^ source.data-weave entity.name.variable.dw
+#               ^^ source.data-weave
 >  getAll: () -> { _?: T }
-#^^^^^^^^ source.data-weave
-#        ^ source.data-weave constant.character.escape.dw
+#^^ source.data-weave
+#  ^^^^^^ source.data-weave entity.name.variable.dw
+#        ^ source.data-weave keyword.operator.declaration.dw
 #         ^^^^ source.data-weave
-#             ^ source.data-weave constant.character.escape.dw
-#              ^^^^^^ source.data-weave
-#                    ^ source.data-weave constant.character.escape.dw
+#             ^^ source.data-weave keyword.operator.case.dw
+#               ^^^^^ source.data-weave
+#                    ^ source.data-weave keyword.operator.declaration.dw
 #                     ^ source.data-weave
-#                      ^ source.data-weave constant.character.escape.dw
+#                      ^ source.data-weave entity.name.variable.dw
 #                       ^^^ source.data-weave
 >}
 #^^ source.data-weave
 >
 >type HashMapSetOperation<T> = {|
-#^^^^^ source.data-weave
-#     ^ source.data-weave constant.character.escape.dw
-#      ^^^ source.data-weave
-#         ^ source.data-weave constant.character.escape.dw
-#          ^^ source.data-weave
-#            ^ source.data-weave constant.character.escape.dw
-#             ^^^^^^^^^^^^ source.data-weave
-#                         ^ source.data-weave constant.character.escape.dw
-#                          ^^^^^ source.data-weave
-#                               ^ source.data-weave constant.numeric.dw
+#^^^^ source.data-weave storage.type.dw
+#    ^ source.data-weave
+#     ^^^^^^^^^^^^^^^^^^^ source.data-weave entity.name.variable.dw
+#                        ^ source.data-weave keyword.operator.comparison.dw
+#                         ^ source.data-weave entity.name.variable.dw
+#                          ^ source.data-weave keyword.operator.comparison.dw
+#                           ^ source.data-weave
+#                            ^ source.data-weave keyword.operator.assignment.dw
+#                             ^^^^ source.data-weave
 >  operation: String,
 #^^ source.data-weave
 #  ^^^^^^^^^ source.data-weave entity.name.variable.dw
@@ -504,26 +512,26 @@
 #           ^ source.data-weave keyword.operator.declaration.dw
 #            ^ source.data-weave
 #             ^ source.data-weave entity.name.variable.dw
-#              ^ source.data-weave
-#               ^ source.data-weave constant.numeric.dw
-#                ^^^^^^^^ source.data-weave
-#                        ^ source.data-weave constant.character.escape.dw
-#                         ^^^^ source.data-weave
+#              ^^^ source.data-weave
+#                 ^^^^ source.data-weave entity.name.variable.dw
+#                     ^^^ source.data-weave
+#                        ^^^ source.data-weave entity.name.variable.dw
+#                           ^^ source.data-weave
 >  newValue: T,
-#^^^^^^^^^^ source.data-weave
-#          ^ source.data-weave constant.character.escape.dw
+#^^ source.data-weave
+#  ^^^^^^^^ source.data-weave entity.name.variable.dw
+#          ^ source.data-weave keyword.operator.declaration.dw
 #           ^ source.data-weave
-#            ^ source.data-weave constant.character.escape.dw
+#            ^ source.data-weave entity.name.variable.dw
 #             ^^ source.data-weave
 >  key: String
-#^^^^^ source.data-weave
-#     ^ source.data-weave constant.character.escape.dw
+#^^ source.data-weave
+#  ^^^ source.data-weave entity.name.variable.dw
+#     ^ source.data-weave keyword.operator.declaration.dw
 #      ^ source.data-weave
-#       ^ source.data-weave constant.character.escape.dw
-#        ^^^^^^ source.data-weave
+#       ^^^^^^ source.data-weave entity.name.variable.dw
 >|}
-#^ source.data-weave constant.numeric.dw
-# ^^ source.data-weave
+#^^^ source.data-weave
 >
 >fun HashMap(): IHashMap<Any> = native("bat::HashMap")
 #^^^ source.data-weave storage.type.dw
