@@ -6,10 +6,7 @@
   "main": "test.ts",
   "scripts": {
     "updateSnapshot": "vscode-tmgrammar-snap -s source.data-weave -g ../DataWeave.tmLanguage 'cases/*.dwl' --updateSnapshot",
-    "updateDeprecatedSnapshot": "vscode-tmgrammar-snap -s source.data-weave -g ../DataWeave-deprecated.tmLanguage 'cases_deprecated/*.dwl' --updateSnapshot",
-    "testGrammar": "vscode-tmgrammar-snap -s source.data-weave -g ../DataWeave.tmLanguage 'cases/*.dwl'",
-    "testDeprecatedGrammar": "vscode-tmgrammar-snap -s source.data-weave -g ../DataWeave-deprecated.tmLanguage 'cases_deprecated/*.dwl'",
-    "test": "npm run testGrammar"
+    "test": "vscode-tmgrammar-snap -s source.data-weave -g ../DataWeave.tmLanguage 'cases/*.dwl'"
   },
   "dependencies": {
     "vscode-tmgrammar-test": "latest"

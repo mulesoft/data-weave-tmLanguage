@@ -1,1 +1,0 @@
-person @((root.@), country: "Arg") : $

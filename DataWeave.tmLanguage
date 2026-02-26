@@ -202,6 +202,12 @@
             <key>match</key>
             <string>\?\?\?</string>
           </dict>
+          <dict>
+            <key>name</key>
+            <string>storage.modifier.directive.dw</string>
+            <key>match</key>
+            <string>(?&lt;![[:alnum:]])(?:private)(?![[:alnum:]_])</string>
+          </dict>
         </array>
       </dict>
       <key>directive</key>
