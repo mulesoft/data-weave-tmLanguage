@@ -66,8 +66,8 @@ repository:
         match: (\-|\+|\*|\/)
       - name: keyword.operator.implement.dw
         match: \?\?\?
-      - name: storage.modifier.directive.dw
-        match: (?<![[:alnum:]])(?:private)(?![[:alnum:]_])
+      - name: storage.modifier.dw
+        match: (?<![[:alnum:]])(?:private|internal)(?![[:alnum:]_])
 
   directive:
     patterns:

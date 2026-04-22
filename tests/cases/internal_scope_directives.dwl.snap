@@ -1,0 +1,99 @@
+>%dw 2.0
+#^^^ source.data-weave meta.directive.version.dw keyword.directive.version.dw
+#   ^ source.data-weave meta.directive.version.dw
+#    ^^^ source.data-weave meta.directive.version.dw constant.numeric.version.dw
+>output application/xml
+#^^^^^^ source.data-weave storage.type.dw
+#      ^ source.data-weave
+#       ^^^^^^^^^^^ source.data-weave entity.name.variable.dw
+#                  ^ source.data-weave keyword.operator.arithmetic.dw
+#                   ^^^ source.data-weave entity.name.variable.dw
+>
+>internal ns ns0 = "http://myns"
+#^^^^^^^^ source.data-weave storage.modifier.dw
+#        ^ source.data-weave
+#         ^^ source.data-weave storage.type.dw
+#           ^ source.data-weave
+#            ^^^ source.data-weave entity.name.variable.dw
+#               ^ source.data-weave
+#                ^ source.data-weave markup.underline.link
+#                 ^ source.data-weave
+#                  ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                   ^^^^^^^^^^^ source.data-weave string.quoted.double.dw
+#                              ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+>
+>internal type MY_STRING = String
+#^^^^^^^^ source.data-weave storage.modifier.dw
+#        ^ source.data-weave
+#         ^^^^ source.data-weave storage.type.dw
+#             ^ source.data-weave
+#              ^^^^^^^^^ source.data-weave entity.name.variable.dw
+#                       ^ source.data-weave
+#                        ^ source.data-weave keyword.operator.assignment.dw
+#                         ^ source.data-weave
+#                          ^^^^^^ source.data-weave entity.name.variable.dw
+>
+>internal var a = "internal"
+#^^^^^^^^ source.data-weave storage.modifier.dw
+#        ^ source.data-weave
+#         ^^^ source.data-weave storage.type.dw
+#            ^ source.data-weave
+#             ^ source.data-weave entity.name.variable.dw
+#              ^ source.data-weave
+#               ^ source.data-weave keyword.operator.assignment.dw
+#                ^ source.data-weave
+#                 ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#                  ^^^^^^^^ source.data-weave string.quoted.double.dw
+#                          ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+>
+>internal fun hi(t: MY_STRING) = t
+#^^^^^^^^ source.data-weave storage.modifier.dw
+#        ^ source.data-weave
+#         ^^^ source.data-weave storage.type.dw
+#            ^ source.data-weave
+#             ^^ source.data-weave entity.name.variable.dw
+#               ^ source.data-weave
+#                ^ source.data-weave entity.name.variable.dw
+#                 ^ source.data-weave keyword.operator.declaration.dw
+#                  ^ source.data-weave
+#                   ^^^^^^^^^ source.data-weave entity.name.variable.dw
+#                            ^^ source.data-weave
+#                              ^ source.data-weave keyword.operator.assignment.dw
+#                               ^ source.data-weave
+#                                ^ source.data-weave entity.name.variable.dw
+>---
+#^^^ source.data-weave keyword.operator.body-marker.dw
+>root: {
+#^^^^ source.data-weave entity.name.variable.dw
+#    ^ source.data-weave keyword.operator.declaration.dw
+#     ^^^ source.data-weave
+>  a: a,
+#^^ source.data-weave
+#  ^ source.data-weave entity.name.variable.dw
+#   ^ source.data-weave keyword.operator.declaration.dw
+#    ^ source.data-weave
+#     ^ source.data-weave entity.name.variable.dw
+#      ^^ source.data-weave
+>  hi: hi("hi")
+#^^ source.data-weave
+#  ^^ source.data-weave entity.name.variable.dw
+#    ^ source.data-weave keyword.operator.declaration.dw
+#     ^ source.data-weave
+#      ^^ source.data-weave entity.name.variable.dw
+#        ^ source.data-weave
+#         ^ source.data-weave string.quoted.double.dw punctuation.definition.string.begin.dw
+#          ^^ source.data-weave string.quoted.double.dw
+#            ^ source.data-weave string.quoted.double.dw punctuation.definition.string.end.dw
+#             ^^ source.data-weave
+>  ns0#h: 123,
+#^^ source.data-weave
+#  ^^^ source.data-weave entity.name.variable.dw
+#     ^ source.data-weave
+#      ^ source.data-weave entity.name.variable.dw
+#       ^ source.data-weave keyword.operator.declaration.dw
+#        ^ source.data-weave
+#         ^^^ source.data-weave constant.numeric.dw
+#            ^^ source.data-weave
+>}
+#^^ source.data-weave
+>
