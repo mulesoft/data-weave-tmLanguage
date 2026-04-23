@@ -204,9 +204,9 @@
           </dict>
           <dict>
             <key>name</key>
-            <string>storage.modifier.directive.dw</string>
+            <string>storage.modifier.dw</string>
             <key>match</key>
-            <string>(?&lt;![[:alnum:]])(?:private)(?![[:alnum:]_])</string>
+            <string>(?&lt;![[:alnum:]])(?:private|internal)(?![[:alnum:]_])</string>
           </dict>
         </array>
       </dict>
